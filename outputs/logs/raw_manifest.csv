@@ -1,0 +1,5 @@
+source_file,file_year,sha256,sheet,max_row,max_column,merged_cells,openpyxl
+2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx,2022,e2983072e179f8bc540ba664089840a6f270cd282010e9fa8bc9d68256c80b95,2022 KURULUMU TAMAMLANAN GES,22,6,,3.1.2
+2023_kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx,2023,b760df1f9d02a6365b2759386be6f7307d7b23583f92ac102cc71433ab552078,2023 KURULUMU TAMAMLANAN GES,22,6,A15:C15,3.1.2
+2024-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx,2024,7c170eb8fb93609e2d7b2de7d4432a5b8521227d56542a0e4771db2aae77ebe8,2024 KURULUMU TAMAMLANAN GES,48,5,,3.1.2
+2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx,2025,32ba496529aa6805faea1c10a834967497b04c198f9dffc54d1e4d8bc47d0115,2025 KURULUMU TAMAMLANAN GES,78,5,D1:D2;B1:B2;A1:A2,3.1.2
