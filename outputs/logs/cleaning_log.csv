@@ -1,0 +1,389 @@
+record_id,field,raw,clean,rule_id
+GES-2022-002,name,İstanbul Planlama Ajansı (İPA - Florya Atatürk Kent Ormanı) GES ,İstanbul Planlama Ajansı (İPA - Florya Atatürk Kent Ormanı) GES,R-WS-01
+GES-2022-002,name_clean,İstanbul Planlama Ajansı (İPA - Florya Atatürk Kent Ormanı) GES,İstanbul Planlama Ajansı (İPA - Florya Atatürk Kent Ormanı),R-NAME-02
+GES-2022-002,status,Aktif,aktif,R-STAT-01
+GES-2022-003,name,İBB Ataköy Kadın ve Aile Hizmetleri Müdürlüğü GES ,İBB Ataköy Kadın ve Aile Hizmetleri Müdürlüğü GES,R-WS-01
+GES-2022-003,name_clean,İBB Ataköy Kadın ve Aile Hizmetleri Müdürlüğü GES,İBB Ataköy Kadın ve Aile Hizmetleri Müdürlüğü,R-NAME-02
+GES-2022-003,status,Aktif,aktif,R-STAT-01
+GES-2022-004,name,Esenler Spor Kompleksi (Kemer Kamp Eğitim Merkezi) GES ,Esenler Spor Kompleksi (Kemer Kamp Eğitim Merkezi) GES,R-WS-01
+GES-2022-004,name_clean,Esenler Spor Kompleksi (Kemer Kamp Eğitim Merkezi) GES,Esenler Spor Kompleksi (Kemer Kamp Eğitim Merkezi),R-NAME-02
+GES-2022-004,status,Aktif,aktif,R-STAT-01
+GES-2022-005,district,Atnavutköy,Arnavutköy,R-DIST-01
+GES-2022-005,name,Arnavutköy Mezarlığı Hizmet ve Gasilhane Binası GES ,Arnavutköy Mezarlığı Hizmet ve Gasilhane Binası GES,R-WS-01
+GES-2022-005,name_clean,Arnavutköy Mezarlığı Hizmet ve Gasilhane Binası GES,Arnavutköy Mezarlığı Hizmet ve Gasilhane Binası,R-NAME-02
+GES-2022-005,status,Aktif,aktif,R-STAT-01
+GES-2022-006,name,Silivri Mezarlığı Hizmet ve Gasilhane Binası GES ,Silivri Mezarlığı Hizmet ve Gasilhane Binası GES,R-WS-01
+GES-2022-006,name_clean,Silivri Mezarlığı Hizmet ve Gasilhane Binası GES,Silivri Mezarlığı Hizmet ve Gasilhane Binası,R-NAME-02
+GES-2022-006,status,Aktif,aktif,R-STAT-01
+GES-2022-007,name,Çatalca Kaleiçi İtfaiye İstasyonu GES ,Çatalca Kaleiçi İtfaiye İstasyonu GES,R-WS-01
+GES-2022-007,name_clean,Çatalca Kaleiçi İtfaiye İstasyonu GES,Çatalca Kaleiçi İtfaiye İstasyonu,R-NAME-02
+GES-2022-007,status,Aktif,aktif,R-STAT-01
+GES-2022-008,name,Ümraniye Çakmak Yüzme Havuzu GES  ,Ümraniye Çakmak Yüzme Havuzu GES,R-WS-01
+GES-2022-008,name_clean,Ümraniye Çakmak Yüzme Havuzu GES,Ümraniye Çakmak Yüzme Havuzu,R-NAME-02
+GES-2022-008,status,Aktif,aktif,R-STAT-01
+GES-2022-009,name,Sultangazi 75. Yıl Spor Salonu GES ,Sultangazi 75. Yıl Spor Salonu GES,R-WS-01
+GES-2022-009,name_clean,Sultangazi 75. Yıl Spor Salonu GES,Sultangazi 75. Yıl Spor Salonu,R-NAME-02
+GES-2022-009,status,Aktif,aktif,R-STAT-01
+GES-2022-010,name,Bahçelievler Yüzme Havuzu GES ,Bahçelievler Yüzme Havuzu GES,R-WS-01
+GES-2022-010,name_clean,Bahçelievler Yüzme Havuzu GES,Bahçelievler Yüzme Havuzu,R-NAME-02
+GES-2022-010,status,Aktif,aktif,R-STAT-01
+GES-2022-011,name,Hoşdere Park Alanı GES ,Hoşdere Park Alanı GES,R-WS-01
+GES-2022-011,name_clean,Hoşdere Park Alanı GES,Hoşdere Park Alanı,R-NAME-02
+GES-2022-011,status,Aktif,aktif,R-STAT-01
+GES-2022-012,name,Engelliler Merkezi 1. Etap GES ,Engelliler Merkezi 1. Etap GES,R-WS-01
+GES-2022-012,name_clean,Engelliler Merkezi 1. Etap GES,Engelliler Merkezi 1. Etap,R-NAME-02
+GES-2022-012,status,Aktif,aktif,R-STAT-01
+GES-2022-013,name,Engelliler Merkezi 2. Etap GES ,Engelliler Merkezi 2. Etap GES,R-WS-01
+GES-2022-013,name_clean,Engelliler Merkezi 2. Etap GES,Engelliler Merkezi 2. Etap,R-NAME-02
+GES-2022-013,status,Aktif,aktif,R-STAT-01
+GES-2022-014,name,Şile Engelliler Yaz Kampı GES ,Şile Engelliler Yaz Kampı GES,R-WS-01
+GES-2022-014,name_clean,Şile Engelliler Yaz Kampı GES,Şile Engelliler Yaz Kampı,R-NAME-02
+GES-2022-014,status,Aktif,aktif,R-STAT-01
+GES-2022-015,name,Cemal Kamacı Spor Kompleksi 2. Etap GES ,Cemal Kamacı Spor Kompleksi 2. Etap GES,R-WS-01
+GES-2022-015,name_clean,Cemal Kamacı Spor Kompleksi 2. Etap GES,Cemal Kamacı Spor Kompleksi 2. Etap,R-NAME-02
+GES-2022-015,status,Aktif,aktif,R-STAT-01
+GES-2022-016,name,Fatih Spor Kompleksi ,Fatih Spor Kompleksi,R-WS-01
+GES-2022-016,status,Aktif,aktif,R-STAT-01
+GES-2022-017,name,Silivri Kapı Buz Pisti ,Silivri Kapı Buz Pisti,R-WS-01
+GES-2022-017,status,Aktif,aktif,R-STAT-01
+GES-2022-018,name,Tepeören Hayvan Barınağı ,Tepeören Hayvan Barınağı,R-WS-01
+GES-2022-018,status,Aktif,aktif,R-STAT-01
+GES-2022-019,name,Güngören Davet ve Toplantı Salonu  ,Güngören Davet ve Toplantı Salonu,R-WS-01
+GES-2022-019,status,Aktif,aktif,R-STAT-01
+GES-2022-020,name,Hoca Ahmet Yesevi Kültür Merkezi ,Hoca Ahmet Yesevi Kültür Merkezi,R-WS-01
+GES-2022-020,status,Aktif,aktif,R-STAT-01
+GES-2022-021,name,İBB Kayışdağı Darulacize Müdürlüğü GES ,İBB Kayışdağı Darulacize Müdürlüğü GES,R-WS-01
+GES-2022-021,name_clean,İBB Kayışdağı Darulacize Müdürlüğü GES,İBB Kayışdağı Darulacize Müdürlüğü,R-NAME-02
+GES-2022-021,status,Aktif,aktif,R-STAT-01
+GES-2023-004,name_clean,Avcılar Sahil Tuvaleti Çatısı Güneş Enerji Santrali (GES),Avcılar Sahil Tuvaleti Çatısı,R-NAME-02
+GES-2023-004,status,Aktif,aktif,R-STAT-01
+GES-2023-005,name_clean,Başakşehir İtfaiye Bina Çatısı Güneş Enerji Santrali (GES),Başakşehir İtfaiye Bina Çatısı,R-NAME-02
+GES-2023-005,status,Aktif,aktif,R-STAT-01
+GES-2023-006,name_clean,Selimpaşa İtfaiye Bina Çatısı Güneş Enerji Santrali (GES),Selimpaşa İtfaiye Bina Çatısı,R-NAME-02
+GES-2023-006,status,Aktif,aktif,R-STAT-01
+GES-2023-007,name_clean,Turgut Reis (Esenler) İtfaiye Bina Çatısı Güneş Enerji Santrali (GES),Turgut Reis (Esenler) İtfaiye Bina Çatısı,R-NAME-02
+GES-2023-007,status,Aktif,aktif,R-STAT-01
+GES-2023-008,name_clean,Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali (GES),Kumburgaz İtfaiye Bina Çatısı,R-NAME-02
+GES-2023-008,status,Aktif,aktif,R-STAT-01
+GES-2023-009,name_clean,Ataköy Kadın Koordinasyon Müdürlüğü Bina Çatısı Güneş Enerji Santrali (GES) - Etap 2,Ataköy Kadın Koordinasyon Müdürlüğü Bina Çatısı - Etap 2,R-NAME-02
+GES-2023-009,status,Aktif,aktif,R-STAT-01
+GES-2023-010,name,Başakşehir Engelliler Merkezi (2) Bina Çatısı Güneş Enerji Santrali (GES) ,Başakşehir Engelliler Merkezi (2) Bina Çatısı Güneş Enerji Santrali (GES),R-WS-01
+GES-2023-010,name_clean,Başakşehir Engelliler Merkezi (2) Bina Çatısı Güneş Enerji Santrali (GES),Başakşehir Engelliler Merkezi (2) Bina Çatısı,R-NAME-02
+GES-2023-010,status,Aktif,aktif,R-STAT-01
+GES-2023-011,name_clean,Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali (GES),Maçka Deprem Parkı Tuvaleti Çatısı,R-NAME-02
+GES-2023-011,status,Aktif,aktif,R-STAT-01
+GES-2023-012,name_clean,Topkapı Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali (GES),Topkapı Deprem Parkı Tuvaleti Çatısı,R-NAME-02
+GES-2023-012,status,Aktif,aktif,R-STAT-01
+GES-2023-013,name_clean,Davet ve Toplantı Salonu Güneş Enerji Santrali (GES),Davet ve Toplantı Salonu,R-NAME-02
+GES-2023-013,status,Aktif,aktif,R-STAT-01
+GES-2023-014,name_clean,Hoca Ahmet Yesevi Kültür Merkezi Güneş Enerji Santrali (GES),Hoca Ahmet Yesevi Kültür Merkezi,R-NAME-02
+GES-2023-014,status,Aktif,aktif,R-STAT-01
+GES-2024-002,name,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-002,name_clean,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-002,status,(Aktif / Pasif),belirsiz,R-STAT-04
+GES-2024-003,name,Deniz Gezmiş Parkı Güneş Enerji Santrali ,Deniz Gezmiş Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-003,name_clean,Deniz Gezmiş Parkı Güneş Enerji Santrali,Deniz Gezmiş Parkı,R-NAME-02
+GES-2024-003,status,Aktif,aktif,R-STAT-01
+GES-2024-004,name,Azerbaycan Dostluk Parkı Güneş Enerji Santrali ,Azerbaycan Dostluk Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-004,name_clean,Azerbaycan Dostluk Parkı Güneş Enerji Santrali,Azerbaycan Dostluk Parkı,R-NAME-02
+GES-2024-004,status,Aktif,aktif,R-STAT-01
+GES-2024-005,name,Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali ,Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-005,name_clean,Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali,Dr. Enver Ören Kültür Merkezi Çatısı,R-NAME-02
+GES-2024-005,status,Aktif,aktif,R-STAT-01
+GES-2024-006,name,İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali ,İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-006,name_clean,İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali,İBB Ek Hizmet Bina Çatısı,R-NAME-02
+GES-2024-006,status,Aktif,aktif,R-STAT-01
+GES-2024-007,name,Florya Atatürk Kent Ormanı Güneş Enerji Santrali ,Florya Atatürk Kent Ormanı Güneş Enerji Santrali,R-WS-01
+GES-2024-007,name_clean,Florya Atatürk Kent Ormanı Güneş Enerji Santrali,Florya Atatürk Kent Ormanı,R-NAME-02
+GES-2024-007,status,Aktif,aktif,R-STAT-01
+GES-2024-008,name,İBB Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-008,name_clean,İBB Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Bozhane İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-008,status,Aktif,aktif,R-STAT-01
+GES-2024-009,name,İBB Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-009,name_clean,İBB Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Çavuşbaşı İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-009,status,Aktif,aktif,R-STAT-01
+GES-2024-010,name,İBB Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-010,name_clean,İBB Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Kumburgaz İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-010,status,Aktif,aktif,R-STAT-01
+GES-2024-011,name,İBB Büyükçekmece İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Büyükçekmece İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-011,name_clean,İBB Büyükçekmece İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Büyükçekmece İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-011,status,Aktif,aktif,R-STAT-01
+GES-2024-012,name,İBB Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-012,name_clean,İBB Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Mimar Sinan İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-012,status,Aktif,aktif,R-STAT-01
+GES-2024-013,name,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-013,name_clean,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Ömerli İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-013,status,Aktif,aktif,R-STAT-01
+GES-2024-014,name,Rahmi Demir Kent Ormanı Güneş Enerji Santrali ,Rahmi Demir Kent Ormanı Güneş Enerji Santrali,R-WS-01
+GES-2024-014,name_clean,Rahmi Demir Kent Ormanı Güneş Enerji Santrali,Rahmi Demir Kent Ormanı,R-NAME-02
+GES-2024-014,status,Aktif,aktif,R-STAT-01
+GES-2024-015,name,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-015,name_clean,İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Ömerli İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-015,status,Aktif,aktif,R-STAT-01
+GES-2024-016,name,İBB Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-016,name_clean,İBB Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Kıraç İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-016,status,Aktif,aktif,R-STAT-01
+GES-2024-017,name,Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali ,Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-017,name_clean,Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali,Tevfik Aydeniz Spor Kompleksi Çatısı,R-NAME-02
+GES-2024-017,status,Aktif,aktif,R-STAT-01
+GES-2024-018,name,Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali ,Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-018,name_clean,Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali,Yeşilpınar Kapalı Yüzme Havuzu Çatısı,R-NAME-02
+GES-2024-018,status,Aktif,aktif,R-STAT-01
+GES-2024-019,name,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali ,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-019,name_clean,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı,R-NAME-02
+GES-2024-019,status,Aktif,aktif,R-STAT-01
+GES-2024-020,name,İBB Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-020,name_clean,İBB Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Kemerburgaz İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-020,status,Aktif,aktif,R-STAT-01
+GES-2024-021,name,Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali ,Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-021,name_clean,Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali,Ali Emiri Kültür Merkezi Çatısı,R-NAME-02
+GES-2024-021,status,Aktif,aktif,R-STAT-01
+GES-2024-022,name,İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali ,İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-022,name_clean,İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali,İSMEK Bina Merkezi Çatısı,R-NAME-02
+GES-2024-022,status,Aktif,aktif,R-STAT-01
+GES-2024-023,name,Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali ,Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-023,name_clean,Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali,Bülent Ecevit Kültür Merkezi Çatısı,R-NAME-02
+GES-2024-023,status,Aktif,aktif,R-STAT-01
+GES-2024-024,name,İBB Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-024,name_clean,İBB Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Yakacık İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-024,status,Aktif,aktif,R-STAT-01
+GES-2024-025,name,Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali ,Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-025,name_clean,Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali,Soğanlık Gasilhane Bina Çatısı,R-NAME-02
+GES-2024-025,status,Aktif,aktif,R-STAT-01
+GES-2024-026,name,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-026,name_clean,İBB İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-026,status,Aktif,aktif,R-STAT-01
+GES-2024-027,name,Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali ,Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-027,name_clean,Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali,Sefaköy Yüzme Havuzu Çatısı,R-NAME-02
+GES-2024-027,status,Aktif,aktif,R-STAT-01
+GES-2024-028,name,Menekşe Deresi Parkı Güneş Enerji Santrali ,Menekşe Deresi Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-028,name_clean,Menekşe Deresi Parkı Güneş Enerji Santrali,Menekşe Deresi Parkı,R-NAME-02
+GES-2024-028,status,Aktif,aktif,R-STAT-01
+GES-2024-029,name,Orhangazi Şehir Parkı- Atletizm Pisti Çatısı Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Atletizm Pisti Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-029,name_clean,Orhangazi Şehir Parkı- Atletizm Pisti Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Atletizm Pisti Çatısı,R-NAME-02
+GES-2024-029,status,Aktif,aktif,R-STAT-01
+GES-2024-030,name,Orhangazi Şehir Parkı- Su Deposu Üzeri (1) Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Su Deposu Üzeri (1) Güneş Enerji Santrali,R-WS-01
+GES-2024-030,name_clean,Orhangazi Şehir Parkı- Su Deposu Üzeri (1) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (1),R-NAME-02
+GES-2024-030,status,Aktif,aktif,R-STAT-01
+GES-2024-031,name,Orhangazi Şehir Parkı- Su Deposu Üzeri (2) Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Su Deposu Üzeri (2) Güneş Enerji Santrali,R-WS-01
+GES-2024-031,name_clean,Orhangazi Şehir Parkı- Su Deposu Üzeri (2) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (2),R-NAME-02
+GES-2024-031,status,Aktif,aktif,R-STAT-01
+GES-2024-032,name,Orhangazi Şehir Parkı- Su Deposu Üzeri (3) Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Su Deposu Üzeri (3) Güneş Enerji Santrali,R-WS-01
+GES-2024-032,name_clean,Orhangazi Şehir Parkı- Su Deposu Üzeri (3) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (3),R-NAME-02
+GES-2024-032,status,Aktif,aktif,R-STAT-01
+GES-2024-033,name,Orhangazi Şehir Parkı- Şeflik Bina Çatısı Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Şeflik Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-033,name_clean,Orhangazi Şehir Parkı- Şeflik Bina Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Şeflik Bina Çatısı,R-NAME-02
+GES-2024-033,status,Aktif,aktif,R-STAT-01
+GES-2024-034,name,Orhangazi Şehir Parkı- Tenis Alanı Çatısı Güneş Enerji Santrali ,Orhangazi Şehir Parkı- Tenis Alanı Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-034,name_clean,Orhangazi Şehir Parkı- Tenis Alanı Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Tenis Alanı Çatısı,R-NAME-02
+GES-2024-034,status,Aktif,aktif,R-STAT-01
+GES-2024-035,name,İşitme Engellileri Bina Çatısı Güneş Enerji Santrali ,İşitme Engellileri Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-035,name_clean,İşitme Engellileri Bina Çatısı Güneş Enerji Santrali,İşitme Engellileri Bina Çatısı,R-NAME-02
+GES-2024-035,status,Aktif,aktif,R-STAT-01
+GES-2024-036,name,Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali ,Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-036,name_clean,Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali,Taha Akgül Spor Kompleksi Çatısı,R-NAME-02
+GES-2024-036,status,Aktif,aktif,R-STAT-01
+GES-2024-037,name,Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali ,Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-037,name_clean,Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali,Yenidoğan Yüzme Havuzu Çatısı,R-NAME-02
+GES-2024-037,status,Aktif,aktif,R-STAT-01
+GES-2024-038,name,Safa Tepesi Parkı Güneş Enerji Santrali ,Safa Tepesi Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-038,name_clean,Safa Tepesi Parkı Güneş Enerji Santrali,Safa Tepesi Parkı,R-NAME-02
+GES-2024-038,status,Aktif,aktif,R-STAT-01
+GES-2024-039,name,Gölet Parkı Güneş Enerji Santrali ,Gölet Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-039,name_clean,Gölet Parkı Güneş Enerji Santrali,Gölet Parkı,R-NAME-02
+GES-2024-039,status,Aktif,aktif,R-STAT-01
+GES-2024-040,name,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali ,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-040,name_clean,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı,R-NAME-02
+GES-2024-040,status,Aktif,aktif,R-STAT-01
+GES-2024-041,name,İBB Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali ,İBB Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-041,name_clean,İBB Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali,İBB Habipler İtfaiye Bina Çatısı,R-NAME-02
+GES-2024-041,status,Aktif,aktif,R-STAT-01
+GES-2024-042,district,Sultangazi ,Sultangazi,R-WS-01
+GES-2024-042,name,Cebeci Parkı Güneş Enerji Santrali ,Cebeci Parkı Güneş Enerji Santrali,R-WS-01
+GES-2024-042,name_clean,Cebeci Parkı Güneş Enerji Santrali,Cebeci Parkı,R-NAME-02
+GES-2024-042,status,Aktif,aktif,R-STAT-01
+GES-2024-043,name,Kültür Merkezi Çatısı Güneş Enerji Santrali ,Kültür Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-043,name_clean,Kültür Merkezi Çatısı Güneş Enerji Santrali,Kültür Merkezi Çatısı,R-NAME-02
+GES-2024-043,status,Aktif,aktif,R-STAT-01
+GES-2024-044,name,Spor Kompleksi Çatısı Güneş Enerji Santrali ,Spor Kompleksi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-044,name_clean,Spor Kompleksi Çatısı Güneş Enerji Santrali,Spor Kompleksi Çatısı,R-NAME-02
+GES-2024-044,status,Aktif,aktif,R-STAT-01
+GES-2024-045,name,Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali ,Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-045,name_clean,Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali,Muhsin Ertuğrul Sahnesi Çatısı,R-NAME-02
+GES-2024-045,status,Aktif,aktif,R-STAT-01
+GES-2024-046,name,Bahar Merkezi Çatısı Güneş Enerji Santrali ,Bahar Merkezi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2024-046,name_clean,Bahar Merkezi Çatısı Güneş Enerji Santrali,Bahar Merkezi Çatısı,R-NAME-02
+GES-2024-046,status,Aktif,aktif,R-STAT-01
+GES-2024-047,name,Büyük Çamlıca Korusu Güneş Enerji Santrali ,Büyük Çamlıca Korusu Güneş Enerji Santrali,R-WS-01
+GES-2024-047,name_clean,Büyük Çamlıca Korusu Güneş Enerji Santrali,Büyük Çamlıca Korusu,R-NAME-02
+GES-2024-047,status,Aktif,aktif,R-STAT-01
+GES-2025-003,name_clean,Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali,Mezarlığı Hizmet ve Gasilhane Bina Çatısı,R-NAME-02
+GES-2025-003,status,Aktif,aktif,R-STAT-01
+GES-2025-004,name_clean,Kayışdağı İBB Darulacize Ana Kampüsü Çatısı Güneş Enerji Santrali,Kayışdağı İBB Darulacize Ana Kampüsü Çatısı,R-NAME-02
+GES-2025-004,status,Aktif,aktif,R-STAT-01
+GES-2025-005,name_clean,İtfaiye Bina Çatısı Güneş Enerji Santrali,İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-005,status,Pasif,pasif,R-STAT-02
+GES-2025-006,name,Deniz Gezmiş Parkı Güneş Enerji Santrali ,Deniz Gezmiş Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-006,name_clean,Deniz Gezmiş Parkı Güneş Enerji Santrali,Deniz Gezmiş Parkı,R-NAME-02
+GES-2025-006,status,Aktif,aktif,R-STAT-01
+GES-2025-007,name_clean,Sahil Tuvaleti Çatısı Güneş Enerji Santrali,Sahil Tuvaleti Çatısı,R-NAME-02
+GES-2025-007,status,Aktif,aktif,R-STAT-01
+GES-2025-008,name,Azerbaycan Dostluk Parkı Güneş Enerji Santrali ,Azerbaycan Dostluk Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-008,name_clean,Azerbaycan Dostluk Parkı Güneş Enerji Santrali,Azerbaycan Dostluk Parkı,R-NAME-02
+GES-2025-008,status,Aktif,aktif,R-STAT-01
+GES-2025-009,name_clean,Yüzme Havuzu Çatısı Güneş Enerji Santrali,Yüzme Havuzu Çatısı,R-NAME-02
+GES-2025-009,status,Aktif,aktif,R-STAT-01
+GES-2025-010,name_clean,Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali,Dr. Enver Ören Kültür Merkezi Çatısı,R-NAME-02
+GES-2025-010,status,Aktif,aktif,R-STAT-01
+GES-2025-011,name,İstanbul Planlama Ajansı Çatısı Güneş Enerji Santrali ,İstanbul Planlama Ajansı Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-011,name_clean,İstanbul Planlama Ajansı Çatısı Güneş Enerji Santrali,İstanbul Planlama Ajansı Çatısı,R-NAME-02
+GES-2025-011,status,Aktif,aktif,R-STAT-01
+GES-2025-012,name_clean,İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali,İBB Ek Hizmet Bina Çatısı,R-NAME-02
+GES-2025-012,status,Aktif,aktif,R-STAT-01
+GES-2025-013,name,Ataköy Sosyal Hizmetler Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali ,Ataköy Sosyal Hizmetler Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-013,name_clean,Ataköy Sosyal Hizmetler Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,Ataköy Sosyal Hizmetler Daire Başkanlığı Bina Çatısı,R-NAME-02
+GES-2025-013,status,Pasif,pasif,R-STAT-02
+GES-2025-014,name,Florya Atatürk Kent Ormanı Güneş Enerji Santrali ,Florya Atatürk Kent Ormanı Güneş Enerji Santrali,R-WS-01
+GES-2025-014,name_clean,Florya Atatürk Kent Ormanı Güneş Enerji Santrali,Florya Atatürk Kent Ormanı,R-NAME-02
+GES-2025-014,status,Aktif - Pasif,karma,R-STAT-03
+GES-2025-015,name_clean,Hoşdere Park Alanı (Millet Bahçesi) Güneş Enerji Santrali,Hoşdere Park Alanı (Millet Bahçesi),R-NAME-02
+GES-2025-015,status,Aktif,aktif,R-STAT-01
+GES-2025-016,name,Engelliler Merkezi Bina Çatısı Güneş Enerji Santrali ,Engelliler Merkezi Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-016,name_clean,Engelliler Merkezi Bina Çatısı Güneş Enerji Santrali,Engelliler Merkezi Bina Çatısı,R-NAME-02
+GES-2025-016,status,Pasif,pasif,R-STAT-02
+GES-2025-017,name_clean,İtfaiye Bina Çatısı Güneş Enerji Santrali,İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-017,status,Aktif - Pasif,karma,R-STAT-03
+GES-2025-018,name,Hidayet Türkoğlu Spor Kompleksi Çatısı Güneş Enerji Santrali ,Hidayet Türkoğlu Spor Kompleksi Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-018,name_clean,Hidayet Türkoğlu Spor Kompleksi Çatısı Güneş Enerji Santrali,Hidayet Türkoğlu Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-018,status,Aktif,aktif,R-STAT-01
+GES-2025-019,name,Enerji Yönetimi ve Aydınlatma Müdürlük İdari Bina ve Garaj Çatısı Güneş Enerji Santrali ,Enerji Yönetimi ve Aydınlatma Müdürlük İdari Bina ve Garaj Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-019,name_clean,Enerji Yönetimi ve Aydınlatma Müdürlük İdari Bina ve Garaj Çatısı Güneş Enerji Santrali,Enerji Yönetimi ve Aydınlatma Müdürlük İdari Bina ve Garaj Çatısı,R-NAME-02
+GES-2025-019,status,Aktif,aktif,R-STAT-01
+GES-2025-020,name,Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali ,Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-020,name_clean,Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali,Bozhane İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-020,status,Pasif,pasif,R-STAT-02
+GES-2025-021,name_clean,Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali,Çavuşbaşı İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-021,status,Pasif,pasif,R-STAT-02
+GES-2025-022,name_clean,Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,Kumburgaz İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-022,status,Pasif,pasif,R-STAT-02
+GES-2025-023,name_clean,Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali,Mimar Sinan İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-023,status,Pasif,pasif,R-STAT-02
+GES-2025-024,name_clean,Kaleiçi İtfaiye Bina Çatısı Güneş Enerji Santrali,Kaleiçi İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-024,status,Aktif,aktif,R-STAT-01
+GES-2025-025,name_clean,Rahmi Demir Kent Ormanı Güneş Enerji Santrali,Rahmi Demir Kent Ormanı,R-NAME-02
+GES-2025-025,status,Aktif,aktif,R-STAT-01
+GES-2025-026,name_clean,Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali,Ömerli İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-026,status,Pasif,pasif,R-STAT-02
+GES-2025-027,name_clean,Kemer Spor Kompleksi Çatısı Güneş Enerji Santrali,Kemer Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-027,status,Aktif,aktif,R-STAT-01
+GES-2025-028,name_clean,Turgut Reis İtfaiye Bina Çatısı Güneş Enerji Santrali,Turgut Reis İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-028,status,Pasif,pasif,R-STAT-02
+GES-2025-029,name_clean,Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali,Kıraç İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-029,status,Pasif,pasif,R-STAT-02
+GES-2025-030,name_clean,Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali,Tevfik Aydeniz Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-030,status,Pasif,pasif,R-STAT-02
+GES-2025-031,name_clean,Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali,Yeşilpınar Kapalı Yüzme Havuzu Çatısı,R-NAME-02
+GES-2025-031,status,Aktif,aktif,R-STAT-01
+GES-2025-032,name_clean,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı,R-NAME-02
+GES-2025-032,status,Aktif,aktif,R-STAT-01
+GES-2025-033,name_clean,Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,Kemerburgaz İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-033,status,Aktif,aktif,R-STAT-01
+GES-2025-034,name_clean,Spor Kompleksi Çatısı Güneş Enerji Santrali,Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-034,status,Aktif,aktif,R-STAT-01
+GES-2025-035,name_clean,Silivri Kapı Buz Pisti Çatısı Güneş Enerji Santrali,Silivri Kapı Buz Pisti Çatısı,R-NAME-02
+GES-2025-035,status,Aktif,aktif,R-STAT-01
+GES-2025-036,name_clean,Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali,Ali Emiri Kültür Merkezi Çatısı,R-NAME-02
+GES-2025-036,status,Aktif,aktif,R-STAT-01
+GES-2025-037,name_clean,İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali,İSMEK Bina Merkezi Çatısı,R-NAME-02
+GES-2025-037,status,Aktif,aktif,R-STAT-01
+GES-2025-038,name_clean,Davet ve Toplantı Salonu Çatısı Güneş Enerji Santrali,Davet ve Toplantı Salonu Çatısı,R-NAME-02
+GES-2025-038,status,Aktif,aktif,R-STAT-01
+GES-2025-039,name_clean,Filiz Akın Kız Öğrenci Yurdu Çatısı Güneş Enerji Santrali,Filiz Akın Kız Öğrenci Yurdu Çatısı,R-NAME-02
+GES-2025-039,status,Aktif,aktif,R-STAT-01
+GES-2025-040,name_clean,Cemal Kamacı Spor Kompleksi Çatısı Güneş Enerji Santrali,Cemal Kamacı Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-040,status,Aktif,aktif,R-STAT-01
+GES-2025-041,name_clean,Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali,Bülent Ecevit Kültür Merkezi Çatısı,R-NAME-02
+GES-2025-041,status,Pasif,pasif,R-STAT-02
+GES-2025-042,name_clean,Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali,Yakacık İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-042,status,Aktif,aktif,R-STAT-01
+GES-2025-043,name_clean,Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali,Soğanlık Gasilhane Bina Çatısı,R-NAME-02
+GES-2025-043,status,Aktif,aktif,R-STAT-01
+GES-2025-044,name_clean,Yakacık Çocuk Eğitim Merkezi Çatısı Güneş Enerji Santrali,Yakacık Çocuk Eğitim Merkezi Çatısı,R-NAME-02
+GES-2025-044,status,Aktif,aktif,R-STAT-01
+GES-2025-045,name_clean,Yunus Çocuk Eğitim Merkezi Çatısı Güneş Enerji Santrali,Yunus Çocuk Eğitim Merkezi Çatısı,R-NAME-02
+GES-2025-045,status,Pasif,pasif,R-STAT-02
+GES-2025-046,name_clean,Sosyal Tesisler (Traker) Çatısı Güneş Enerji Santrali,Sosyal Tesisler (Traker) Çatısı,R-NAME-02
+GES-2025-046,status,Aktif,aktif,R-STAT-01
+GES-2025-047,name_clean,Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali,Sefaköy Yüzme Havuzu Çatısı,R-NAME-02
+GES-2025-047,status,Aktif,aktif,R-STAT-01
+GES-2025-048,name_clean,İtfaiye Bina Çatısı Güneş Enerji Santrali,İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-048,status,Aktif,aktif,R-STAT-01
+GES-2025-049,name,Menekşe Deresi Parkı Güneş Enerji Santrali ,Menekşe Deresi Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-049,name_clean,Menekşe Deresi Parkı Güneş Enerji Santrali,Menekşe Deresi Parkı,R-NAME-02
+GES-2025-049,status,Aktif,aktif,R-STAT-01
+GES-2025-050,name_clean,Orhangazi Şehir Parkı - Atletizm Pisti Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Atletizm Pisti Çatısı,R-NAME-02
+GES-2025-050,status,Aktif,aktif,R-STAT-01
+GES-2025-051,name_clean,Orhangazi Şehir Parkı - Su Deposu Üzeri (1) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (1),R-NAME-02
+GES-2025-051,status,Aktif,aktif,R-STAT-01
+GES-2025-052,name_clean,Orhangazi Şehir Parkı - Su Deposu Üzeri (2) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (2),R-NAME-02
+GES-2025-052,status,Aktif,aktif,R-STAT-01
+GES-2025-053,name_clean,Orhangazi Şehir Parkı - Su Deposu Üzeri (3) Güneş Enerji Santrali,Orhangazi Şehir Parkı - Su Deposu Üzeri (3),R-NAME-02
+GES-2025-053,status,Aktif,aktif,R-STAT-01
+GES-2025-054,name_clean,Orhangazi Şehir Parkı - Şeflik Bina Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Şeflik Bina Çatısı,R-NAME-02
+GES-2025-054,status,Aktif,aktif,R-STAT-01
+GES-2025-055,name_clean,Orhangazi Şehir Parkı - Tenis Alanı Çatısı Güneş Enerji Santrali,Orhangazi Şehir Parkı - Tenis Alanı Çatısı,R-NAME-02
+GES-2025-055,status,Aktif,aktif,R-STAT-01
+GES-2025-056,name_clean,Tepeören Hayvan Barınağı Güneş Enerji Santrali,Tepeören Hayvan Barınağı,R-NAME-02
+GES-2025-056,status,Aktif,aktif,R-STAT-01
+GES-2025-057,name_clean,Yenişehir İtfaiye Eğitim Binası Çatısı Güneş Enerji Santrali,Yenişehir İtfaiye Eğitim Binası Çatısı,R-NAME-02
+GES-2025-057,status,Aktif,aktif,R-STAT-01
+GES-2025-058,name_clean,İşitme Engellileri Bina Çatısı Güneş Enerji Santrali,İşitme Engellileri Bina Çatısı,R-NAME-02
+GES-2025-058,status,Aktif,aktif,R-STAT-01
+GES-2025-059,name_clean,Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali,Taha Akgül Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-059,status,Pasif,pasif,R-STAT-02
+GES-2025-060,name_clean,Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali,Yenidoğan Yüzme Havuzu Çatısı,R-NAME-02
+GES-2025-060,status,Aktif,aktif,R-STAT-01
+GES-2025-061,name,Safa Tepesi Parkı Güneş Enerji Santrali ,Safa Tepesi Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-061,name_clean,Safa Tepesi Parkı Güneş Enerji Santrali,Safa Tepesi Parkı,R-NAME-02
+GES-2025-061,status,Aktif,aktif,R-STAT-01
+GES-2025-062,name_clean,Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali,Mezarlığı Hizmet ve Gasilhane Bina Çatısı,R-NAME-02
+GES-2025-062,status,Aktif,aktif,R-STAT-01
+GES-2025-063,name_clean,Selimpaşa İtfaiye Bina Çatısı Güneş Enerji Santrali,Selimpaşa İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-063,status,Aktif,aktif,R-STAT-01
+GES-2025-064,name,Gölet Parkı Güneş Enerji Santrali ,Gölet Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-064,name_clean,Gölet Parkı Güneş Enerji Santrali,Gölet Parkı,R-NAME-02
+GES-2025-064,status,Pasif,pasif,R-STAT-02
+GES-2025-065,name_clean,75. Yıl Spor Salonu Çatısı Güneş Enerji Santrali,75. Yıl Spor Salonu Çatısı,R-NAME-02
+GES-2025-065,status,Aktif,aktif,R-STAT-01
+GES-2025-066,name_clean,Hoca Ahmet Yesevi Kültür Merkezi Çatısı Güneş Enerji Santrali,Hoca Ahmet Yesevi Kültür Merkezi Çatısı,R-NAME-02
+GES-2025-066,status,Aktif,aktif,R-STAT-01
+GES-2025-067,name_clean,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı,R-NAME-02
+GES-2025-067,status,Aktif,aktif,R-STAT-01
+GES-2025-068,name_clean,Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali,Habipler İtfaiye Bina Çatısı,R-NAME-02
+GES-2025-068,status,Aktif,aktif,R-STAT-01
+GES-2025-069,district,Sultangazi ,Sultangazi,R-WS-01
+GES-2025-069,name,Cebeci Parkı Güneş Enerji Santrali ,Cebeci Parkı Güneş Enerji Santrali,R-WS-01
+GES-2025-069,name_clean,Cebeci Parkı Güneş Enerji Santrali,Cebeci Parkı,R-NAME-02
+GES-2025-069,status,Aktif,aktif,R-STAT-01
+GES-2025-070,name,Engelliler Yaz Kampı Güneş Enerji Santrali ,Engelliler Yaz Kampı Güneş Enerji Santrali,R-WS-01
+GES-2025-070,name_clean,Engelliler Yaz Kampı Güneş Enerji Santrali,Engelliler Yaz Kampı,R-NAME-02
+GES-2025-070,status,Aktif,aktif,R-STAT-01
+GES-2025-071,name_clean,Kültür Merkezi Çatısı Güneş Enerji Santrali,Kültür Merkezi Çatısı,R-NAME-02
+GES-2025-071,status,Aktif,aktif,R-STAT-01
+GES-2025-072,name_clean,Spor Kompleksi Çatısı Güneş Enerji Santrali,Spor Kompleksi Çatısı,R-NAME-02
+GES-2025-072,status,Aktif,aktif,R-STAT-01
+GES-2025-073,name_clean,Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali,Muhsin Ertuğrul Sahnesi Çatısı,R-NAME-02
+GES-2025-073,status,Aktif,aktif,R-STAT-01
+GES-2025-074,name,Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali ,Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-074,name_clean,Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali,Maçka Deprem Parkı Tuvaleti Çatısı,R-NAME-02
+GES-2025-074,status,Aktif,aktif,R-STAT-01
+GES-2025-075,name_clean,Bahar Merkezi Çatısı Güneş Enerji Santrali,Bahar Merkezi Çatısı,R-NAME-02
+GES-2025-075,status,Aktif,aktif,R-STAT-01
+GES-2025-076,name_clean,Çakmak Yüzme Havuzu Çatısı Güneş Enerji Santrali,Çakmak Yüzme Havuzu Çatısı,R-NAME-02
+GES-2025-076,status,Aktif,aktif,R-STAT-01
+GES-2025-077,name,Büyük Çamlıca Korusu Güneş Enerji Santrali ,Büyük Çamlıca Korusu Güneş Enerji Santrali,R-WS-01
+GES-2025-077,name_clean,Büyük Çamlıca Korusu Güneş Enerji Santrali,Büyük Çamlıca Korusu,R-NAME-02
+GES-2025-077,status,Aktif,aktif,R-STAT-01
+GES-2025-078,name,Topkapı Deprem (Kültür) Parkı Tuvalet Çatısı Güneş Enerji Santrali ,Topkapı Deprem (Kültür) Parkı Tuvalet Çatısı Güneş Enerji Santrali,R-WS-01
+GES-2025-078,name_clean,Topkapı Deprem (Kültür) Parkı Tuvalet Çatısı Güneş Enerji Santrali,Topkapı Deprem (Kültür) Parkı Tuvalet Çatısı,R-NAME-02
+GES-2025-078,status,Aktif,aktif,R-STAT-01

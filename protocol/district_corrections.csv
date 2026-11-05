@@ -1,0 +1,2 @@
+raw_value,normalized_value,rule_id,confidence,evidence
+Atnavutköy,Arnavutköy,R-DIST-01,high,"İstanbul'da 'Atnavutköy' adlı ilçe yok; aynı satırın Mekan alanı 'Arnavutköy Mezarlığı...' (2022 Excel satır 5)"
