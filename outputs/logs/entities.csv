@@ -1,0 +1,77 @@
+entity_group_id,n_records,n_units,years,districts,record_ids,example_name
+G000,4,2,"2022,2024,2025",Bakırköy,"GES-2022-002,GES-2024-007,GES-2025-011,GES-2025-014",İstanbul Planlama Ajansı (İPA - Florya Atatürk Kent Ormanı) GES
+G001,3,3,"2022,2023,2025",Bakırköy,"GES-2022-003,GES-2023-009,GES-2025-013",İBB Ataköy Kadın ve Aile Hizmetleri Müdürlüğü GES
+G002,2,1,"2022,2025",Esenler,"GES-2022-004,GES-2025-027",Esenler Spor Kompleksi (Kemer Kamp Eğitim Merkezi) GES
+G003,2,1,"2022,2025",Arnavutköy,"GES-2022-005,GES-2025-003",Arnavutköy Mezarlığı Hizmet ve Gasilhane Binası GES
+G004,2,1,"2022,2025",Silivri,"GES-2022-006,GES-2025-062",Silivri Mezarlığı Hizmet ve Gasilhane Binası GES
+G005,2,1,"2022,2025",Çatalca,"GES-2022-007,GES-2025-024",Çatalca Kaleiçi İtfaiye İstasyonu GES
+G006,2,1,"2022,2025",Ümraniye,"GES-2022-008,GES-2025-076",Ümraniye Çakmak Yüzme Havuzu GES
+G007,2,1,"2022,2025",Sultangazi,"GES-2022-009,GES-2025-065",Sultangazi 75. Yıl Spor Salonu GES
+G008,2,1,"2022,2025",Bahçelievler,"GES-2022-010,GES-2025-009",Bahçelievler Yüzme Havuzu GES
+G009,2,1,"2022,2025",Başakşehir,"GES-2022-011,GES-2025-015",Hoşdere Park Alanı GES
+G010,4,3,"2022,2023,2025",Başakşehir,"GES-2022-012,GES-2022-013,GES-2023-010,GES-2025-016",Engelliler Merkezi 1. Etap GES
+G011,2,1,"2022,2025",Şile,"GES-2022-014,GES-2025-070",Şile Engelliler Yaz Kampı GES
+G012,2,2,"2022,2025",Kağıthane,"GES-2022-015,GES-2025-040",Cemal Kamacı Spor Kompleksi 2. Etap GES
+G013,2,1,"2022,2025",Fatih,"GES-2022-016,GES-2025-034",Fatih Spor Kompleksi
+G014,2,1,"2022,2025",Fatih,"GES-2022-017,GES-2025-035",Silivri Kapı Buz Pisti
+G015,2,1,"2022,2025",Pendik,"GES-2022-018,GES-2025-056",Tepeören Hayvan Barınağı
+G016,3,1,"2022,2023,2025",Güngören,"GES-2022-019,GES-2023-013,GES-2025-038",Güngören Davet ve Toplantı Salonu
+G017,3,1,"2022,2023,2025",Sultangazi,"GES-2022-020,GES-2023-014,GES-2025-066",Hoca Ahmet Yesevi Kültür Merkezi
+G018,2,1,"2022,2025",Ataşehir,"GES-2022-021,GES-2025-004",İBB Kayışdağı Darulacize Müdürlüğü GES
+G019,2,1,"2023,2025",Avcılar,"GES-2023-004,GES-2025-007",Avcılar Sahil Tuvaleti Çatısı Güneş Enerji Santrali (GES)
+G020,2,1,"2023,2025",Başakşehir,"GES-2023-005,GES-2025-017",Başakşehir İtfaiye Bina Çatısı Güneş Enerji Santrali (GES)
+G021,2,1,"2023,2025",Silivri,"GES-2023-006,GES-2025-063",Selimpaşa İtfaiye Bina Çatısı Güneş Enerji Santrali (GES)
+G022,2,1,"2023,2025",Esenler,"GES-2023-007,GES-2025-028",Turgut Reis (Esenler) İtfaiye Bina Çatısı Güneş Enerji Santrali (GES)
+G023,3,1,"2023,2024,2025","Büyükçekmece,Silivri","GES-2023-008,GES-2024-010,GES-2025-022",Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali (GES)
+G024,2,1,"2023,2025",Şişli,"GES-2023-011,GES-2025-074",Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali (GES)
+G025,2,1,"2023,2025",Zeytinburnu,"GES-2023-012,GES-2025-078",Topkapı Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali (GES)
+G026,2,1,"2024,2025",Ataşehir,"GES-2024-002,GES-2025-005",İBB İtfaiye Bina Çatısı Güneş Enerji Santrali
+G027,2,1,"2024,2025",Ataşehir,"GES-2024-003,GES-2025-006",Deniz Gezmiş Parkı Güneş Enerji Santrali
+G028,2,1,"2024,2025",Bağcılar,"GES-2024-004,GES-2025-008",Azerbaycan Dostluk Parkı Güneş Enerji Santrali
+G029,2,1,"2024,2025",Bahçelievler,"GES-2024-005,GES-2025-010",Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali
+G030,2,1,"2024,2025",Bakırköy,"GES-2024-006,GES-2025-012",İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali
+G031,2,1,"2024,2025",Beykoz,"GES-2024-008,GES-2025-020",İBB Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali
+G032,2,1,"2024,2025",Beykoz,"GES-2024-009,GES-2025-021",İBB Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali
+G033,1,1,2024,Büyükçekmece,GES-2024-011,İBB Büyükçekmece İtfaiye Bina Çatısı Güneş Enerji Santrali
+G034,2,1,"2024,2025",Büyükçekmece,"GES-2024-012,GES-2025-023",İBB Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali
+G035,3,1,"2024,2025",Çekmeköy,"GES-2024-013,GES-2024-015,GES-2025-026",İBB Ömerli İtfaiye Bina Çatısı Güneş Enerji Santrali
+G036,2,1,"2024,2025",Çekmeköy,"GES-2024-014,GES-2025-025",Rahmi Demir Kent Ormanı Güneş Enerji Santrali
+G037,2,1,"2024,2025",Esenyurt,"GES-2024-016,GES-2025-029",İBB Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali
+G038,2,1,"2024,2025",Eyüpsultan,"GES-2024-017,GES-2025-030",Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali
+G039,2,1,"2024,2025",Eyüpsultan,"GES-2024-018,GES-2025-031",Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali
+G040,2,1,"2024,2025",Eyüpsultan,"GES-2024-019,GES-2025-032",Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali
+G041,2,1,"2024,2025",Eyüpsultan,"GES-2024-020,GES-2025-033",İBB Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali
+G042,2,1,"2024,2025",Fatih,"GES-2024-021,GES-2025-036",Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali
+G043,2,1,"2024,2025",Gaziosmanpaşa,"GES-2024-022,GES-2025-037",İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali
+G044,2,1,"2024,2025",Kartal,"GES-2024-023,GES-2025-041",Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali
+G045,2,1,"2024,2025",Kartal,"GES-2024-024,GES-2025-042",İBB Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali
+G046,2,1,"2024,2025",Kartal,"GES-2024-025,GES-2025-043",Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali
+G047,2,1,"2024,2025",Küçükçekmece,"GES-2024-026,GES-2025-048",İBB İtfaiye Bina Çatısı Güneş Enerji Santrali
+G048,2,1,"2024,2025",Küçükçekmece,"GES-2024-027,GES-2025-047",Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali
+G049,2,1,"2024,2025",Küçükçekmece,"GES-2024-028,GES-2025-049",Menekşe Deresi Parkı Güneş Enerji Santrali
+G050,2,1,"2024,2025",Maltepe,"GES-2024-029,GES-2025-050",Orhangazi Şehir Parkı- Atletizm Pisti Çatısı Güneş Enerji Santrali
+G051,2,1,"2024,2025",Maltepe,"GES-2024-030,GES-2025-051",Orhangazi Şehir Parkı- Su Deposu Üzeri (1) Güneş Enerji Santrali
+G052,2,1,"2024,2025",Maltepe,"GES-2024-031,GES-2025-052",Orhangazi Şehir Parkı- Su Deposu Üzeri (2) Güneş Enerji Santrali
+G053,2,1,"2024,2025",Maltepe,"GES-2024-032,GES-2025-053",Orhangazi Şehir Parkı- Su Deposu Üzeri (3) Güneş Enerji Santrali
+G054,2,1,"2024,2025",Maltepe,"GES-2024-033,GES-2025-054",Orhangazi Şehir Parkı- Şeflik Bina Çatısı Güneş Enerji Santrali
+G055,2,1,"2024,2025",Maltepe,"GES-2024-034,GES-2025-055",Orhangazi Şehir Parkı- Tenis Alanı Çatısı Güneş Enerji Santrali
+G056,2,1,"2024,2025",Sancaktepe,"GES-2024-035,GES-2025-058",İşitme Engellileri Bina Çatısı Güneş Enerji Santrali
+G057,2,1,"2024,2025",Sancaktepe,"GES-2024-036,GES-2025-059",Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali
+G058,2,1,"2024,2025",Sancaktepe,"GES-2024-037,GES-2025-060",Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali
+G059,2,1,"2024,2025",Sancaktepe,"GES-2024-038,GES-2025-061",Safa Tepesi Parkı Güneş Enerji Santrali
+G060,2,1,"2024,2025",Sultanbeyli,"GES-2024-039,GES-2025-064",Gölet Parkı Güneş Enerji Santrali
+G061,2,1,"2024,2025",Sultangazi,"GES-2024-040,GES-2025-067",Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali
+G062,2,1,"2024,2025",Sultangazi,"GES-2024-041,GES-2025-068",İBB Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali
+G063,2,1,"2024,2025",Sultangazi,"GES-2024-042,GES-2025-069",Cebeci Parkı Güneş Enerji Santrali
+G064,2,1,"2024,2025",Şile,"GES-2024-043,GES-2025-071",Kültür Merkezi Çatısı Güneş Enerji Santrali
+G065,2,1,"2024,2025",Şile,"GES-2024-044,GES-2025-072",Spor Kompleksi Çatısı Güneş Enerji Santrali
+G066,2,1,"2024,2025",Şişli,"GES-2024-045,GES-2025-073",Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali
+G067,2,1,"2024,2025",Tuzla,"GES-2024-046,GES-2025-075",Bahar Merkezi Çatısı Güneş Enerji Santrali
+G068,2,1,"2024,2025",Üsküdar,"GES-2024-047,GES-2025-077",Büyük Çamlıca Korusu Güneş Enerji Santrali
+G069,1,1,2025,Bayrampaşa,GES-2025-018,Hidayet Türkoğlu Spor Kompleksi Çatısı Güneş Enerji Santrali
+G070,1,1,2025,Bayrampaşa,GES-2025-019,Enerji Yönetimi ve Aydınlatma Müdürlük İdari Bina ve Garaj Çatısı Güneş Enerji Santrali
+G071,1,1,2025,Kadıköy,GES-2025-039,Filiz Akın Kız Öğrenci Yurdu Çatısı Güneş Enerji Santrali
+G072,1,1,2025,Kartal,GES-2025-044,Yakacık Çocuk Eğitim Merkezi Çatısı Güneş Enerji Santrali
+G073,1,1,2025,Kartal,GES-2025-045,Yunus Çocuk Eğitim Merkezi Çatısı Güneş Enerji Santrali
+G074,1,1,2025,Küçükçekmece,GES-2025-046,Sosyal Tesisler (Traker) Çatısı Güneş Enerji Santrali
+G075,1,1,2025,Pendik,GES-2025-057,Yenişehir İtfaiye Eğitim Binası Çatısı Güneş Enerji Santrali

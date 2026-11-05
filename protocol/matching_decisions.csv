@@ -1,0 +1,15 @@
+# Manuel eslestirme kararlari (v1.0). Guc ve durum degerleri bu kararlarda KULLANILMADI.
+# decision: same_unit | same_group | different ; confidence: high | medium | low
+record_id_a,record_id_b,decision,confidence,rationale
+GES-2022-002,GES-2024-007,same_group,medium,"2022 İPA kaydının adı 'Florya Atatürk Kent Ormanı'nı parantez içinde içeriyor; 2025 dosyasında İPA ve Florya ayrı satırlar -> ayrı birim, ad örtüşmesi nedeniyle aynı değerlendirme grubu"
+GES-2022-002,GES-2025-014,same_group,medium,"Aynı gerekçe: ad örtüşmesi (İPA 2022 adı Florya Atatürk Kent Ormanı'nı içeriyor); ayrı birim, aynı değerlendirme grubu"
+GES-2022-003,GES-2023-009,same_group,medium,"Bakırköy Ataköy'de kadın hizmetleri binası; 2023 kaydı açıkça 'Etap 2' -> 2022 kaydı olası 1. etap; birim adı farklı yazılmış (Kadın ve Aile Hizmetleri Müd. / Kadın Koordinasyon Müd.)"
+GES-2022-003,GES-2025-013,same_group,medium,"2025 'Ataköy Sosyal Hizmetler Daire Başkanlığı' etapsız kayıt; aynı Ataköy sosyal hizmet yerleşkesi olabilir -> etap/bütün ilişkisi, aynı grup"
+GES-2023-009,GES-2025-013,same_group,medium,"Ataköy Etap 2 ile 2025 etapsız Ataköy sosyal hizmet kaydı; etap/bütün ilişkisi"
+GES-2022-021,GES-2025-004,same_unit,medium,"Ataşehir Kayışdağı Darülaceze; 'Müdürlüğü' ve 'Ana Kampüsü' aynı yerleşkenin farklı adlandırması, ilçe ve özel ad (Kayışdağı Darulacize) aynı"
+GES-2023-012,GES-2025-078,same_unit,high,"Zeytinburnu Topkapı Deprem Parkı tuvaleti; 2025 adında '(Kültür)' eklenmiş, diğer tüm sözcükler aynı"
+GES-2024-011,GES-2025-022,different,high,"2024 kaydı genel 'İBB Büyükçekmece İtfaiye'; 2025 kaydı özel 'Kumburgaz İtfaiye' (Kumburgaz'ın 2024 karşılığı GES-2024-010 zaten var) -> farklı istasyon"
+GES-2024-011,GES-2025-023,different,high,"2024 genel 'Büyükçekmece İtfaiye' ile 2025 'Mimar Sinan İtfaiye' farklı istasyonlar (Mimar Sinan'ın 2024 karşılığı GES-2024-012)"
+GES-2023-008,GES-2024-010,same_unit,medium,"Kumburgaz İtfaiye: özel ad aynı; ilçe 2023'te Silivri, 2024'te Büyükçekmece -> ilçe çelişkisi bayraklanır, uzman kontrolü gerekir"
+GES-2023-008,GES-2025-022,same_unit,medium,"Kumburgaz İtfaiye 2023 (Silivri) ile 2025 (Büyükçekmece): aynı özel ad, ilçe çelişkisi bayraklı"
+GES-2024-013,GES-2024-015,same_unit,medium,"Aynı dosyada (2024) birebir aynı ad ve ilçe: Çekmeköy İBB Ömerli İtfaiye; iki ayrı satır -> aynı tesis-yıl çelişkisi, karantina (silinmez, ortalanmaz)"

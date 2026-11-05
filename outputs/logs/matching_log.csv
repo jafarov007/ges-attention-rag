@@ -1,0 +1,433 @@
+record_id_a,record_id_b,key_a,key_b,district_a,district_b,token_set_ratio,token_sort_ratio,auto_decision,auto_reason,decision,confidence,basis,rationale
+GES-2022-002,GES-2024-007,istanbul planlama ajansı ipa florya atatürk kent ormanı,florya atatürk kent ormanı,Bakırköy,Bakırköy,100.0,64.2,same_unit,"A5 same district, ratio >= 90",same_group,medium,manual,"2022 İPA kaydının adı 'Florya Atatürk Kent Ormanı'nı parantez içinde içeriyor; 2025 dosyasında İPA ve Florya ayrı satırlar -> ayrı birim, ad örtüşmesi nedeniyle aynı değerlendirme grubu"
+GES-2022-002,GES-2025-011,istanbul planlama ajansı ipa florya atatürk kent ormanı,istanbul planlama ajansı,Bakırköy,Bakırköy,100.0,60.8,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-002,GES-2025-014,istanbul planlama ajansı ipa florya atatürk kent ormanı,florya atatürk kent ormanı,Bakırköy,Bakırköy,100.0,64.2,same_unit,"A5 same district, ratio >= 90",same_group,medium,manual,"Aynı gerekçe: ad örtüşmesi (İPA 2022 adı Florya Atatürk Kent Ormanı'nı içeriyor); ayrı birim, aynı değerlendirme grubu"
+GES-2022-003,GES-2023-009,ataköy kadın ve aile hizmetleri müdürlüğü,ataköy kadın koordinasyon müdürlüğü,Bakırköy,Bakırköy,77.2,57.9,review,A4b stage number on one side but names differ,same_group,medium,manual,Bakırköy Ataköy'de kadın hizmetleri binası; 2023 kaydı açıkça 'Etap 2' -> 2022 kaydı olası 1. etap; birim adı farklı yazılmış (Kadın ve Aile Hizmetleri Müd. / Kadın Koordinasyon Müd.)
+GES-2022-004,GES-2022-016,spor kompleksi kemer kamp eğitim merkezi,spor kompleksi,Esenler,Fatih,100.0,51.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-004,GES-2024-044,spor kompleksi kemer kamp eğitim merkezi,spor kompleksi,Esenler,Şile,100.0,51.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-004,GES-2025-027,spor kompleksi kemer kamp eğitim merkezi,kemer spor kompleksi,Esenler,Esenler,100.0,66.7,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-004,GES-2025-034,spor kompleksi kemer kamp eğitim merkezi,spor kompleksi,Esenler,Fatih,100.0,51.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-004,GES-2025-072,spor kompleksi kemer kamp eğitim merkezi,spor kompleksi,Esenler,Şile,100.0,51.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-005,GES-2022-006,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Arnavutköy,Silivri,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-005,GES-2025-003,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Arnavutköy,Arnavutköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-005,GES-2025-062,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Arnavutköy,Silivri,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-006,GES-2025-003,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Silivri,Arnavutköy,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-006,GES-2025-062,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Silivri,Silivri,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-007,GES-2023-005,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Başakşehir,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2024-002,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Ataşehir,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2024-011,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Büyükçekmece,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2024-026,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Küçükçekmece,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2025-005,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Ataşehir,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2025-017,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Başakşehir,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-007,GES-2025-024,kaleiçi itfaiye istasyonu,kaleiçi itfaiye,Çatalca,Çatalca,100.0,75.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-007,GES-2025-048,kaleiçi itfaiye istasyonu,itfaiye,Çatalca,Küçükçekmece,100.0,43.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-008,GES-2022-010,çakmak yüzme havuzu,yüzme havuzu,Ümraniye,Bahçelievler,100.0,77.4,different,A1 different district,different,high,auto,A1 different district
+GES-2022-008,GES-2025-009,çakmak yüzme havuzu,yüzme havuzu,Ümraniye,Bahçelievler,100.0,77.4,different,A1 different district,different,high,auto,A1 different district
+GES-2022-008,GES-2025-076,çakmak yüzme havuzu,çakmak yüzme havuzu,Ümraniye,Ümraniye,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-009,GES-2025-065,75 yıl spor salonu,75 yıl spor salonu,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-010,GES-2024-018,yüzme havuzu,yeşilpınar kapalı yüzme havuzu,Bahçelievler,Eyüpsultan,100.0,57.1,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2024-027,yüzme havuzu,sefaköy yüzme havuzu,Bahçelievler,Küçükçekmece,100.0,75.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2024-037,yüzme havuzu,yenidoğan yüzme havuzu,Bahçelievler,Sancaktepe,100.0,70.6,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2025-009,yüzme havuzu,yüzme havuzu,Bahçelievler,Bahçelievler,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-010,GES-2025-031,yüzme havuzu,yeşilpınar kapalı yüzme havuzu,Bahçelievler,Eyüpsultan,100.0,57.1,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2025-047,yüzme havuzu,sefaköy yüzme havuzu,Bahçelievler,Küçükçekmece,100.0,75.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2025-060,yüzme havuzu,yenidoğan yüzme havuzu,Bahçelievler,Sancaktepe,100.0,70.6,different,A1 different district,different,high,auto,A1 different district
+GES-2022-010,GES-2025-076,yüzme havuzu,çakmak yüzme havuzu,Bahçelievler,Ümraniye,100.0,77.4,different,A1 different district,different,high,auto,A1 different district
+GES-2022-011,GES-2025-015,hoşdere park alanı,hoşdere park alanı millet bahçesi,Başakşehir,Başakşehir,100.0,70.6,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-012,GES-2022-013,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2022-012,GES-2023-010,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,different,A3 different stage/sub-unit numbers,different,high,auto,A3 different stage/sub-unit numbers
+GES-2022-012,GES-2025-016,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,same_group,A4 one side has a stage number -> stage/whole relation,same_group,medium,auto,A4 one side has a stage number -> stage/whole relation
+GES-2022-013,GES-2023-010,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-013,GES-2025-016,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,same_group,A4 one side has a stage number -> stage/whole relation,same_group,medium,auto,A4 one side has a stage number -> stage/whole relation
+GES-2022-014,GES-2025-070,engelliler yaz kampı,engelliler yaz kampı,Şile,Şile,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-015,GES-2022-016,cemal kamacı spor kompleksi,spor kompleksi,Kağıthane,Fatih,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2022-015,GES-2024-044,cemal kamacı spor kompleksi,spor kompleksi,Kağıthane,Şile,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2022-015,GES-2025-034,cemal kamacı spor kompleksi,spor kompleksi,Kağıthane,Fatih,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2022-015,GES-2025-040,cemal kamacı spor kompleksi,cemal kamacı spor kompleksi,Kağıthane,Kağıthane,100.0,100.0,same_group,A4 one side has a stage number -> stage/whole relation,same_group,medium,auto,A4 one side has a stage number -> stage/whole relation
+GES-2022-015,GES-2025-072,cemal kamacı spor kompleksi,spor kompleksi,Kağıthane,Şile,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2024-017,spor kompleksi,tevfik aydeniz spor kompleksi,Fatih,Eyüpsultan,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2024-036,spor kompleksi,taha akgül spor kompleksi,Fatih,Sancaktepe,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2024-044,spor kompleksi,spor kompleksi,Fatih,Şile,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-018,spor kompleksi,hidayet türkoğlu spor kompleksi,Fatih,Bayrampaşa,100.0,62.2,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-027,spor kompleksi,kemer spor kompleksi,Fatih,Esenler,100.0,82.4,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-030,spor kompleksi,tevfik aydeniz spor kompleksi,Fatih,Eyüpsultan,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-034,spor kompleksi,spor kompleksi,Fatih,Fatih,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-016,GES-2025-040,spor kompleksi,cemal kamacı spor kompleksi,Fatih,Kağıthane,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-059,spor kompleksi,taha akgül spor kompleksi,Fatih,Sancaktepe,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2022-016,GES-2025-072,spor kompleksi,spor kompleksi,Fatih,Şile,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2022-017,GES-2025-035,silivri kapı buz pisti,silivri kapı buz pisti,Fatih,Fatih,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-018,GES-2025-056,tepeören hayvan barınağı,tepeören hayvan barınağı,Pendik,Pendik,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-019,GES-2023-013,davet ve toplantı salonu,davet ve toplantı salonu,Güngören,Güngören,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-019,GES-2025-038,davet ve toplantı salonu,davet ve toplantı salonu,Güngören,Güngören,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-020,GES-2023-014,hoca ahmet yesevi kültür merkezi,hoca ahmet yesevi kültür merkezi,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-020,GES-2024-043,hoca ahmet yesevi kültür merkezi,kültür merkezi,Sultangazi,Şile,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-020,GES-2025-066,hoca ahmet yesevi kültür merkezi,hoca ahmet yesevi kültür merkezi,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2022-020,GES-2025-071,hoca ahmet yesevi kültür merkezi,kültür merkezi,Sultangazi,Şile,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-021,GES-2025-004,kayışdağı darulacize müdürlüğü,kayışdağı darulacize ana kampüsü,Ataşehir,Ataşehir,80.0,64.5,review,"A6 same district, 70 <= ratio < 90",same_unit,medium,manual,"Ataşehir Kayışdağı Darülaceze; 'Müdürlüğü' ve 'Ana Kampüsü' aynı yerleşkenin farklı adlandırması, ilçe ve özel ad (Kayışdağı Darulacize) aynı"
+GES-2023-004,GES-2025-007,sahil tuvaleti,sahil tuvaleti,Avcılar,Avcılar,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-005,GES-2023-006,itfaiye,selimpaşa itfaiye,Başakşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2023-007,itfaiye,turgut reis itfaiye,Başakşehir,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2023-008,itfaiye,kumburgaz itfaiye,Başakşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-002,itfaiye,itfaiye,Başakşehir,Ataşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-008,itfaiye,bozhane itfaiye,Başakşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-009,itfaiye,çavuşbaşı itfaiye,Başakşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-010,itfaiye,kumburgaz itfaiye,Başakşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-011,itfaiye,itfaiye,Başakşehir,Büyükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-012,itfaiye,mimar sinan itfaiye,Başakşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-013,itfaiye,ömerli itfaiye,Başakşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-015,itfaiye,ömerli itfaiye,Başakşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-016,itfaiye,kıraç itfaiye,Başakşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-020,itfaiye,kemerburgaz itfaiye,Başakşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-024,itfaiye,yakacık itfaiye,Başakşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-026,itfaiye,itfaiye,Başakşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2024-041,itfaiye,habipler itfaiye,Başakşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-005,itfaiye,itfaiye,Başakşehir,Ataşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-017,itfaiye,itfaiye,Başakşehir,Başakşehir,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-005,GES-2025-020,itfaiye,bozhane itfaiye,Başakşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Başakşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-022,itfaiye,kumburgaz itfaiye,Başakşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-023,itfaiye,mimar sinan itfaiye,Başakşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-024,itfaiye,kaleiçi itfaiye,Başakşehir,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-026,itfaiye,ömerli itfaiye,Başakşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-028,itfaiye,turgut reis itfaiye,Başakşehir,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-029,itfaiye,kıraç itfaiye,Başakşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-033,itfaiye,kemerburgaz itfaiye,Başakşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-042,itfaiye,yakacık itfaiye,Başakşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-048,itfaiye,itfaiye,Başakşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Başakşehir,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-063,itfaiye,selimpaşa itfaiye,Başakşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-005,GES-2025-068,itfaiye,habipler itfaiye,Başakşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2024-002,selimpaşa itfaiye,itfaiye,Silivri,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2024-011,selimpaşa itfaiye,itfaiye,Silivri,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2024-026,selimpaşa itfaiye,itfaiye,Silivri,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2025-005,selimpaşa itfaiye,itfaiye,Silivri,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2025-017,selimpaşa itfaiye,itfaiye,Silivri,Başakşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2025-048,selimpaşa itfaiye,itfaiye,Silivri,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-006,GES-2025-063,selimpaşa itfaiye,selimpaşa itfaiye,Silivri,Silivri,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-007,GES-2024-002,turgut reis itfaiye,itfaiye,Esenler,Ataşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-007,GES-2024-011,turgut reis itfaiye,itfaiye,Esenler,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-007,GES-2024-026,turgut reis itfaiye,itfaiye,Esenler,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-007,GES-2025-005,turgut reis itfaiye,itfaiye,Esenler,Ataşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-007,GES-2025-017,turgut reis itfaiye,itfaiye,Esenler,Başakşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-007,GES-2025-028,turgut reis itfaiye,turgut reis itfaiye,Esenler,Esenler,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-007,GES-2025-048,turgut reis itfaiye,itfaiye,Esenler,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2024-002,kumburgaz itfaiye,itfaiye,Silivri,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2024-010,kumburgaz itfaiye,kumburgaz itfaiye,Silivri,Büyükçekmece,100.0,100.0,different,A1 different district,same_unit,medium,manual,"Kumburgaz İtfaiye: özel ad aynı; ilçe 2023'te Silivri, 2024'te Büyükçekmece -> ilçe çelişkisi bayraklanır, uzman kontrolü gerekir"
+GES-2023-008,GES-2024-011,kumburgaz itfaiye,itfaiye,Silivri,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2024-026,kumburgaz itfaiye,itfaiye,Silivri,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2025-005,kumburgaz itfaiye,itfaiye,Silivri,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2025-017,kumburgaz itfaiye,itfaiye,Silivri,Başakşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-008,GES-2025-022,kumburgaz itfaiye,kumburgaz itfaiye,Silivri,Büyükçekmece,100.0,100.0,different,A1 different district,same_unit,medium,manual,"Kumburgaz İtfaiye 2023 (Silivri) ile 2025 (Büyükçekmece): aynı özel ad, ilçe çelişkisi bayraklı"
+GES-2023-008,GES-2025-048,kumburgaz itfaiye,itfaiye,Silivri,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2023-010,GES-2025-016,engelliler merkezi,engelliler merkezi,Başakşehir,Başakşehir,100.0,100.0,same_group,A4 one side has a stage number -> stage/whole relation,same_group,medium,auto,A4 one side has a stage number -> stage/whole relation
+GES-2023-011,GES-2025-074,maçka deprem parkı tuvaleti,maçka deprem parkı tuvaleti,Şişli,Şişli,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-012,GES-2025-078,topkapı deprem parkı tuvaleti,topkapı deprem kültür parkı tuvalet,Zeytinburnu,Zeytinburnu,87.5,87.5,review,"A6 same district, 70 <= ratio < 90",same_unit,high,manual,"Zeytinburnu Topkapı Deprem Parkı tuvaleti; 2025 adında '(Kültür)' eklenmiş, diğer tüm sözcükler aynı"
+GES-2023-013,GES-2025-038,davet ve toplantı salonu,davet ve toplantı salonu,Güngören,Güngören,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-014,GES-2024-043,hoca ahmet yesevi kültür merkezi,kültür merkezi,Sultangazi,Şile,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2023-014,GES-2025-066,hoca ahmet yesevi kültür merkezi,hoca ahmet yesevi kültür merkezi,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2023-014,GES-2025-071,hoca ahmet yesevi kültür merkezi,kültür merkezi,Sultangazi,Şile,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-008,itfaiye,bozhane itfaiye,Ataşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-009,itfaiye,çavuşbaşı itfaiye,Ataşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-010,itfaiye,kumburgaz itfaiye,Ataşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-011,itfaiye,itfaiye,Ataşehir,Büyükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-012,itfaiye,mimar sinan itfaiye,Ataşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-013,itfaiye,ömerli itfaiye,Ataşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-015,itfaiye,ömerli itfaiye,Ataşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-016,itfaiye,kıraç itfaiye,Ataşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-020,itfaiye,kemerburgaz itfaiye,Ataşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-024,itfaiye,yakacık itfaiye,Ataşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-026,itfaiye,itfaiye,Ataşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2024-041,itfaiye,habipler itfaiye,Ataşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-005,itfaiye,itfaiye,Ataşehir,Ataşehir,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-002,GES-2025-017,itfaiye,itfaiye,Ataşehir,Başakşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-020,itfaiye,bozhane itfaiye,Ataşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Ataşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-022,itfaiye,kumburgaz itfaiye,Ataşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-023,itfaiye,mimar sinan itfaiye,Ataşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-024,itfaiye,kaleiçi itfaiye,Ataşehir,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-026,itfaiye,ömerli itfaiye,Ataşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-028,itfaiye,turgut reis itfaiye,Ataşehir,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-029,itfaiye,kıraç itfaiye,Ataşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-033,itfaiye,kemerburgaz itfaiye,Ataşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-042,itfaiye,yakacık itfaiye,Ataşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-048,itfaiye,itfaiye,Ataşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Ataşehir,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-063,itfaiye,selimpaşa itfaiye,Ataşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-002,GES-2025-068,itfaiye,habipler itfaiye,Ataşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-003,GES-2025-006,deniz gezmiş parkı,deniz gezmiş parkı,Ataşehir,Ataşehir,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-004,GES-2025-008,azerbaycan dostluk parkı,azerbaycan dostluk parkı,Bağcılar,Bağcılar,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-005,GES-2024-043,dr enver ören kültür merkezi,kültür merkezi,Bahçelievler,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-005,GES-2025-010,dr enver ören kültür merkezi,dr enver ören kültür merkezi,Bahçelievler,Bahçelievler,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-005,GES-2025-071,dr enver ören kültür merkezi,kültür merkezi,Bahçelievler,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-006,GES-2025-012,ek hizmet,ek hizmet,Bakırköy,Bakırköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-007,GES-2025-014,florya atatürk kent ormanı,florya atatürk kent ormanı,Bakırköy,Bakırköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-008,GES-2024-011,bozhane itfaiye,itfaiye,Beykoz,Büyükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-008,GES-2024-026,bozhane itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-008,GES-2025-005,bozhane itfaiye,itfaiye,Beykoz,Ataşehir,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-008,GES-2025-017,bozhane itfaiye,itfaiye,Beykoz,Başakşehir,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-008,GES-2025-020,bozhane itfaiye,bozhane itfaiye,Beykoz,Beykoz,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-008,GES-2025-048,bozhane itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-009,GES-2024-011,çavuşbaşı itfaiye,itfaiye,Beykoz,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-009,GES-2024-026,çavuşbaşı itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-009,GES-2025-005,çavuşbaşı itfaiye,itfaiye,Beykoz,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-009,GES-2025-017,çavuşbaşı itfaiye,itfaiye,Beykoz,Başakşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-009,GES-2025-021,çavuşbaşı itfaiye,çavuşbaşı itfaiye,Beykoz,Beykoz,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-009,GES-2025-048,çavuşbaşı itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-010,GES-2024-011,kumburgaz itfaiye,itfaiye,Büyükçekmece,Büyükçekmece,100.0,58.3,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-010,GES-2024-026,kumburgaz itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-010,GES-2025-005,kumburgaz itfaiye,itfaiye,Büyükçekmece,Ataşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-010,GES-2025-017,kumburgaz itfaiye,itfaiye,Büyükçekmece,Başakşehir,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-010,GES-2025-022,kumburgaz itfaiye,kumburgaz itfaiye,Büyükçekmece,Büyükçekmece,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-010,GES-2025-048,kumburgaz itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-012,itfaiye,mimar sinan itfaiye,Büyükçekmece,Büyükçekmece,100.0,53.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-011,GES-2024-013,itfaiye,ömerli itfaiye,Büyükçekmece,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-015,itfaiye,ömerli itfaiye,Büyükçekmece,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-016,itfaiye,kıraç itfaiye,Büyükçekmece,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-020,itfaiye,kemerburgaz itfaiye,Büyükçekmece,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-024,itfaiye,yakacık itfaiye,Büyükçekmece,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-026,itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2024-041,itfaiye,habipler itfaiye,Büyükçekmece,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-005,itfaiye,itfaiye,Büyükçekmece,Ataşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-017,itfaiye,itfaiye,Büyükçekmece,Başakşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-020,itfaiye,bozhane itfaiye,Büyükçekmece,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Büyükçekmece,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-022,itfaiye,kumburgaz itfaiye,Büyükçekmece,Büyükçekmece,100.0,58.3,review,A7 generic one-word key is a subset of a specific name,different,high,manual,2024 kaydı genel 'İBB Büyükçekmece İtfaiye'; 2025 kaydı özel 'Kumburgaz İtfaiye' (Kumburgaz'ın 2024 karşılığı GES-2024-010 zaten var) -> farklı istasyon
+GES-2024-011,GES-2025-023,itfaiye,mimar sinan itfaiye,Büyükçekmece,Büyükçekmece,100.0,53.8,review,A7 generic one-word key is a subset of a specific name,different,high,manual,2024 genel 'Büyükçekmece İtfaiye' ile 2025 'Mimar Sinan İtfaiye' farklı istasyonlar (Mimar Sinan'ın 2024 karşılığı GES-2024-012)
+GES-2024-011,GES-2025-024,itfaiye,kaleiçi itfaiye,Büyükçekmece,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-026,itfaiye,ömerli itfaiye,Büyükçekmece,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-028,itfaiye,turgut reis itfaiye,Büyükçekmece,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-029,itfaiye,kıraç itfaiye,Büyükçekmece,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-033,itfaiye,kemerburgaz itfaiye,Büyükçekmece,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-042,itfaiye,yakacık itfaiye,Büyükçekmece,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-048,itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Büyükçekmece,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-063,itfaiye,selimpaşa itfaiye,Büyükçekmece,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-011,GES-2025-068,itfaiye,habipler itfaiye,Büyükçekmece,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-012,GES-2024-026,mimar sinan itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-012,GES-2025-005,mimar sinan itfaiye,itfaiye,Büyükçekmece,Ataşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-012,GES-2025-017,mimar sinan itfaiye,itfaiye,Büyükçekmece,Başakşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-012,GES-2025-023,mimar sinan itfaiye,mimar sinan itfaiye,Büyükçekmece,Büyükçekmece,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-012,GES-2025-048,mimar sinan itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-013,GES-2024-015,ömerli itfaiye,ömerli itfaiye,Çekmeköy,Çekmeköy,100.0,100.0,different,"A2 same file, presumed different units",same_unit,medium,manual,"Aynı dosyada (2024) birebir aynı ad ve ilçe: Çekmeköy İBB Ömerli İtfaiye; iki ayrı satır -> aynı tesis-yıl çelişkisi, karantina (silinmez, ortalanmaz)"
+GES-2024-013,GES-2024-026,ömerli itfaiye,itfaiye,Çekmeköy,Küçükçekmece,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-013,GES-2025-005,ömerli itfaiye,itfaiye,Çekmeköy,Ataşehir,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-013,GES-2025-017,ömerli itfaiye,itfaiye,Çekmeköy,Başakşehir,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-013,GES-2025-026,ömerli itfaiye,ömerli itfaiye,Çekmeköy,Çekmeköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-013,GES-2025-048,ömerli itfaiye,itfaiye,Çekmeköy,Küçükçekmece,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-014,GES-2025-025,rahmi demir kent ormanı,rahmi demir kent ormanı,Çekmeköy,Çekmeköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-015,GES-2024-026,ömerli itfaiye,itfaiye,Çekmeköy,Küçükçekmece,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-015,GES-2025-005,ömerli itfaiye,itfaiye,Çekmeköy,Ataşehir,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-015,GES-2025-017,ömerli itfaiye,itfaiye,Çekmeköy,Başakşehir,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-015,GES-2025-026,ömerli itfaiye,ömerli itfaiye,Çekmeköy,Çekmeköy,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-015,GES-2025-048,ömerli itfaiye,itfaiye,Çekmeköy,Küçükçekmece,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-016,GES-2024-026,kıraç itfaiye,itfaiye,Esenyurt,Küçükçekmece,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-016,GES-2025-005,kıraç itfaiye,itfaiye,Esenyurt,Ataşehir,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-016,GES-2025-017,kıraç itfaiye,itfaiye,Esenyurt,Başakşehir,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-016,GES-2025-029,kıraç itfaiye,kıraç itfaiye,Esenyurt,Esenyurt,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-016,GES-2025-048,kıraç itfaiye,itfaiye,Esenyurt,Küçükçekmece,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-017,GES-2024-044,tevfik aydeniz spor kompleksi,spor kompleksi,Eyüpsultan,Şile,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2024-017,GES-2025-030,tevfik aydeniz spor kompleksi,tevfik aydeniz spor kompleksi,Eyüpsultan,Eyüpsultan,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-017,GES-2025-034,tevfik aydeniz spor kompleksi,spor kompleksi,Eyüpsultan,Fatih,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2024-017,GES-2025-072,tevfik aydeniz spor kompleksi,spor kompleksi,Eyüpsultan,Şile,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2024-018,GES-2025-009,yeşilpınar kapalı yüzme havuzu,yüzme havuzu,Eyüpsultan,Bahçelievler,100.0,57.1,different,A1 different district,different,high,auto,A1 different district
+GES-2024-018,GES-2025-031,yeşilpınar kapalı yüzme havuzu,yeşilpınar kapalı yüzme havuzu,Eyüpsultan,Eyüpsultan,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-019,GES-2025-032,edirnekapı zabıta daire başkanlığı,edirnekapı zabıta daire başkanlığı,Eyüpsultan,Eyüpsultan,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-020,GES-2024-026,kemerburgaz itfaiye,itfaiye,Eyüpsultan,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-020,GES-2025-005,kemerburgaz itfaiye,itfaiye,Eyüpsultan,Ataşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-020,GES-2025-017,kemerburgaz itfaiye,itfaiye,Eyüpsultan,Başakşehir,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-020,GES-2025-033,kemerburgaz itfaiye,kemerburgaz itfaiye,Eyüpsultan,Eyüpsultan,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-020,GES-2025-048,kemerburgaz itfaiye,itfaiye,Eyüpsultan,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-021,GES-2024-043,ali emiri kültür merkezi,kültür merkezi,Fatih,Şile,100.0,73.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-021,GES-2025-036,ali emiri kültür merkezi,ali emiri kültür merkezi,Fatih,Fatih,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-021,GES-2025-071,ali emiri kültür merkezi,kültür merkezi,Fatih,Şile,100.0,73.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-022,GES-2025-037,ismek merkezi,ismek merkezi,Gaziosmanpaşa,Gaziosmanpaşa,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-023,GES-2024-043,bülent ecevit kültür merkezi,kültür merkezi,Kartal,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-023,GES-2025-041,bülent ecevit kültür merkezi,bülent ecevit kültür merkezi,Kartal,Kartal,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-023,GES-2025-071,bülent ecevit kültür merkezi,kültür merkezi,Kartal,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-024,GES-2024-026,yakacık itfaiye,itfaiye,Kartal,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-024,GES-2025-005,yakacık itfaiye,itfaiye,Kartal,Ataşehir,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-024,GES-2025-017,yakacık itfaiye,itfaiye,Kartal,Başakşehir,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-024,GES-2025-042,yakacık itfaiye,yakacık itfaiye,Kartal,Kartal,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-024,GES-2025-048,yakacık itfaiye,itfaiye,Kartal,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-025,GES-2025-043,soğanlık gasilhane,soğanlık gasilhane,Kartal,Kartal,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-026,GES-2024-041,itfaiye,habipler itfaiye,Küçükçekmece,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-005,itfaiye,itfaiye,Küçükçekmece,Ataşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-017,itfaiye,itfaiye,Küçükçekmece,Başakşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-020,itfaiye,bozhane itfaiye,Küçükçekmece,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Küçükçekmece,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-022,itfaiye,kumburgaz itfaiye,Küçükçekmece,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-023,itfaiye,mimar sinan itfaiye,Küçükçekmece,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-024,itfaiye,kaleiçi itfaiye,Küçükçekmece,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-026,itfaiye,ömerli itfaiye,Küçükçekmece,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-028,itfaiye,turgut reis itfaiye,Küçükçekmece,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-029,itfaiye,kıraç itfaiye,Küçükçekmece,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-033,itfaiye,kemerburgaz itfaiye,Küçükçekmece,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-042,itfaiye,yakacık itfaiye,Küçükçekmece,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-048,itfaiye,itfaiye,Küçükçekmece,Küçükçekmece,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-026,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Küçükçekmece,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-063,itfaiye,selimpaşa itfaiye,Küçükçekmece,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-026,GES-2025-068,itfaiye,habipler itfaiye,Küçükçekmece,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-027,GES-2025-009,sefaköy yüzme havuzu,yüzme havuzu,Küçükçekmece,Bahçelievler,100.0,75.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-027,GES-2025-047,sefaköy yüzme havuzu,sefaköy yüzme havuzu,Küçükçekmece,Küçükçekmece,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-028,GES-2025-049,menekşe deresi parkı,menekşe deresi parkı,Küçükçekmece,Küçükçekmece,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-029,GES-2024-030,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-029,GES-2024-031,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-029,GES-2024-032,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-029,GES-2024-033,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,71.9,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-029,GES-2024-034,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,78.3,78.3,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-029,GES-2025-050,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-029,GES-2025-051,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-029,GES-2025-052,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-029,GES-2025-053,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-029,GES-2025-054,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,71.9,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-029,GES-2025-055,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,78.3,78.3,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-030,GES-2024-031,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-030,GES-2024-032,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-030,GES-2024-033,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-030,GES-2024-034,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-030,GES-2025-050,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-030,GES-2025-051,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-030,GES-2025-052,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-030,GES-2025-053,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-030,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-030,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-031,GES-2024-032,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-031,GES-2024-033,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-031,GES-2024-034,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-031,GES-2025-050,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-031,GES-2025-051,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-031,GES-2025-052,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-031,GES-2025-053,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-031,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-031,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-032,GES-2024-033,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-032,GES-2024-034,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-032,GES-2025-050,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,73.7,71.2,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-032,GES-2025-051,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-032,GES-2025-052,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-032,GES-2025-053,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-032,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-032,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-033,GES-2024-034,orhangazi şehir parkı şeflik,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,85.7,78.7,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2024-033,GES-2025-050,orhangazi şehir parkı şeflik,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,85.7,71.9,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-033,GES-2025-051,orhangazi şehir parkı şeflik,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-033,GES-2025-052,orhangazi şehir parkı şeflik,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-033,GES-2025-053,orhangazi şehir parkı şeflik,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,85.7,73.8,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-033,GES-2025-054,orhangazi şehir parkı şeflik,orhangazi şehir parkı şeflik,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-033,GES-2025-055,orhangazi şehir parkı şeflik,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,85.7,78.7,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-050,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı atletizm pisti,Maltepe,Maltepe,78.3,78.3,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-051,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-052,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-053,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,77.8,71.4,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-054,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,78.7,different,"A0 declared multi-unit site, different sub-unit",different,high,auto,"A0 declared multi-unit site, different sub-unit"
+GES-2024-034,GES-2025-055,orhangazi şehir parkı tenis alanı,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,100.0,100.0,same_unit,"A0 declared multi-unit site, same sub-unit descriptor and number",same_unit,high,auto,"A0 declared multi-unit site, same sub-unit descriptor and number"
+GES-2024-035,GES-2025-058,işitme engellileri,işitme engellileri,Sancaktepe,Sancaktepe,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-036,GES-2024-044,taha akgül spor kompleksi,spor kompleksi,Sancaktepe,Şile,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-036,GES-2025-034,taha akgül spor kompleksi,spor kompleksi,Sancaktepe,Fatih,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-036,GES-2025-059,taha akgül spor kompleksi,taha akgül spor kompleksi,Sancaktepe,Sancaktepe,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-036,GES-2025-072,taha akgül spor kompleksi,spor kompleksi,Sancaktepe,Şile,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-037,GES-2025-009,yenidoğan yüzme havuzu,yüzme havuzu,Sancaktepe,Bahçelievler,100.0,70.6,different,A1 different district,different,high,auto,A1 different district
+GES-2024-037,GES-2025-060,yenidoğan yüzme havuzu,yenidoğan yüzme havuzu,Sancaktepe,Sancaktepe,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-038,GES-2025-061,safa tepesi parkı,safa tepesi parkı,Sancaktepe,Sancaktepe,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-039,GES-2025-064,gölet parkı,gölet parkı,Sultanbeyli,Sultanbeyli,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-040,GES-2025-067,cebeci levazım ayniyat lojistik merkezi,cebeci levazım ayniyat lojistik merkezi,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-041,GES-2025-005,habipler itfaiye,itfaiye,Sultangazi,Ataşehir,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-041,GES-2025-017,habipler itfaiye,itfaiye,Sultangazi,Başakşehir,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-041,GES-2025-048,habipler itfaiye,itfaiye,Sultangazi,Küçükçekmece,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-041,GES-2025-068,habipler itfaiye,habipler itfaiye,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-042,GES-2025-069,cebeci parkı,cebeci parkı,Sultangazi,Sultangazi,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-043,GES-2025-010,kültür merkezi,dr enver ören kültür merkezi,Şile,Bahçelievler,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-043,GES-2025-036,kültür merkezi,ali emiri kültür merkezi,Şile,Fatih,100.0,73.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-043,GES-2025-041,kültür merkezi,bülent ecevit kültür merkezi,Şile,Kartal,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2024-043,GES-2025-066,kültür merkezi,hoca ahmet yesevi kültür merkezi,Şile,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2024-043,GES-2025-071,kültür merkezi,kültür merkezi,Şile,Şile,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-044,GES-2025-018,spor kompleksi,hidayet türkoğlu spor kompleksi,Şile,Bayrampaşa,100.0,62.2,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-027,spor kompleksi,kemer spor kompleksi,Şile,Esenler,100.0,82.4,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-030,spor kompleksi,tevfik aydeniz spor kompleksi,Şile,Eyüpsultan,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-034,spor kompleksi,spor kompleksi,Şile,Fatih,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-040,spor kompleksi,cemal kamacı spor kompleksi,Şile,Kağıthane,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-059,spor kompleksi,taha akgül spor kompleksi,Şile,Sancaktepe,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2024-044,GES-2025-072,spor kompleksi,spor kompleksi,Şile,Şile,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-045,GES-2025-073,muhsin ertuğrul sahnesi,muhsin ertuğrul sahnesi,Şişli,Şişli,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-046,GES-2025-075,bahar merkezi,bahar merkezi,Tuzla,Tuzla,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2024-047,GES-2025-077,büyük çamlıca korusu,büyük çamlıca korusu,Üsküdar,Üsküdar,100.0,100.0,same_unit,"A5 same district, ratio >= 90",same_unit,high,auto,"A5 same district, ratio >= 90"
+GES-2025-003,GES-2025-062,mezarlığı hizmet ve gasilhane,mezarlığı hizmet ve gasilhane,Arnavutköy,Silivri,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-017,itfaiye,itfaiye,Ataşehir,Başakşehir,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-020,itfaiye,bozhane itfaiye,Ataşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Ataşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-022,itfaiye,kumburgaz itfaiye,Ataşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-023,itfaiye,mimar sinan itfaiye,Ataşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-024,itfaiye,kaleiçi itfaiye,Ataşehir,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-026,itfaiye,ömerli itfaiye,Ataşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-028,itfaiye,turgut reis itfaiye,Ataşehir,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-029,itfaiye,kıraç itfaiye,Ataşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-033,itfaiye,kemerburgaz itfaiye,Ataşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-042,itfaiye,yakacık itfaiye,Ataşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-048,itfaiye,itfaiye,Ataşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Ataşehir,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-063,itfaiye,selimpaşa itfaiye,Ataşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-005,GES-2025-068,itfaiye,habipler itfaiye,Ataşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2025-009,GES-2025-031,yüzme havuzu,yeşilpınar kapalı yüzme havuzu,Bahçelievler,Eyüpsultan,100.0,57.1,different,A1 different district,different,high,auto,A1 different district
+GES-2025-009,GES-2025-047,yüzme havuzu,sefaköy yüzme havuzu,Bahçelievler,Küçükçekmece,100.0,75.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-009,GES-2025-060,yüzme havuzu,yenidoğan yüzme havuzu,Bahçelievler,Sancaktepe,100.0,70.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-009,GES-2025-076,yüzme havuzu,çakmak yüzme havuzu,Bahçelievler,Ümraniye,100.0,77.4,different,A1 different district,different,high,auto,A1 different district
+GES-2025-010,GES-2025-071,dr enver ören kültür merkezi,kültür merkezi,Bahçelievler,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-020,itfaiye,bozhane itfaiye,Başakşehir,Beykoz,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-021,itfaiye,çavuşbaşı itfaiye,Başakşehir,Beykoz,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-022,itfaiye,kumburgaz itfaiye,Başakşehir,Büyükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-023,itfaiye,mimar sinan itfaiye,Başakşehir,Büyükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-024,itfaiye,kaleiçi itfaiye,Başakşehir,Çatalca,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-026,itfaiye,ömerli itfaiye,Başakşehir,Çekmeköy,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-028,itfaiye,turgut reis itfaiye,Başakşehir,Esenler,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-029,itfaiye,kıraç itfaiye,Başakşehir,Esenyurt,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-033,itfaiye,kemerburgaz itfaiye,Başakşehir,Eyüpsultan,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-042,itfaiye,yakacık itfaiye,Başakşehir,Kartal,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-048,itfaiye,itfaiye,Başakşehir,Küçükçekmece,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Başakşehir,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-063,itfaiye,selimpaşa itfaiye,Başakşehir,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-017,GES-2025-068,itfaiye,habipler itfaiye,Başakşehir,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2025-018,GES-2025-034,hidayet türkoğlu spor kompleksi,spor kompleksi,Bayrampaşa,Fatih,100.0,62.2,different,A1 different district,different,high,auto,A1 different district
+GES-2025-018,GES-2025-072,hidayet türkoğlu spor kompleksi,spor kompleksi,Bayrampaşa,Şile,100.0,62.2,different,A1 different district,different,high,auto,A1 different district
+GES-2025-020,GES-2025-048,bozhane itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-021,GES-2025-048,çavuşbaşı itfaiye,itfaiye,Beykoz,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-022,GES-2025-048,kumburgaz itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-023,GES-2025-048,mimar sinan itfaiye,itfaiye,Büyükçekmece,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-024,GES-2025-048,kaleiçi itfaiye,itfaiye,Çatalca,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-026,GES-2025-048,ömerli itfaiye,itfaiye,Çekmeköy,Küçükçekmece,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-027,GES-2025-034,kemer spor kompleksi,spor kompleksi,Esenler,Fatih,100.0,82.4,different,A1 different district,different,high,auto,A1 different district
+GES-2025-027,GES-2025-072,kemer spor kompleksi,spor kompleksi,Esenler,Şile,100.0,82.4,different,A1 different district,different,high,auto,A1 different district
+GES-2025-028,GES-2025-048,turgut reis itfaiye,itfaiye,Esenler,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-029,GES-2025-048,kıraç itfaiye,itfaiye,Esenyurt,Küçükçekmece,100.0,70.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-030,GES-2025-034,tevfik aydeniz spor kompleksi,spor kompleksi,Eyüpsultan,Fatih,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2025-030,GES-2025-072,tevfik aydeniz spor kompleksi,spor kompleksi,Eyüpsultan,Şile,100.0,65.1,different,A1 different district,different,high,auto,A1 different district
+GES-2025-033,GES-2025-048,kemerburgaz itfaiye,itfaiye,Eyüpsultan,Küçükçekmece,100.0,53.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-034,GES-2025-040,spor kompleksi,cemal kamacı spor kompleksi,Fatih,Kağıthane,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-034,GES-2025-059,spor kompleksi,taha akgül spor kompleksi,Fatih,Sancaktepe,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-034,GES-2025-072,spor kompleksi,spor kompleksi,Fatih,Şile,100.0,100.0,different,A1 different district,different,high,auto,A1 different district
+GES-2025-036,GES-2025-071,ali emiri kültür merkezi,kültür merkezi,Fatih,Şile,100.0,73.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-040,GES-2025-072,cemal kamacı spor kompleksi,spor kompleksi,Kağıthane,Şile,100.0,68.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-041,GES-2025-071,bülent ecevit kültür merkezi,kültür merkezi,Kartal,Şile,100.0,66.7,different,A1 different district,different,high,auto,A1 different district
+GES-2025-042,GES-2025-048,yakacık itfaiye,itfaiye,Kartal,Küçükçekmece,100.0,63.6,different,A1 different district,different,high,auto,A1 different district
+GES-2025-044,GES-2025-045,yakacık çocuk eğitim merkezi,yunus çocuk eğitim merkezi,Kartal,Kartal,87.0,81.5,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-048,GES-2025-057,itfaiye,yenişehir itfaiye eğitim,Küçükçekmece,Pendik,100.0,45.2,different,A1 different district,different,high,auto,A1 different district
+GES-2025-048,GES-2025-063,itfaiye,selimpaşa itfaiye,Küçükçekmece,Silivri,100.0,58.3,different,A1 different district,different,high,auto,A1 different district
+GES-2025-048,GES-2025-068,itfaiye,habipler itfaiye,Küçükçekmece,Sultangazi,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2025-050,GES-2025-051,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-050,GES-2025-052,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-050,GES-2025-053,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,73.7,71.2,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-050,GES-2025-054,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,71.9,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-050,GES-2025-055,orhangazi şehir parkı atletizm pisti,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,78.3,78.3,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-051,GES-2025-052,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-051,GES-2025-053,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-051,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-051,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-052,GES-2025-053,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı su deposu üzeri,Maltepe,Maltepe,100.0,100.0,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-052,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-052,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-053,GES-2025-054,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı şeflik,Maltepe,Maltepe,85.7,73.8,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-053,GES-2025-055,orhangazi şehir parkı su deposu üzeri,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,77.8,71.4,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-054,GES-2025-055,orhangazi şehir parkı şeflik,orhangazi şehir parkı tenis alanı,Maltepe,Maltepe,85.7,78.7,different,"A2 same file, presumed different units",different,high,auto,"A2 same file, presumed different units"
+GES-2025-059,GES-2025-072,taha akgül spor kompleksi,spor kompleksi,Sancaktepe,Şile,100.0,71.8,different,A1 different district,different,high,auto,A1 different district
+GES-2025-066,GES-2025-071,hoca ahmet yesevi kültür merkezi,kültür merkezi,Sultangazi,Şile,100.0,60.9,different,A1 different district,different,high,auto,A1 different district
+GES-2022-003,GES-2025-013,ataköy kadın ve aile hizmetleri müdürlüğü,ataköy sosyal hizmetler daire başkanlığı,,,,,,,same_group,medium,manual (not a candidate),"2025 'Ataköy Sosyal Hizmetler Daire Başkanlığı' etapsız kayıt; aynı Ataköy sosyal hizmet yerleşkesi olabilir -> etap/bütün ilişkisi, aynı grup"
+GES-2023-009,GES-2025-013,ataköy kadın koordinasyon müdürlüğü,ataköy sosyal hizmetler daire başkanlığı,,,,,,,same_group,medium,manual (not a candidate),Ataköy Etap 2 ile 2025 etapsız Ataköy sosyal hizmet kaydı; etap/bütün ilişkisi
