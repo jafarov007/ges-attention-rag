@@ -1,0 +1,9 @@
+component,rule,parameters
+"Q,K,V,O projections (with bias)",4(d^2 + d),4224
+FFN 32->64->32,(d d_ff + d_ff) + (d_ff d + d),4192
+2 x LayerNorm,2 x 2d,128
+one block,,8544
+two blocks,,17088
+final LayerNorm (Pre-LN),2d,64
+regression head 32->32->1,(32*32+32)+(32+1),1089
+token embedding,V x 32,depends on train vocabulary

@@ -1,0 +1,4 @@
+n,elements_per_head,elements_4_heads,attention_flops_QK,ffn_flops
+16,256,1024,8192,65536
+64,4096,16384,131072,262144
+256,65536,262144,2097152,1048576
