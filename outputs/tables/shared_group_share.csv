@@ -1,0 +1,3 @@
+split,share_test_records_with_group_in_train
+row KFold (random rows),0.7281720430107528
+GroupKFold (entity groups),0.0
