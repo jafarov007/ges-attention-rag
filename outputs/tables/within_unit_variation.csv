@@ -1,0 +1,67 @@
+unit_id,name,years,powers,max_abs_diff,rel_diff
+U024,Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,"2023,2024,2025","100,106,88",18.0,0.1836734693877551
+U009,Hoşdere Park Alanı (Millet Bahçesi) Güneş Enerji Santrali,"2022,2025","120,135",15.0,0.11764705882352941
+U059,İşitme Engellileri Bina Çatısı Güneş Enerji Santrali,"2024,2025","89,98",9.0,0.0962566844919786
+U023,Turgut Reis İtfaiye Bina Çatısı Güneş Enerji Santrali,"2023,2025","25,33",8.0,0.27586206896551724
+U021,İtfaiye Bina Çatısı Güneş Enerji Santrali,"2023,2025","25,33",8.0,0.27586206896551724
+U035,Çavuşbaşı İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","33,28",5.0,0.16393442622950818
+U049,Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali,"2024,2025","29,24",5.0,0.18867924528301888
+U048,Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","33,29",4.0,0.12903225806451613
+U022,Selimpaşa İtfaiye Bina Çatısı Güneş Enerji Santrali,"2023,2025","25,28",3.0,0.11320754716981132
+U070,Bahar Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","458,461",3.0,0.006528835690968444
+U071,Büyük Çamlıca Korusu Güneş Enerji Santrali,"2024,2025","7,5",2.0,0.3333333333333333
+U056,Orhangazi Şehir Parkı - Su Deposu Üzeri (3) Güneş Enerji Santrali,"2024,2025","59,57",2.0,0.034482758620689655
+U034,Bozhane İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","29,31",2.0,0.06666666666666667
+U019,Kayışdağı İBB Darulacize Ana Kampüsü Çatısı Güneş Enerji Santrali,"2022,2025","50,48",2.0,0.04081632653061224
+U047,Bülent Ecevit Kültür Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","149,148",1.0,0.006734006734006734
+U043,Edirnekapı Zabıta Daire Başkanlığı Bina Çatısı Güneş Enerji Santrali,"2024,2025","100,99",1.0,0.010050251256281407
+U032,İBB Ek Hizmet Bina Çatısı Güneş Enerji Santrali,"2024,2025","313,314",1.0,0.003189792663476874
+U005,Kaleiçi İtfaiye Bina Çatısı Güneş Enerji Santrali,"2022,2025","64,63",1.0,0.015748031496062992
+U066,Cebeci Parkı Güneş Enerji Santrali,"2024,2025","7,8",1.0,0.13333333333333333
+U016,Tepeören Hayvan Barınağı Güneş Enerji Santrali,"2022,2025","452,451",1.0,0.0022148394241417496
+U018,Hoca Ahmet Yesevi Kültür Merkezi Çatısı Güneş Enerji Santrali,"2022,2023,2025","303,303,304",1.0,0.0032967032967032967
+U062,Safa Tepesi Parkı Güneş Enerji Santrali,"2024,2025","6,5",1.0,0.18181818181818182
+U020,Sahil Tuvaleti Çatısı Güneş Enerji Santrali,"2023,2025","8.5,9",0.5,0.05714285714285714
+U002,Kemer Spor Kompleksi Çatısı Güneş Enerji Santrali,"2022,2025","105.6,106",0.4000000000000057,0.003780718336483986
+U026,Maçka Deprem Parkı Tuvaleti Çatısı Güneş Enerji Santrali,"2023,2025","6.6,7",0.40000000000000036,0.05882352941176476
+U027,Topkapı Deprem (Kültür) Parkı Tuvalet Çatısı Güneş Enerji Santrali,"2023,2025","6.6,7",0.40000000000000036,0.05882352941176476
+U015,Silivri Kapı Buz Pisti Çatısı Güneş Enerji Santrali,"2022,2025","574.2,574",0.20000000000004547,0.00034837136387396876
+U054,Orhangazi Şehir Parkı - Su Deposu Üzeri (1) Güneş Enerji Santrali,"2024,2025","70,70",0.0,0.0
+U064,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","484,484",0.0,0.0
+U050,İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","31,31",0.0,0.0
+U051,Sefaköy Yüzme Havuzu Çatısı Güneş Enerji Santrali,"2024,2025","118,118",0.0,0.0
+U052,Menekşe Deresi Parkı Güneş Enerji Santrali,"2024,2025","5,5",0.0,0.0
+U063,Gölet Parkı Güneş Enerji Santrali,"2024,2025","6,6",0.0,0.0
+U053,Orhangazi Şehir Parkı - Atletizm Pisti Çatısı Güneş Enerji Santrali,"2024,2025","39,39",0.0,0.0
+U067,Kültür Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","157,157",0.0,0.0
+U055,Orhangazi Şehir Parkı - Su Deposu Üzeri (2) Güneş Enerji Santrali,"2024,2025","78,78",0.0,0.0
+U068,Spor Kompleksi Çatısı Güneş Enerji Santrali,"2024,2025","226,226",0.0,0.0
+U057,Orhangazi Şehir Parkı - Şeflik Bina Çatısı Güneş Enerji Santrali,"2024,2025","20,20",0.0,0.0
+U058,Orhangazi Şehir Parkı - Tenis Alanı Çatısı Güneş Enerji Santrali,"2024,2025","60,60",0.0,0.0
+U069,Muhsin Ertuğrul Sahnesi Çatısı Güneş Enerji Santrali,"2024,2025","196,196",0.0,0.0
+U065,Habipler İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","29,29",0.0,0.0
+U061,Yenidoğan Yüzme Havuzu Çatısı Güneş Enerji Santrali,"2024,2025","118,118",0.0,0.0
+U060,Taha Akgül Spor Kompleksi Çatısı Güneş Enerji Santrali,"2024,2025","118,118",0.0,0.0
+U000,İstanbul Planlama Ajansı Çatısı Güneş Enerji Santrali,"2022,2025","20,20",0.0,0.0
+U046,İSMEK Bina Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","88,88",0.0,0.0
+U045,Ali Emiri Kültür Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","85,85",0.0,0.0
+U003,Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali,"2022,2025","28,28",0.0,0.0
+U004,Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali,"2022,2025","95,95",0.0,0.0
+U006,Çakmak Yüzme Havuzu Çatısı Güneş Enerji Santrali,"2022,2025","112,112",0.0,0.0
+U007,75. Yıl Spor Salonu Çatısı Güneş Enerji Santrali,"2022,2025","106,106",0.0,0.0
+U008,Yüzme Havuzu Çatısı Güneş Enerji Santrali,"2022,2025","63,63",0.0,0.0
+U011,Başakşehir Engelliler Merkezi (2) Bina Çatısı Güneş Enerji Santrali (GES),"2022,2023","80,80",0.0,0.0
+U012,Engelliler Yaz Kampı Güneş Enerji Santrali,"2022,2025","215,215",0.0,0.0
+U014,Spor Kompleksi Çatısı Güneş Enerji Santrali,"2022,2025","550,550",0.0,0.0
+U017,Davet ve Toplantı Salonu Çatısı Güneş Enerji Santrali,"2022,2023,2025","305,305,305",0.0,0.0
+U028,İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","28,28",0.0,0.0
+U029,Deniz Gezmiş Parkı Güneş Enerji Santrali,"2024,2025","5,5",0.0,0.0
+U030,Azerbaycan Dostluk Parkı Güneş Enerji Santrali,"2024,2025","9,9",0.0,0.0
+U031,Dr. Enver Ören Kültür Merkezi Çatısı Güneş Enerji Santrali,"2024,2025","180,180",0.0,0.0
+U033,Florya Atatürk Kent Ormanı Güneş Enerji Santrali,"2024,2025","7,7",0.0,0.0
+U037,Mimar Sinan İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","23,23",0.0,0.0
+U040,Kıraç İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","28,28",0.0,0.0
+U041,Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali,"2024,2025","78,78",0.0,0.0
+U042,Yeşilpınar Kapalı Yüzme Havuzu Çatısı Güneş Enerji Santrali,"2024,2025","78,78",0.0,0.0
+U044,Kemerburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali,"2024,2025","28,28",0.0,0.0
+U039,Rahmi Demir Kent Ormanı Güneş Enerji Santrali,"2024,2025","3,3",0.0,0.0
