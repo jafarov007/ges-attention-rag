@@ -1,0 +1,25 @@
+system,error_class,n
+R0,gereksiz ret,12
+R0,gereksiz ret + alakasız içerik,1
+R0,gereksiz ret + halüsinasyon,1
+R0,gerekçesiz yanıt,1
+R0,halüsinasyon,2
+R1,atıf yok,3
+R1,bozuk atıf,1
+R1,dosya yılı = kurulum tarihi hatası,1
+R1,getirme/ret,1
+R1,halüsinasyonlu hesap,1
+R1,ilk-k sayım hatası,1
+R1,ilk-k sınırı,2
+R1,ilk-k toplam hatası,2
+R1,kendisiyle çelişen yanıt,1
+R1,çelişkiyi tek değere indirgeme,2
+R1,çok anlamlı eşleşmeyi tek değere indirgeme,1
+R2,"araç doğru, aktarım eksik",1
+R2,"araç doğru, aktarım yanlış",2
+R2,atıf yok,4
+R2,bozuk atıf,1
+R2,planlayıcı yanlış filtre,2
+R2,planlayıcı yanlış filtre + tek değer,1
+R2,planlayıcı yanlış yıl + tek değer,1
+R2,planlayıcı şema ihlali,2

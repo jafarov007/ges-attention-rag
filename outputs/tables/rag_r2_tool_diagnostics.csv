@@ -1,0 +1,21 @@
+qid,category,plan_valid,tool_result_correct,plan_error
+T01,single,True,False,
+T02,single,True,True,
+T03,single,True,False,
+T04,single,True,True,
+T05,single,True,False,
+T06,single,True,False,
+T07,aggregate,True,False,
+T08,aggregate,True,True,
+T09,aggregate,True,True,
+T10,aggregate,False,False,ValueError: filters not allowed: {'power_kwp'}
+T11,aggregate,True,True,
+T12,aggregate,False,False,ValueError: filters not allowed: {'power_kwp'}
+T13,conflict,True,False,
+T14,conflict,True,False,
+T15,conflict,True,False,
+T16,conflict,True,True,
+T17,unanswerable,True,True,
+T18,unanswerable,True,True,
+T19,unanswerable,True,False,
+T20,unanswerable,True,True,

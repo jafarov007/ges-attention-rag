@@ -140,7 +140,82 @@ def load_gold(split):
     return [q for q in qs if q["split"] == split]
 
 
+def manual_report():
+    """Final metrics from the hand-written labels (outputs/tables/rag_manual_review.csv)."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from common import FIG
+
+    sc = pd.read_csv(OUT_TABLES / "rag_test_answers.csv")
+    man = pd.read_csv(OUT_TABLES / "rag_manual_review.csv")
+    m = sc.merge(man, on=["qid", "system"], validate="one_to_one")
+    m["correct"], m["abstained"] = m.manual_correct.astype(bool), m.manual_abstained.astype(bool)
+    final = summarise(m.assign(auto_correct=m.correct), correct_col="correct")
+    for cat in ["single", "aggregate", "conflict", "unanswerable"]:
+        final[f"acc_{cat}"] = [ratio(m[(m.system == s) & (m.category == cat)].correct.sum(),
+                                     ((m.system == s) & (m.category == cat)).sum()) for s in final.system]
+    final["auto_vs_manual_agreement"] = [round((m[m.system == s].auto_correct == m[m.system == s].correct).mean(), 3)
+                                         for s in final.system]
+    final.to_csv(OUT_TABLES / "rag_test_metrics_final.csv", index=False)
+    ec = (m[m.error_class.notna() & (m.error_class != "")].groupby(["system", "error_class"]).size()
+          .rename("n").reset_index())
+    ec.to_csv(OUT_TABLES / "rag_error_classes.csv", index=False)
+    # tool-level diagnostics for R2 (was the code result itself right?)
+    gold = {q["qid"]: q for q in load_gold("test")}
+    tool_rows = []
+    for q in gold.values():
+        run = json.load(open(RUNS / f"test_R2_{q['qid']}.json", encoding="utf-8"))
+        t = run.get("tool")
+        res = None if t is None else t.get("result")
+        ok = None
+        if q["category"] == "aggregate" and q["gold_numeric"] is not None:
+            vals = numbers(json.dumps(res, ensure_ascii=False)) if res is not None else []
+            ok = any(abs(v - q["gold_numeric"]) <= (q["tolerance"] or 0) + 1e-9 for v in vals)
+        elif q["evidence_record_ids"]:
+            ok = t is not None and set(q["evidence_record_ids"]) <= set(t.get("record_ids", []))
+        elif not q["answerable"]:
+            ok = t is not None and (t.get("intent") == "unanswerable" or t.get("n_rows", 0) == 0)
+        tool_rows.append(dict(qid=q["qid"], category=q["category"], plan_valid=run.get("plan_error") is None,
+                              tool_result_correct=ok, plan_error=run.get("plan_error")))
+    tool = pd.DataFrame(tool_rows)
+    tool.to_csv(OUT_TABLES / "rag_r2_tool_diagnostics.csv", index=False)
+
+    cats = ["single", "aggregate", "conflict", "unanswerable"]
+    fig, ax = plt.subplots(1, 2, figsize=(10.5, 3.3))
+    w = 0.25
+    for i, (s, c) in enumerate(zip(["R0", "R1", "R2"], ["#8C8C8C", "#4C72B0", "#55A868"])):
+        vals = [m[(m.system == s) & (m.category == k)].correct.mean() for k in cats]
+        ax[0].bar(np.arange(4) + (i - 1) * w, vals, w, label=s, color=c)
+    ax[0].set_xticks(range(4), [f"{k}\n(n={(m[m.system == 'R0'].category == k).sum()})" for k in cats])
+    ax[0].set_ylim(0, 1.05); ax[0].set_ylabel("accuracy (manual labels)"); ax[0].legend(fontsize=7)
+    ax[0].set_title("Locked test set: accuracy by question type", fontsize=9)
+    labs = ["accuracy", "correct\nabstention", "unnecessary\nrefusal"]
+    for i, (s, c) in enumerate(zip(["R0", "R1", "R2"], ["#8C8C8C", "#4C72B0", "#55A868"])):
+        r = final[final.system == s].iloc[0]
+        vals = [float(r.accuracy), float(r.correct_abstention), float(r.unnecessary_refusal)]
+        ax[1].bar(np.arange(3) + (i - 1) * w, vals, w, label=s, color=c)
+    ax[1].set_xticks(range(3), labs); ax[1].set_ylim(0, 1.05); ax[1].legend(fontsize=7)
+    ax[1].set_title("Overall (20 locked questions, Qwen2.5-1.5B-Instruct, k=3)", fontsize=9)
+    fig.tight_layout(); fig.savefig(FIG / "fig33_rag_results.png", bbox_inches="tight"); plt.close(fig)
+
+    agg = tool[tool.category == "aggregate"]
+    fig, ax = plt.subplots(figsize=(6, 3))
+    stages = ["plan valid", "tool result correct", "final answer correct"]
+    vals = [agg.plan_valid.sum(), agg.tool_result_correct.sum(),
+            m[(m.system == "R2") & (m.category == "aggregate")].correct.sum()]
+    ax.bar(stages, vals, color=["#4C72B0", "#55A868", "#C44E52"])
+    for i, v in enumerate(vals):
+        ax.text(i, v + 0.1, f"{v}/6", ha="center")
+    ax.set_ylim(0, 6.5); ax.set_ylabel("aggregate questions")
+    ax.set_title("R2 on aggregate questions: where the pipeline loses answers", fontsize=9)
+    fig.tight_layout(); fig.savefig(FIG / "fig34_rag_r2_pipeline.png", bbox_inches="tight"); plt.close(fig)
+    print(final.to_string(index=False)); print(ec.to_string(index=False)); print(tool.to_string(index=False))
+
+
 def main(mode):
+    if mode == "manual":
+        return manual_report()
     from llm import LocalLLM
     from systems import Systems
 

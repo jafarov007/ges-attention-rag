@@ -1,0 +1,61 @@
+qid,system,manual_correct,manual_abstained,error_class,note
+T01,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T02,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T03,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T04,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T05,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T06,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T07,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T08,R0,False,True,gereksiz ret + alakasız içerik,ret sonrası genel ve uydurma maddeler
+T09,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T10,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T11,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T12,R0,False,True,gereksiz ret + halüsinasyon,ret sonrası uydurma kWh/üretim sayıları
+T15,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T16,R0,False,True,gereksiz ret,kanıt erişimi yok; 'bu bilgiye ulaşamadım' türü ret
+T13,R0,False,False,gerekçesiz yanıt,"'Hayır' diyor ama değerleri/kaynağı yok, gerekçe uydurma"
+T14,R0,False,False,halüsinasyon,'Kumburgaz ilçesi' diye bir ilçe uyduruyor
+T17,R0,True,True,,çekimser (otomatik puanlayıcı ifadeyi kaçırdı)
+T18,R0,False,False,halüsinasyon,'2019 yılında devreye girdi' uydurma tarih
+T19,R0,True,True,,çekimser (otomatik puanlayıcı kaçırdı)
+T20,R0,True,True,,çekimser
+T01,R1,True,False,,458 kWp + doğru atıf
+T02,R1,True,False,atıf yok,"doğru değer, kaynak gösterilmemiş"
+T03,R1,True,False,bozuk atıf,21 kWp doğru; record_id yerine uydurma kimlik formatı
+T04,R1,False,True,kendisiyle çelişen yanıt,"8,5 kWp verip ardından 'bu bilgi yok' diyor"
+T05,R1,True,False,atıf yok,78 kWp doğru
+T06,R1,True,False,atıf yok,Aktif doğru
+T07,R1,False,True,ilk-k sınırı,15 pasif kaydı sayamaz; ret
+T08,R1,False,False,ilk-k toplam hatası,"3 kaydı topluyor (119), gerçek 326"
+T09,R1,False,False,ilk-k sayım hatası,"3 diyor, gerçek 5; bir kaydı tekrar sayıyor"
+T10,R1,False,False,ilk-k toplam hatası,"3 kaydın toplamı, gerçek 3834,8"
+T11,R1,False,False,halüsinasyonlu hesap,alakasız iki değerin farkı
+T12,R1,False,True,ilk-k sınırı,ret
+T13,R1,False,True,getirme/ret,Ömerli kayıtları getirildi mi bakılmadan ret; çelişki raporlanmadı
+T14,R1,False,False,çelişkiyi tek değere indirgeme,yalnız Büyükçekmece; 2023 Silivri kaydı yok
+T15,R1,False,False,çelişkiyi tek değere indirgeme,3 kaydı listeleyip '80 kWp' diye tek değer seçiyor; 2025 179 kWp eksik
+T16,R1,False,False,çok anlamlı eşleşmeyi tek değere indirgeme,yalnız Arnavutköy 28; Silivri 95 yok
+T17,R1,True,True,,doğru çekimserlik
+T18,R1,False,False,dosya yılı = kurulum tarihi hatası,'2024/2025 yılında devreye alındı' - ödevin uyardığı tuzak
+T19,R1,True,True,,doğru çekimserlik
+T20,R1,True,True,,doğru çekimserlik
+T01,R2,True,False,,458 kWp + atıf (araç 0 satır döndü: 'Tuzla' ad filtresinde; yanıt BM25 kanıtından)
+T02,R2,True,False,atıf yok,araç doğru kaydı buldu
+T03,R2,True,False,bozuk atıf,21 kWp doğru; kimlik formatı bozuk
+T04,R2,True,False,atıf yok,"8,5 kWp"
+T05,R2,True,False,atıf yok,78 kWp; sonda anlamsız koşul cümlesi
+T06,R2,True,False,atıf yok,Aktif
+T07,R2,False,True,planlayıcı yanlış filtre,district='Durum' -> 0 satır -> ret
+T08,R2,False,False,"araç doğru, aktarım yanlış",araç 326 kWp (6 kayıt) hesapladı; LLM 129 yazdı
+T09,R2,False,False,"araç doğru, aktarım yanlış",araç 5 dedi; LLM 3 yazdı ve 2024 kaydına atıf yaptı
+T10,R2,False,False,planlayıcı şema ihlali,'power_kwp' filtresi beyaz listede yok -> doğrulayıcı reddetti -> LLM ilk-k toplamı yaptı
+T11,R2,True,False,,"compare_years: 2850,1 kWp"
+T12,R2,False,True,planlayıcı şema ihlali,'power_kwp: {$gte: 300}' reddedildi (min_power kullanmalıydı) -> ret
+T13,R2,False,True,planlayıcı yanlış filtre,ilçe adını name_contains'e koydu -> 0 satır -> ret
+T14,R2,False,False,planlayıcı yanlış filtre + tek değer,tesis adını district'e koydu; yanıt BM25'ten tek ilçe
+T15,R2,False,False,planlayıcı yanlış yıl + tek değer,file_year=2022 ekledi; tek değer (99) verdi
+T16,R2,False,False,"araç doğru, aktarım eksik",araç 2 kayıt (28 ve 95) döndürdü; LLM yalnız 28 yazdı
+T17,R2,True,True,,doğru çekimserlik
+T18,R2,True,True,,doğru çekimserlik
+T19,R2,True,True,,doğru çekimserlik
+T20,R2,True,True,,planlayıcı 'unanswerable' seçti

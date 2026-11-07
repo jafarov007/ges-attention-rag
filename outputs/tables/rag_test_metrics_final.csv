@@ -1,0 +1,4 @@
+system,questions,accuracy,numeric_accuracy,aggregate_accuracy,recall_at_k_single,citation_accuracy,evidence_coverage,correct_abstention,unnecessary_refusal,mean_seconds,acc_single,acc_aggregate,acc_conflict,acc_unanswerable,auto_vs_manual_agreement
+R0,20,0.15,0.0,0.0,uygulanamaz,uygulanamaz,0.0,0.75,0.875,3.41,0.0,0.0,0.0,0.75,0.9
+R1,20,0.4,0.455,0.0,1.0,1.0,0.686,0.75,0.25,2.19,0.833,0.0,0.0,0.75,0.95
+R2,20,0.55,0.545,0.167,1.0,0.833,0.696,1.0,0.188,3.7,1.0,0.167,0.0,1.0,1.0
