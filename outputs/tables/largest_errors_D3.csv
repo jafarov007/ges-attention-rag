@@ -1,0 +1,9 @@
+record_id,district,name,file_year,y,y_hat,B1_pred,abs_err,type,group_size,district_in_vocab,quality_flag
+GES-2025-035,Fatih,Silivri Kapı Buz Pisti Çatısı Güneş Enerji Santrali,2025,574.0,48.1,45.6,525.9,Sports / pool,repeated facility,district -> [UNK],ok
+GES-2022-017,Fatih,Silivri Kapı Buz Pisti,2022,574.2,58.7,52.8,515.5,Sports / pool,repeated facility,district -> [UNK],whitespace_fixed
+GES-2022-016,Fatih,Fatih Spor Kompleksi,2022,550.0,107.3,87.7,442.7,Sports / pool,repeated facility,district -> [UNK],whitespace_fixed
+GES-2025-034,Fatih,Spor Kompleksi Çatısı Güneş Enerji Santrali,2025,550.0,109.7,81.9,440.3,Sports / pool,repeated facility,district -> [UNK],ok
+GES-2024-040,Sultangazi,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,2024,484.0,46.4,37.9,437.6,Other building,repeated facility,district token known,whitespace_fixed
+GES-2025-067,Sultangazi,Cebeci Levazım Ayniyat Lojistik Merkezi Çatısı Güneş Enerji Santrali,2025,484.0,51.0,40.1,433.0,Other building,repeated facility,district token known,ok
+GES-2025-056,Pendik,Tepeören Hayvan Barınağı Güneş Enerji Santrali,2025,451.0,37.7,68.4,413.3,Other building,repeated facility,district -> [UNK],ok
+GES-2022-018,Pendik,Tepeören Hayvan Barınağı,2022,452.0,73.9,100.7,378.1,Other building,repeated facility,district -> [UNK],whitespace_fixed

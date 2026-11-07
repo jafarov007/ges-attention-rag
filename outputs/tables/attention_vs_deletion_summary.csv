@@ -1,0 +1,3 @@
+model,records,median_spearman,mean_spearman,top_token_agreement
+D2,151,0.833,0.756,0.709
+D3,151,0.405,0.353,0.404

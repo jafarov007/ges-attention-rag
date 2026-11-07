@@ -1,0 +1,91 @@
+model,factor,level,n,mae,mean_signed_error
+B0,file_year,2022,20,139.09,-125.39
+B0,file_year,2023,11,78.8,-19.29
+B0,file_year,2024,44,70.05,-18.25
+B0,file_year,2025,76,90.14,-42.18
+B1,file_year,2022,20,147.48,-92.6
+B1,file_year,2023,11,74.73,-45.37
+B1,file_year,2024,44,64.88,-26.17
+B1,file_year,2025,76,84.47,-41.94
+D1,file_year,2022,20,158.1,-83.27
+D1,file_year,2023,11,74.51,-39.88
+D1,file_year,2024,44,58.14,-35.35
+D1,file_year,2025,76,81.62,-46.2
+D2,file_year,2022,20,142.44,-89.99
+D2,file_year,2023,11,69.25,-36.17
+D2,file_year,2024,44,56.72,-17.49
+D2,file_year,2025,76,81.28,-35.04
+D3,file_year,2022,20,150.0,-82.45
+D3,file_year,2023,11,73.49,-45.31
+D3,file_year,2024,44,54.66,-29.96
+D3,file_year,2025,76,78.42,-42.99
+B0,district_in_vocab,district -> [UNK],45,149.13,-95.99
+B0,district_in_vocab,district token known,106,64.82,-22.73
+B1,district_in_vocab,district -> [UNK],45,138.21,-92.12
+B1,district_in_vocab,district token known,106,64.4,-24.01
+D1,district_in_vocab,district -> [UNK],45,134.57,-101.35
+D1,district_in_vocab,district token known,106,63.09,-24.62
+D2,district_in_vocab,district -> [UNK],45,135.3,-87.57
+D2,district_in_vocab,district token known,106,58.44,-15.94
+D3,district_in_vocab,district -> [UNK],45,131.1,-101.44
+D3,district_in_vocab,district token known,106,59.18,-20.45
+B0,power_bin,<=10,25,67.75,67.75
+B0,power_bin,10-50,41,40.23,40.23
+B0,power_bin,50-150,52,30.79,-27.6
+B0,power_bin,>150,33,261.73,-261.73
+B1,power_bin,<=10,25,33.82,33.82
+B1,power_bin,10-50,41,28.8,26.08
+B1,power_bin,50-150,52,50.55,-6.96
+B1,power_bin,>150,33,254.29,-249.79
+D1,power_bin,<=10,25,27.11,27.11
+D1,power_bin,10-50,41,20.86,19.86
+D1,power_bin,50-150,52,56.0,-7.44
+D1,power_bin,>150,33,251.46,-250.78
+D2,power_bin,<=10,25,35.39,35.3
+D2,power_bin,10-50,41,23.61,23.37
+D2,power_bin,50-150,52,49.89,-2.87
+D2,power_bin,>150,33,237.47,-221.87
+D3,power_bin,<=10,25,15.56,15.34
+D3,power_bin,10-50,41,24.31,21.74
+D3,power_bin,50-150,52,51.9,-0.95
+D3,power_bin,>150,33,245.11,-241.16
+B0,type,Culture / events,16,142.25,-142.25
+B0,type,Fire station,32,35.84,28.5
+B0,type,Other building,37,116.43,-90.38
+B0,type,Park / forest,34,48.69,39.34
+B0,type,Sports / pool,26,145.53,-144.99
+B0,type,Toilet,6,68.55,68.55
+B1,type,Culture / events,16,144.82,-111.22
+B1,type,Fire station,32,26.37,3.56
+B1,type,Other building,37,124.76,-84.27
+B1,type,Park / forest,34,35.97,22.78
+B1,type,Sports / pool,26,149.34,-109.39
+B1,type,Toilet,6,27.2,27.2
+D1,type,Culture / events,16,141.73,-133.14
+D1,type,Fire station,32,20.52,-1.43
+D1,type,Other building,37,130.32,-80.28
+D1,type,Park / forest,34,27.65,11.94
+D1,type,Sports / pool,26,146.76,-102.75
+D1,type,Toilet,6,40.2,40.2
+D2,type,Culture / events,16,128.66,-82.58
+D2,type,Fire station,32,18.53,-4.51
+D2,type,Other building,37,124.55,-70.23
+D2,type,Park / forest,34,31.77,16.86
+D2,type,Sports / pool,26,142.7,-91.24
+D2,type,Toilet,6,38.8,38.8
+D3,type,Culture / events,16,128.78,-109.91
+D3,type,Fire station,32,19.48,-6.69
+D3,type,Other building,37,130.52,-82.73
+D3,type,Park / forest,34,22.93,10.51
+D3,type,Sports / pool,26,146.47,-81.89
+D3,type,Toilet,6,12.08,12.08
+B0,group_size,repeated facility,142,91.94,-48.01
+B0,group_size,single record,9,58.44,9.78
+B1,group_size,repeated facility,142,89.64,-48.43
+B1,group_size,single record,9,35.26,20.81
+D1,group_size,repeated facility,142,86.84,-51.21
+D1,group_size,single record,9,45.8,11.27
+D2,group_size,repeated facility,142,82.71,-41.22
+D2,group_size,single record,9,59.76,24.71
+D3,group_size,repeated facility,142,83.23,-48.64
+D3,group_size,single record,9,39.45,19.38
