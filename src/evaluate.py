@@ -59,7 +59,7 @@ def training_figures():
                 ax[c].text(j, i, f"{t.values[i, j]:.1f}", ha="center", va="center", color="white", fontsize=9)
         ax[c].set_title(f"{m}: mean inner-val facility MAE", fontsize=8)
     save(fig, "fig21_hyperparameter_grid.png")
-    agg.round(3).to_csv(OUT_TABLES / "hyperparameter_grid_mean.csv", index=False)
+    agg.assign(inner_val_fac_mae=agg.inner_val_fac_mae.round(3)).to_csv(OUT_TABLES / "hyperparameter_grid_mean.csv", index=False)
 
     fig, ax = plt.subplots(figsize=(6, 3))
     for i, m in enumerate(["D1", "D2", "D3"]):
@@ -215,6 +215,18 @@ def main():
     ax.set_xticks(range(5)); ax.set_xlabel("outer fold"); ax.set_ylabel("facility MAE (kWp)")
     ax.set_title("Fold-to-fold spread dominates seed-to-seed spread", fontsize=9); ax.legend(fontsize=7, ncol=4)
     save(fig, "fig28_fold_seed_spread.png")
+
+    nn = main_tab[main_tab.model.isin(["D1", "D2", "D3"])].reset_index(drop=True)
+    fig, ax = plt.subplots(1, 3, figsize=(10, 2.9))
+    for a, col, t in [(ax[0], "params_mean", "parameters (incl. embedding)"),
+                      (ax[1], "train_seconds_per_model", "seconds per final fit (CPU, 1 thread)"),
+                      (ax[2], "epochs_median", "transferred epochs (median)")]:
+        a.bar(nn.model, nn[col], color=[COL[m] for m in nn.model])
+        for i, v in enumerate(nn[col]):
+            a.text(i, v * 1.02, f"{v:,.0f}" if v > 10 else f"{v:.2f}", ha="center", fontsize=8)
+        a.set_title(t, fontsize=8)
+    fig.suptitle("Model size and training cost (outer-train refits, 15 per model)", fontsize=9)
+    save(fig, "fig32_model_size_time.png")
 
     print(main_tab.round(3).to_string(index=False))
     print(bs.round(3).to_string(index=False))
