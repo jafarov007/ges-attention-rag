@@ -1,0 +1,5 @@
+split,fac_mae,mae,rmse,r2,log_mae,n,groups,share_group_in_train
+GroupKFold (valid),81.362,86.399,144.847,-0.157,0.922,151,76,0.0
+row KFold (LEAKAGE DIAGNOSTIC),28.839,28.924,64.48,0.771,0.319,151,76,0.728
+"row KFold, group_in_train=False",44.087,47.507,102.88,-0.009,0.696,41,25,
+"row KFold, group_in_train=True",21.365,21.998,41.979,0.912,0.179,110,51,

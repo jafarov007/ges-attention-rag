@@ -1,0 +1,4 @@
+ablation,base,fac_mae_ablation,fac_mae_base,log_mae_ablation,log_mae_base,rmse_ablation,rmse_base,boot_delta,boot_ci_low,boot_ci_high,boot_p_a_better
+A1_D2_equal_weights,D2 (seed 42),78.731,77.239,0.906,0.786,135.991,129.428,1.492,-7.871,10.374,0.333
+A2_D3_no_positions,D3 (seed 42),78.214,78.521,0.857,0.799,147.778,138.081,-0.307,-6.982,6.73,0.548
+A3_D3_no_year,D3 (seed 42),81.176,78.521,0.878,0.799,142.667,138.081,2.655,-3.309,8.61,0.196
