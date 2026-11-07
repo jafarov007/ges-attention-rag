@@ -23,9 +23,9 @@
 | 09 | [docs/09_egitim_ve_deney_duzeni.md](docs/09_egitim_ve_deney_duzeni.md) | İç içe CV prosedürü, öğrenme eğrileri, hiperparametre seçimi, maliyet (eğitim öncesi/sırası/sonrası) |
 | 10 | [docs/10_sonuclar_ve_ablasyon.md](docs/10_sonuclar_ve_ablasyon.md) | Ana sonuçlar, bootstrap güven aralıkları, kat/tohum dağılımı, ablasyonlar, sızıntı tanısı, hipotezlerin akıbeti |
 | 11 | [docs/11_hata_analizi.md](docs/11_hata_analizi.md) | En büyük hatalar, alt gruplar, attention ↔ token silme |
-| 12 | [docs/12_rag.md](docs/12_rag.md) | Bilgi tabanı, LLM kartı, R0/R1/R2, puanlama, dev k seçimi |
+| 12 | [docs/12_rag.md](docs/12_rag.md) | Bilgi tabanı, LLM kartı, R0/R1/R2, dev k seçimi, kilitli test sonuçları, elle hata sınıflandırması, H3 |
 
-Görseller `docs/figures/` altında (fig01–fig32) ve ilgili belgelere gömülü. Görsel içi yazılar İngilizce.
+Görseller `docs/figures/` altında (fig01–fig35) ve ilgili belgelere gömülü. Görsel içi yazılar İngilizce.
 
 ## Özet bulgular (regresyon)
 
@@ -39,13 +39,24 @@ Görseller `docs/figures/` altında (fig01–fig32) ve ilgili belgelere gömül�
 
 - Yalnız **D3 − B0** farkı %95 grup bootstrap aralığında anlamlı. D2 − D1 ve D3 − B1 ayırt edilemiyor (H1 yanlışlandı).
 - Rastgele **satır** bölmesinde B1'in hatası 28,8 kWp'ye düşüyor (R² 0,77). Test kayıtlarının %72,8'inin tesisi eğitimde de bulunuyor → **sızıntı** (H2 doğrulandı).
-- Hataların çoğu, eğitimde benzeri olmayan 450–574 kWp'lik birkaç tesisten geliyor ([11](docs/11_hata_analizi.md)).
+- Hataların çoğu, eğitimde benzeri olmayan 450–574 kWp'lik birkaç tesisten geliyor ([11](docs/11_hata_analizi.md)). Protokol sonrası Duan smearing düzeltmesi hatayı **artırdı**: sorun dönüşüm yanlılığı değil, bilgi eksikliği ([10 §8](docs/10_sonuclar_ve_ablasyon.md)).
+
+## Özet bulgular (RAG, kilitli 20 test sorusu, elle puan)
+
+| Sistem | Doğruluk | Tekil | Toplama | Çelişki | Yanıtlanamaz | Gereksiz ret |
+|---|---|---|---|---|---|---|
+| R0 kanıtsız | 0,15 | 0/6 | 0/6 | 0/4 | 3/4 | 0,88 |
+| R1 BM25 RAG | 0,40 | 5/6 | 0/6 | 0/4 | 3/4 | 0,25 |
+| R2 RAG + hesap aracı | **0,55** | **6/6** | 1/6 | 0/4 | **4/4** | **0,19** |
+
+Hesap aracı toplama sorularının 3'ünde doğru sonucu buldu, ama 1,5B'lik model bunlardan yalnız birini doğru aktardı ([12](docs/12_rag.md)).
 
 ## Klasör yapısı
 ```
 data/raw/              ham Excel (repoda YOK; aşağıya bakın)
 protocol/              dondurulmuş kararlar: düzeltmeler, eşleştirme kararları, bölme manifesti, altın sorular
 src/                   s01_ingest → s02_clean → s03_match → s04_eda → s05_splits → train → evaluate → error_analysis
+                       (+ math_checks, posthoc_smearing, trace_record)
 src/rag/               build_gold, kb (BM25 + araç), llm, systems (R0/R1/R2), eval_rag
 tests/                 veri hattı (12) + attention/model (23) testleri
 docs/                  belgeler ve figürler
@@ -56,7 +67,7 @@ outputs/data, predictions, models, rag_runs/   üretilen veri, tahmin ve ağırl
 ## Kurulum ve çalıştırma
 ```bash
 python3 -m venv .venv --system-site-packages && source .venv/bin/activate
-pip install -r requirements.txt      # + transformers/accelerate (RAG için)
+pip install -r requirements.txt
 # ham verileri data/raw/ altına koyun (sha256: outputs/logs/raw_manifest.csv)
 cd src
 python s01_ingest.py && python s02_clean.py && python s03_match.py && python s04_eda.py && python s05_splits.py
@@ -64,9 +75,18 @@ python math_checks.py
 python train.py main && python train.py ablations && python train.py leakage
 python evaluate.py && python error_analysis.py
 cd rag && python build_gold.py && PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python eval_rag.py dev
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python eval_rag.py test && python eval_rag.py manual
 cd ../.. && python -m pytest tests -q
 ```
-Ana deneyin tamamı tek CPU iş parçacığında ≈ 80 saniye sürer.
+Tek komut: `./run_all.sh` (RAG dahil) veya `SKIP_RAG=1 ./run_all.sh` (veri + regresyon, CPU'da ≈ 2 dakika).
+
+**Yeniden üretim kontrolü:** Repo temiz bir klasöre çıkarılıp yalnız ham Excel dosyaları eklenerek `SKIP_RAG=1 ./run_all.sh` çalıştırıldı. Bölme manifesti, tüm metrikler, bootstrap aralıkları, ablasyon ve sızıntı tabloları **bit düzeyinde aynı** çıktı; yalnız ölçülen eğitim süreleri (saniye) farklı. 35 testin tamamı geçti.
+
+## Savunma: bir kaydın uçtan uca izi
+```bash
+cd src && python trace_record.py GES-2022-013
+```
+Sırasıyla gösterir: ham Excel hücreleri → uygulanan temizleme kuralları → eşleştirme kararları ve grup üyeleri → dış kat ve “aynı tesis eğitimde yok” kontrolü → modelin gördüğü tokenlar (`[UNK]` işaretli) → B0–D3 tahminleri → D3 attention → RAG belgesi, BM25 sırası ve araç sonucu.
 
 ## Veri kaynağı
 İBB açık veri: “2022/2023/2024/2025 yılı kurulumu tamamlanan güneş enerji sistemleri” (4 xlsx). Dosyalar repoya eklenmedi; doğruluk sha256 ile kontrol edilir (`tests/test_data_pipeline.py::RAW_SHA`).

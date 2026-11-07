@@ -9,3 +9,5 @@ matplotlib==3.6.3
 rapidfuzz==3.14.6
 rank-bm25==0.2.2
 pytest==9.2.0
+transformers==5.13.1  # RAG (Qwen/Qwen2.5-1.5B-Instruct)
+accelerate==1.14.0
