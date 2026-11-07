@@ -100,3 +100,26 @@ Satır bölmesi hatayı **%65 düşürüyor** ve R²'yi 0,77'ye çıkarıyor. Bu
 ## 7. Sonuç cümlesi
 
 > ~60 bağımsız eğitim tesisiyle attention tabanlı modeller (D2, D3), basit modellere göre **göreli hatada** tutarlı bir iyileşme gösteriyor (log-MAE 0,92 → 0,79). **Görülmemiş tesislerin kWp cinsinden kurulu gücünü** kestirmede ise TF-IDF + Ridge'den ayırt edilebilir biçimde daha iyi değiller. Yalnız D3, medyan referansını %95 güvenle geçiyor. Asıl belirleyici olan model değil, test katına hangi büyük ve tekil tesislerin düştüğü. Satır bölmesiyle elde edilecek yüksek skorlar sızıntıdır.
+
+## 8. Protokol sonrası duyarlılık analizi (v1.1): log dönüşüm yanlılığı düzeltmesi
+
+> **Bu bölüm v1.0 sonuçları görüldükten SONRA eklendi.** Ana tabloyu değiştirmez ve hiçbir model seçiminde kullanılmadı. Kod: [`src/posthoc_smearing.py`](../src/posthoc_smearing.py) · Tablolar: `posthoc_smearing.csv`, `posthoc_smearing_factors.csv`
+
+**Soru:** Büyük tesislerin eksik kestirimi, log hedefin ters dönüşüm yanlılığından mı geliyor ([06 M4.3](06_matematik.md), Jensen)?
+
+**Yöntem:** Duan smearing, `ŷ = exp(ẑ) · s − 1`, `s = mean(exp(r))`. Dış kat k için `s`, **yalnız** dış eğitimin iç katlarından gelen tahmin dışı (out-of-fold) artıklardan hesaplandı: ana modelle aynı seçilmiş ayar ve epoch, tohum 0. Dış test etiketleri `s`'nin hesabına girmedi.
+
+| Model | s (5 katın ort.) | MAE_fac v1.0 → smearing | Δ [%95] | > 150 kWp MAE | ≤ 50 kWp MAE | R² |
+|---|---|---|---|---|---|---|
+| B1 | 1,67 | 81,4 → 98,9 | +17,6 [6,5, 29,1] | 254 → 227 | 31 → 61 | −0,16 → −0,21 |
+| D1 | 2,03 | 80,1 → 109,8 | +29,7 [12,2, 48,2] | 251 → 225 | 23 → 60 | −0,14 → −0,47 |
+| D2 | 2,11 | 78,3 → 123,6 | +45,3 [22,6, 71,3] | 237 → 237 | 28 → 77 | −0,03 → −0,71 |
+| D3 | 1,98 | 76,2 → 115,5 | +39,3 [19,8, 59,8] | 245 → 232 | 21 → 56 | −0,10 → −0,59 |
+
+![Smearing duyarlılık analizi](figures/fig35_posthoc_smearing.png)
+
+**Bulgu:** Düzeltme her modelde hatayı **anlamlı biçimde artırıyor.** Çarpımsal katsayı (~2) tüm tahminleri yaklaşık ikiye katlıyor:
+- küçük tesislerin hatası 2–3 katına çıkıyor;
+- büyük tesislerde kazanç yalnız 0–30 kWp, çünkü 574 kWp'lik bir tesisi 50 kWp tahmin eden bir model, 2 ile çarpılınca da 100 kWp tahmin ediyor.
+
+**Yorum:** Büyük tesislerdeki eksik kestirimin ana nedeni dönüşüm yanlılığı **değil**, **bilgi eksikliği**: bu tesislerin türü eğitimde yok ya da ad tokenları `[UNK]` ([11](11_hata_analizi.md)). Jensen etkisi var (artıklar büyük ve heteroskedastik, s ≈ 2), ama homojen bir çarpımsal düzeltme bu veride yanlış araç. Protokolde düzeltme uygulanmaması, sonradan bakıldığında doğru bir karardı.

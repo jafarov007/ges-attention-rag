@@ -76,6 +76,6 @@ Her özel olmayan token tek tek silinip `|Δẑ|` (log ölçekte tahmin değişi
 - **Sonuç:** Attention ağırlıkları yalnız başına **nedensel önem veya açıklama olarak sunulmadı.** Bu raporda attention haritası yalnız token silme deneyiyle birlikte ve bu sınırlılıkla yorumlandı.
 
 ## 4. Ne iyileştirebilirdi? (yapılmadı, protokol dışı)
-- Hedefi `log` yerine kWp MAE ile uyumlu bir kayıpla optimize etmek ya da Duan smearing düzeltmesi (büyük tesis eksik kestirimini azaltır, küçükleri bozar).
+- Hedefi `log` yerine kWp MAE ile uyumlu bir kayıpla optimize etmek. **Duan smearing denendi** (protokol sonrası, [10 §8](10_sonuclar_ve_ablasyon.md)): hatayı her modelde artırdı. Sorun dönüşüm yanlılığı değil, bilgi eksikliği.
 - Tesis türü için dış bilgi (bina alanı, çatı alanı). Veride yok.
 - Daha fazla bağımsız tesis. Asıl darboğaz bu.
