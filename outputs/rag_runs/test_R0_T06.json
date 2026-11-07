@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Güvenlik nedeniyle, belirli bir yer için güncel bilgileri paylaşmamı sağlıyor musunuz? Başka bir konuda yardımcı olabilirim.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.100931409979239,
+  "llm": [
+    {
+      "seconds": 2.1,
+      "prompt_tokens": 126,
+      "new_tokens": 55
+    }
+  ]
+}

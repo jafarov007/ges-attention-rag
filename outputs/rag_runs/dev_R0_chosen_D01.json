@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Şişli Muhsin Ertuğrul Sahnesi için doğrudan bilgiye erişimim yok. Güvenlikle, bu konuda daha fazla araştırma yapmam gerekiyor.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.36928538401844,
+  "llm": [
+    {
+      "seconds": 2.369,
+      "prompt_tokens": 128,
+      "new_tokens": 62
+    }
+  ]
+}

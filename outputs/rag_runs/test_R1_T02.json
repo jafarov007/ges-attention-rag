@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "574.2 kWp",
+  "retrieved": [
+    "GES-2022-017",
+    "GES-2025-035",
+    "GES-2022-006"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 0.5434667740482837,
+  "llm": [
+    {
+      "seconds": 0.542,
+      "prompt_tokens": 764,
+      "new_tokens": 8
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "system": "R2",
+  "answer": "2025 dosyasında 'Mezarlığı Hizmet ve Gasilhane Bina Çatısı' GES'in gücü 28 kWp'dur. Bu bilgi, [GES-2025-003] dosyanızda bulunuyor.",
+  "retrieved": [
+    "GES-2022-005",
+    "GES-2022-006",
+    "GES-2025-003"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2025,\n        \"name_contains\": \"Mezarlığı Hizmet ve Gasilhane Bina Çatısı\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2025,
+      "name_contains": "Mezarlığı Hizmet ve Gasilhane Bina Çatısı"
+    },
+    "n_rows": 2,
+    "record_ids": [
+      "GES-2025-003",
+      "GES-2025-062"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2025-003",
+        "dosya": "2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 3,
+        "dosya_yili": 2025,
+        "ilce": "Arnavutköy",
+        "mekan": "Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali",
+        "guc_kwp": 28.0,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      },
+      {
+        "record_id": "GES-2025-062",
+        "dosya": "2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 62,
+        "dosya_yili": 2025,
+        "ilce": "Silivri",
+        "mekan": "Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali",
+        "guc_kwp": 95.0,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      }
+    ],
+    "distinct_districts": [
+      "Arnavutköy",
+      "Silivri"
+    ]
+  },
+  "seconds": 4.9745489659835584,
+  "llm": [
+    {
+      "seconds": 2.131,
+      "prompt_tokens": 629,
+      "new_tokens": 51
+    },
+    {
+      "seconds": 2.838,
+      "prompt_tokens": 1219,
+      "new_tokens": 62
+    }
+  ]
+}

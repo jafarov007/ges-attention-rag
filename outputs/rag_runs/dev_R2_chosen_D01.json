@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "2024 dosyasında Şişli Muhsin Ertuğrul Sahnesi GES'in gücü 196 kWp'dır. Bu bilgiye sahip olduğumuz diğer kayıtlar da bu değerdir.",
+  "retrieved": [
+    "GES-2024-045",
+    "GES-2025-073",
+    "GES-2023-011"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2024,\n        \"name_contains\": \"Şişli Muhsin Ertuğrul Sahnesi\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2024,
+      "name_contains": "Şişli Muhsin Ertuğrul Sahnesi"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 4.546293165010866,
+  "llm": [
+    {
+      "seconds": 2.102,
+      "prompt_tokens": 627,
+      "new_tokens": 50
+    },
+    {
+      "seconds": 2.44,
+      "prompt_tokens": 926,
+      "new_tokens": 55
+    }
+  ]
+}

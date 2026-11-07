@@ -1,0 +1,44 @@
+{
+  "system": "R2",
+  "answer": "Toplam gücü: 129 kWp",
+  "retrieved": [
+    "GES-2024-033",
+    "GES-2024-029",
+    "GES-2024-034"
+  ],
+  "plan": "{\n  \"intent\": \"sum\",\n  \"filters\": {\n    \"file_year\": 2024,\n    \"district\": \"Maltepe\"\n  },\n  \"years\": []\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "sum",
+    "filters": {
+      "file_year": 2024,
+      "district": "Maltepe"
+    },
+    "n_rows": 6,
+    "record_ids": [
+      "GES-2024-029",
+      "GES-2024-030",
+      "GES-2024-031",
+      "GES-2024-032",
+      "GES-2024-033",
+      "GES-2024-034"
+    ],
+    "result": 326.0,
+    "distinct_districts": [
+      "Maltepe"
+    ]
+  },
+  "seconds": 2.57274845498614,
+  "llm": [
+    {
+      "seconds": 1.789,
+      "prompt_tokens": 620,
+      "new_tokens": 42
+    },
+    {
+      "seconds": 0.78,
+      "prompt_tokens": 990,
+      "new_tokens": 11
+    }
+  ]
+}

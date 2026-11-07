@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, senin sorunuzda belirli bir GES'nin gücü ne kadar kWp olduğunu belirtmiyor. Bu nedenle, gerçek gücüne ulaşmak için daha fazla bilgi gerekiyor. Eğer başka bir konuda yardımcı olabilirim, lütfen detayları paylaşır mısınız?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.8155953669920564,
+  "llm": [
+    {
+      "seconds": 2.815,
+      "prompt_tokens": 114,
+      "new_tokens": 74
+    }
+  ]
+}

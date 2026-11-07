@@ -24,7 +24,7 @@ for dış_kat k in 0..4:
     for tohum in (17, 42, 2026):
         sözlük ← tüm D_tr
         c* ile tam E* epoch eğit (erken durdurma YOK)
-        D_te'yi tahmin et → outputs/predictions/ (git dışı)
+        D_te'yi tahmin et → outputs/predictions/
 ```
 - **İç arama tohumu:** 0. **Final tohumları:** 17, 42, 2026.
 - **B1:** aynı iç katlarda `alpha ∈ {0.1, 1, 10, 100}`; deterministik olduğu için tohum fark etmez (3 tohum satırı aynı tahmini taşır).
@@ -93,4 +93,4 @@ Donanım: Intel x86-64 CPU (tek iş parçacığı), PyTorch 2.13.0, Python 3.12.
 
 ## 7. Eğitim sonrası
 
-Dış test tahminleri `outputs/predictions/outer_predictions_{main,ablations,leakage}.csv` dosyalarına yazılır (git dışı). Tek okuyucu [`src/evaluate.py`](../src/evaluate.py) ve [`src/error_analysis.py`](../src/error_analysis.py). Sonuçlar: [10](10_sonuclar_ve_ablasyon.md), [11](11_hata_analizi.md). Tohum 42 modellerinin ağırlıkları `outputs/models/` altında (git dışı); yalnız hata analizinde attention haritası ve token silme için kullanılır.
+Dış test tahminleri `outputs/predictions/outer_predictions_{main,ablations,leakage}.csv` dosyalarına yazılır. Tek okuyucu [`src/evaluate.py`](../src/evaluate.py) ve [`src/error_analysis.py`](../src/error_analysis.py). Sonuçlar: [10](10_sonuclar_ve_ablasyon.md), [11](11_hata_analizi.md). Tohum 42 modellerinin ağırlıkları `outputs/models/` altında; yalnız hata analizinde attention haritası ve token silme için kullanılır.

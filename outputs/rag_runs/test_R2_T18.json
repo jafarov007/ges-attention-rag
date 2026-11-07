@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "VERİLEN KANITLARDA BILGİ YOK. Tuzla Bahar Merkezi GES'in devre alması için belirli bir tarih bulunmamaktadır.",
+  "retrieved": [
+    "GES-2024-046",
+    "GES-2025-075",
+    "GES-2022-013"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2022,\n    \"name_contains\": \"Tuzla Bahar Merkezi\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2022,
+      "name_contains": "Tuzla Bahar Merkezi"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 3.8966773390420713,
+  "llm": [
+    {
+      "seconds": 1.823,
+      "prompt_tokens": 618,
+      "new_tokens": 43
+    },
+    {
+      "seconds": 2.069,
+      "prompt_tokens": 898,
+      "new_tokens": 46
+    }
+  ]
+}

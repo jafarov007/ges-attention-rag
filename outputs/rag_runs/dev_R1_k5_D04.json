@@ -1,0 +1,21 @@
+{
+  "system": "R1",
+  "answer": "2024 dosyasında 5 tane kayıt vardır.",
+  "retrieved": [
+    "GES-2024-042",
+    "GES-2024-039",
+    "GES-2024-047",
+    "GES-2024-038",
+    "GES-2024-046"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 0.9444001810043119,
+  "llm": [
+    {
+      "seconds": 0.943,
+      "prompt_tokens": 1014,
+      "new_tokens": 15
+    }
+  ]
+}

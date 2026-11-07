@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2025-064",
+    "GES-2025-005",
+    "GES-2025-021"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 0.7053479799651541,
+  "llm": [
+    {
+      "seconds": 0.704,
+      "prompt_tokens": 765,
+      "new_tokens": 12
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "2025 dosyasında Eyüpsultan Kemerburgaz İtfaiye GES'in gücü 28 kWp'dir. Bu bilgi, [GES-2025-033] dosyanın Excel satırı 33'te bulunarak elde edilmiştir.",
+  "retrieved": [
+    "GES-2025-033",
+    "GES-2024-020",
+    "GES-2022-007"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2025,\n        \"name_contains\": \"Eyüpsultan Kemerburgaz İtfaiye\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2025,
+      "name_contains": "Eyüpsultan Kemerburgaz İtfaiye"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 4.920998674002476,
+  "llm": [
+    {
+      "seconds": 1.988,
+      "prompt_tokens": 623,
+      "new_tokens": 47
+    },
+    {
+      "seconds": 2.928,
+      "prompt_tokens": 907,
+      "new_tokens": 68
+    }
+  ]
+}

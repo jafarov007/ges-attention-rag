@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. GES dosyanızda \"Pasif\" durumu için belirli bir kaydın olduğu bir yer bulunmuyor. Bu tür detaylara erişim sağlayabileceğim bilgileri paylaşmanızı öneririm.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.599646642978769,
+  "llm": [
+    {
+      "seconds": 2.599,
+      "prompt_tokens": 120,
+      "new_tokens": 68
+    }
+  ]
+}

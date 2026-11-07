@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, belirli bir dosya numarası veya tarihi belirtmediniz. Sen İstanbul Büyükşehir Belediyesi güneş enerji sistemi (GES) envanter dosyalarını kontrol etmek için daha fazla bilgi gerekiyor. Eğer belirttiyseniz, size daha ayrıntılı bir yanıt verebilirim.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.01176458603004,
+  "llm": [
+    {
+      "seconds": 3.011,
+      "prompt_tokens": 109,
+      "new_tokens": 79
+    }
+  ]
+}

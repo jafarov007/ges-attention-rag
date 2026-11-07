@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Güvenlik sistemleri veya mezarlık hizmetlerinin güçleri hakkında detaylı bilgileri içeren bir dosya belirtmediniz. Bu konuda daha fazla bilgi edinebilir miyim?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.4948604200035334,
+  "llm": [
+    {
+      "seconds": 2.494,
+      "prompt_tokens": 130,
+      "new_tokens": 65
+    }
+  ]
+}

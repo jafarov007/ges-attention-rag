@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2022-021",
+    "GES-2024-002",
+    "GES-2025-004"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2024,\n    \"name_contains\": \"Ataşehir İBB İtfaiye\"\n  },\n  \"status\": \"aktif\"\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2024,
+      "name_contains": "Ataşehir İBB İtfaiye"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 2.948591882013716,
+  "llm": [
+    {
+      "seconds": 2.169,
+      "prompt_tokens": 619,
+      "new_tokens": 52
+    },
+    {
+      "seconds": 0.775,
+      "prompt_tokens": 925,
+      "new_tokens": 12
+    }
+  ]
+}

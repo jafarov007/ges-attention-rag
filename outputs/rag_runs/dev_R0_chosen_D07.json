@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu konuda bilgiye erişimim yok. Bunun yerine, seninle iletişime geçmek isterseniz, gelecekteki GES planını kontrol edebilirsiniz. Ancak, belirttiğiniz tarihi için doğrudan bilgiye erişimim yok.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.856423150980845,
+  "llm": [
+    {
+      "seconds": 2.856,
+      "prompt_tokens": 119,
+      "new_tokens": 75
+    }
+  ]
+}

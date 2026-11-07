@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Kadıköy Filiz Akın Kız Öğrenci Yurdu'nun Gücünü belirli bir dosya içinde bulmak mümkün değil. Bu konuda daha fazla bilgiye ihtiyacımız var mı?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.465206970984582,
+  "llm": [
+    {
+      "seconds": 2.465,
+      "prompt_tokens": 130,
+      "new_tokens": 64
+    }
+  ]
+}

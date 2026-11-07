@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu konuda güncel bilgilerim yok. 2026 yılına kadar gerçekleşecek olan gelişmeler ve planlar hakkında kesin bilgiye sahip değilim. Bu tür sorular için en doğru yol, İstanbul Büyükşehir Belediyesinin resmi web sitesini veya ilgili hükümet kurumlarının raporlarını kontrol etmek olacaktır.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.15428990899818,
+  "llm": [
+    {
+      "seconds": 3.154,
+      "prompt_tokens": 114,
+      "new_tokens": 83
+    }
+  ]
+}

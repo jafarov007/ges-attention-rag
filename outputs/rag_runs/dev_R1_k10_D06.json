@@ -1,0 +1,26 @@
+{
+  "system": "R1",
+  "answer": "En yüksek güç sağırlığı olan kaydın [GES-2023-014] dosyasındaki kaydı temsil eder.\n\nKaydının detayları şöyledir:\n\n- İfade: Hoca Ahmet Yesevi Kültür Merkezi Güneş Enerji Santrali (GES)\n- Gücü: 303 kWp\n- Durdurulma durumu: Aktif\n\nBu kaydın diğer kayıtları da en yüksek güç sağırlığına sahiptir ancak bu kayıtdan daha yüksek güç sağırlığına sahip kayıtların olduğu gibi en yüksek güç sağırlığına sahip değildir.",
+  "retrieved": [
+    "GES-2023-004",
+    "GES-2023-005",
+    "GES-2023-008",
+    "GES-2023-013",
+    "GES-2023-006",
+    "GES-2023-014",
+    "GES-2023-012",
+    "GES-2023-011",
+    "GES-2023-010",
+    "GES-2023-007"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 6.682978496013675,
+  "llm": [
+    {
+      "seconds": 6.681,
+      "prompt_tokens": 1801,
+      "new_tokens": 152
+    }
+  ]
+}

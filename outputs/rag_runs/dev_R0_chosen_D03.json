@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu konuda güncel bilgiler yok. 2023 yılına kadar kaydedilmiş bilgilere sahip değilim. Güngören Davet ve Toplantı Salonu için en doğru yol, en son olarak bulunan ve aktif olan GES'ye bakmanızdır. Eğer belki de bu salonun düzenlemeleri veya kullanımı hakkında daha fazla bilgi istiyorsanız, bu konuda en uygun kişiyle iletişime geçmenizi öneririm.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 4.2025532010011375,
+  "llm": [
+    {
+      "seconds": 4.202,
+      "prompt_tokens": 125,
+      "new_tokens": 110
+    }
+  ]
+}

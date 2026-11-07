@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "Durum: Aktif",
+  "retrieved": [
+    "GES-2022-019",
+    "GES-2023-013",
+    "GES-2025-038"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2023,\n        \"name_contains\": \"Güngören Davet ve Toplantı Salonu\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2023,
+      "name_contains": "Güngören Davet ve Toplantı Salonu"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 2.580687341047451,
+  "llm": [
+    {
+      "seconds": 2.033,
+      "prompt_tokens": 624,
+      "new_tokens": 48
+    },
+    {
+      "seconds": 0.543,
+      "prompt_tokens": 901,
+      "new_tokens": 6
+    }
+  ]
+}

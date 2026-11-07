@@ -1,0 +1,26 @@
+{
+  "system": "R1",
+  "answer": "2025 dosyasında Eyüpsultan Kemerburgaz İtfaiye GES'in gücü 78 kWp'dir.\n\nKayıt numarası: [GES-2025-030]\n\nDosya adı: 2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx | sayfa: 2025 KURULUMU TAMAMLANAN GES | Excel satırı: 30 | dosya yılı (kaynak sürümü, kurulum yılı değil): 2025 | ilçe: Eyüpsultan | mekan: Tevfik Aydeniz Spor Kompleksi Çatısı Güneş Enerji Santrali | güç: 78 kWp | durum (ham): Pasif",
+  "retrieved": [
+    "GES-2025-033",
+    "GES-2024-020",
+    "GES-2022-007",
+    "GES-2025-031",
+    "GES-2025-030",
+    "GES-2024-018",
+    "GES-2024-017",
+    "GES-2023-005",
+    "GES-2023-008",
+    "GES-2023-006"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 7.77708511101082,
+  "llm": [
+    {
+      "seconds": 7.774,
+      "prompt_tokens": 1787,
+      "new_tokens": 180
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2022-016",
+    "GES-2025-034",
+    "GES-2022-015"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2022,\n    \"name_contains\": \"Fatih Spor Kompleksi\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2022,
+      "name_contains": "Fatih Spor Kompleksi"
+    },
+    "n_rows": 1,
+    "record_ids": [
+      "GES-2022-016"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2022-016",
+        "dosya": "2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 16,
+        "dosya_yili": 2022,
+        "ilce": "Fatih",
+        "mekan": "Fatih Spor Kompleksi",
+        "guc_kwp": 550.0,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      }
+    ],
+    "distinct_districts": [
+      "Fatih"
+    ]
+  },
+  "seconds": 2.6204784979927354,
+  "llm": [
+    {
+      "seconds": 1.788,
+      "prompt_tokens": 616,
+      "new_tokens": 42
+    },
+    {
+      "seconds": 0.828,
+      "prompt_tokens": 1018,
+      "new_tokens": 12
+    }
+  ]
+}

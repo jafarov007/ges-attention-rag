@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2025-064",
+    "GES-2025-069",
+    "GES-2025-048"
+  ],
+  "plan": "{\n  \"intent\": \"sum\",\n  \"filters\": {\n    \"file_year\": 2025,\n    \"district\": \"tesis\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "sum",
+    "filters": {
+      "file_year": 2025,
+      "district": "tesis"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": 0.0,
+    "distinct_districts": []
+  },
+  "seconds": 2.321774351003114,
+  "llm": [
+    {
+      "seconds": 1.557,
+      "prompt_tokens": 620,
+      "new_tokens": 36
+    },
+    {
+      "seconds": 0.761,
+      "prompt_tokens": 882,
+      "new_tokens": 12
+    }
+  ]
+}

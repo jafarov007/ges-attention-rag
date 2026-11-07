@@ -1,0 +1,54 @@
+{
+  "system": "R2",
+  "answer": "2025 dosyasında Florya Atatürk Kent Ormanı GES'in durumu \"Aktif - Pasif\" olduğu için, aktif olması durumunda \"Aktif\" olarak gösterildiği için Florya Atatürk Kent Ormanı GES'in 2025 yılında aktif olduğunu söyleyebilirim.",
+  "retrieved": [
+    "GES-2022-002",
+    "GES-2024-007",
+    "GES-2025-014"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2025,\n    \"name_contains\": \"Florya Atatürk Kent Ormanı\"\n  },\n  \"status\": \"aktif\"\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2025,
+      "name_contains": "Florya Atatürk Kent Ormanı"
+    },
+    "n_rows": 1,
+    "record_ids": [
+      "GES-2025-014"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2025-014",
+        "dosya": "2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 14,
+        "dosya_yili": 2025,
+        "ilce": "Bakırköy",
+        "mekan": "Florya Atatürk Kent Ormanı Güneş Enerji Santrali",
+        "guc_kwp": 7.0,
+        "durum_ham": "Aktif - Pasif",
+        "uyarilar": [
+          "NOT: Durum alanında hem Aktif hem Pasif yazıyor",
+          "NOT: adı başka bir birimin adıyla örtüşüyor"
+        ]
+      }
+    ],
+    "distinct_districts": [
+      "Bakırköy"
+    ]
+  },
+  "seconds": 5.324595502985176,
+  "llm": [
+    {
+      "seconds": 2.132,
+      "prompt_tokens": 618,
+      "new_tokens": 51
+    },
+    {
+      "seconds": 3.187,
+      "prompt_tokens": 1123,
+      "new_tokens": 72
+    }
+  ]
+}

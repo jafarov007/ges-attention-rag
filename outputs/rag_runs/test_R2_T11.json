@@ -1,0 +1,72 @@
+{
+  "system": "R2",
+  "answer": "Fark kwp: 2850.1",
+  "retrieved": [
+    "GES-2022-019",
+    "GES-2023-013",
+    "GES-2022-006"
+  ],
+  "plan": "{\n  \"intent\": \"compare_years\",\n  \"filters\": {},\n  \"years\": [2022, 2023]\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "compare_years",
+    "result": {
+      "2022": {
+        "kayit": 20,
+        "guc_toplami_kwp": 3834.8
+      },
+      "2023": {
+        "kayit": 11,
+        "guc_toplami_kwp": 984.7
+      },
+      "fark_kwp": 2850.1
+    },
+    "record_ids": [
+      "GES-2022-002",
+      "GES-2022-003",
+      "GES-2022-004",
+      "GES-2022-005",
+      "GES-2022-006",
+      "GES-2022-007",
+      "GES-2022-008",
+      "GES-2022-009",
+      "GES-2022-010",
+      "GES-2022-011",
+      "GES-2022-012",
+      "GES-2022-013",
+      "GES-2022-014",
+      "GES-2022-015",
+      "GES-2022-016",
+      "GES-2022-017",
+      "GES-2022-018",
+      "GES-2022-019",
+      "GES-2022-020",
+      "GES-2022-021",
+      "GES-2023-004",
+      "GES-2023-005",
+      "GES-2023-006",
+      "GES-2023-007",
+      "GES-2023-008",
+      "GES-2023-009",
+      "GES-2023-010",
+      "GES-2023-011",
+      "GES-2023-012",
+      "GES-2023-013",
+      "GES-2023-014"
+    ],
+    "n_rows": 31
+  },
+  "seconds": 2.4511886260006577,
+  "llm": [
+    {
+      "seconds": 1.439,
+      "prompt_tokens": 623,
+      "new_tokens": 32
+    },
+    {
+      "seconds": 1.005,
+      "prompt_tokens": 1306,
+      "new_tokens": 13
+    }
+  ]
+}

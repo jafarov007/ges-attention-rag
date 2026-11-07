@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "[KADIKÖY-FILIZ AKIN KIZ ÖGÜNCİ YÜRÜDÜ-GES-KURULUMU-TAMAMLANAN-GES-2025-039] dosya: 2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx | sayfa: 39 | Excel satırı: 39 | dosya yılı (kaynak sürümü, kurulum yılı değil): 2025 | ilçe: Kadıköy | mekan: Filiz Akın Kız Öğrenci Yurdu Çatısı Güneş Enerji Santrali | güç: 21 kWp | durum (ham): Aktif",
+  "retrieved": [
+    "GES-2025-039",
+    "GES-2022-010",
+    "GES-2022-011"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2025,\n        \"name_contains\": \"Kadıköy Filiz Akın Kız Öğrenci Yurdu\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2025,
+      "name_contains": "Kadıköy Filiz Akın Kız Öğrenci Yurdu"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 8.826494903012644,
+  "llm": [
+    {
+      "seconds": 2.203,
+      "prompt_tokens": 629,
+      "new_tokens": 53
+    },
+    {
+      "seconds": 6.619,
+      "prompt_tokens": 905,
+      "new_tokens": 164
+    }
+  ]
+}

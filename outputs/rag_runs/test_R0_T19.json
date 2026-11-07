@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Bunun yerine, Fatih Spor Kompleksinin genel bir açıklaması veya bir resmi sayfaya bakabilirsiniz. Ancak, GES'lerin genel malzeme ve teknolojik maliyetleri genellikle farklılık gösterir. Bu konuda daha fazla bilgi almak için belgeler veya resimler kullanmanızı öneririm.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.8296949330251664,
+  "llm": [
+    {
+      "seconds": 3.829,
+      "prompt_tokens": 117,
+      "new_tokens": 101
+    }
+  ]
+}

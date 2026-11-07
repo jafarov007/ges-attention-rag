@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "Durum: Aktif",
+  "retrieved": [
+    "GES-2025-057",
+    "GES-2022-005",
+    "GES-2022-006"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2025,\n        \"name_contains\": \"Pendik Yenişehir İtfaiye Eğitim Binası\"\n    },\n    \"status\": \"aktif\"\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2025,
+      "name_contains": "Pendik Yenişehir İtfaiye Eğitim Binası"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 2.9047518110019155,
+  "llm": [
+    {
+      "seconds": 2.363,
+      "prompt_tokens": 625,
+      "new_tokens": 57
+    },
+    {
+      "seconds": 0.538,
+      "prompt_tokens": 909,
+      "new_tokens": 6
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, ancak belirli bir 2024 yılı için doğrudan bilgiye erişimim yok. Güvenlikle, GES'lerin tümüne ait bilgileri kontrol etmek için en uygun yer olan Sen İstanbul Büyükşehir Belediyesi web sitesini veya resmi kaynaklara başvurmanızı öneririm. Bu, güncel ve doğru bilgiye ulaşmak için en iyi yol olacaktır.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.832200250995811,
+  "llm": [
+    {
+      "seconds": 3.832,
+      "prompt_tokens": 122,
+      "new_tokens": 101
+    }
+  ]
+}

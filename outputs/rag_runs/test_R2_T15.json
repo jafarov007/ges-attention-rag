@@ -1,0 +1,80 @@
+{
+  "system": "R2",
+  "answer": "Güç: 99 kWp",
+  "retrieved": [
+    "GES-2022-013",
+    "GES-2022-012",
+    "GES-2023-010"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2022,\n    \"name_contains\": \"Engelliler\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2022,
+      "name_contains": "Engelliler"
+    },
+    "n_rows": 3,
+    "record_ids": [
+      "GES-2022-012",
+      "GES-2022-013",
+      "GES-2022-014"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2022-012",
+        "dosya": "2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 12,
+        "dosya_yili": 2022,
+        "ilce": "Başakşehir",
+        "mekan": "Engelliler Merkezi 1. Etap GES",
+        "guc_kwp": 99.0,
+        "durum_ham": "Aktif",
+        "uyarilar": [
+          "NOT: etap/bütün ilişkisi olası kayıt"
+        ]
+      },
+      {
+        "record_id": "GES-2022-013",
+        "dosya": "2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 13,
+        "dosya_yili": 2022,
+        "ilce": "Başakşehir",
+        "mekan": "Engelliler Merkezi 2. Etap GES",
+        "guc_kwp": 80.0,
+        "durum_ham": "Aktif",
+        "uyarilar": [
+          "NOT: etap/bütün ilişkisi olası kayıt"
+        ]
+      },
+      {
+        "record_id": "GES-2022-014",
+        "dosya": "2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 14,
+        "dosya_yili": 2022,
+        "ilce": "Şile",
+        "mekan": "Şile Engelliler Yaz Kampı GES",
+        "guc_kwp": 215.0,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      }
+    ],
+    "distinct_districts": [
+      "Başakşehir",
+      "Şile"
+    ]
+  },
+  "seconds": 2.537306650017854,
+  "llm": [
+    {
+      "seconds": 1.634,
+      "prompt_tokens": 613,
+      "new_tokens": 38
+    },
+    {
+      "seconds": 0.899,
+      "prompt_tokens": 1359,
+      "new_tokens": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, belirli bir Güç Sütunu'nun toplam kWh değerini belirtmiyoruz. Bu bilgim için daha fazla detay gerektirdiğinden, bu konuda tam bir yanıt verebilirim. Eğer başka bir konuda yardımcı olabilirim, lütfen bana bildirin.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.884942394972313,
+  "llm": [
+    {
+      "seconds": 2.884,
+      "prompt_tokens": 120,
+      "new_tokens": 76
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2022-017",
+    "GES-2025-035",
+    "GES-2022-006"
+  ],
+  "plan": "{\n  \"intent\": \"lookup\",\n  \"filters\": {\n    \"file_year\": 2022,\n    \"district\": \"Silivri Kapı\",\n    \"name_contains\": \"Buz Pisti\"\n  }\n}",
+  "plan_error": "AttributeError: 'DataFrame' object has no attribute 'record_id'",
+  "tool": null,
+  "seconds": 2.8601965089910664,
+  "llm": [
+    {
+      "seconds": 2.096,
+      "prompt_tokens": 617,
+      "new_tokens": 50
+    },
+    {
+      "seconds": 0.757,
+      "prompt_tokens": 851,
+      "new_tokens": 12
+    }
+  ]
+}

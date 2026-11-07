@@ -8,23 +8,9 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Veri (ham ve islenmis) — repoya eklenmez, kaynak ve sha256 README'de
-data/
-outputs/data/
-outputs/predictions/
-outputs/rag_runs/
-
-# Model agirliklari / checkpoint
-outputs/models/
-*.pt
-*.pth
-*.ckpt
+# Büyük harici model dosyaları (LLM ağırlıkları Hugging Face önbelleğinden indirilir, repoya konmaz)
 *.gguf
 *.safetensors
-
-# Buyuk gorseller (docs/figures altindaki kucuk PNG'ler repoda kalir)
-*.tiff
-*.svg.gz
 
 # IDE / OS
 .vscode/

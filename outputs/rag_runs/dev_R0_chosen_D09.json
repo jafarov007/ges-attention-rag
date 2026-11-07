@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu konuda bilgiye erişimim yok. Bunun yerine, GES'lerde kullanılan panel markaları genellikle şirketlerin çeşitli modelleri içerir. Örneğin, Solaria, SunPower, LG, Sharp gibi birçok şirket panel üretmektedir. Ancak, belirli bir marka paneli kullanma durumunu belirtmek için daha fazla bilgi gerekiyor.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.722450863046106,
+  "llm": [
+    {
+      "seconds": 3.722,
+      "prompt_tokens": 118,
+      "new_tokens": 98
+    }
+  ]
+}

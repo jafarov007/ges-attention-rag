@@ -1,0 +1,43 @@
+{
+  "system": "R2",
+  "answer": "2025 dosyasında Kartal ilçesinde 3 kayıt vardır. Bu kayıtlar:\n\n1. Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali (29 kWp, Aktif)\n2. Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali (24 kWp, Aktif)\n3. Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali (29 kWp, Aktif)\n\nBu kayıtların record_id'lerini belirtmek isterseniz, şu şekilde gösterebilirsiniz:\n\n[GES-2025-042], [GES-2025-043], [GES-2024-025]",
+  "retrieved": [
+    "GES-2025-042",
+    "GES-2025-043",
+    "GES-2024-025"
+  ],
+  "plan": "{\n  \"intent\": \"count\",\n  \"filters\": {\n    \"file_year\": 2025,\n    \"district\": \"Kartal\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "count",
+    "filters": {
+      "file_year": 2025,
+      "district": "Kartal"
+    },
+    "n_rows": 5,
+    "record_ids": [
+      "GES-2025-041",
+      "GES-2025-042",
+      "GES-2025-043",
+      "GES-2025-044",
+      "GES-2025-045"
+    ],
+    "result": 5,
+    "distinct_districts": [
+      "Kartal"
+    ]
+  },
+  "seconds": 9.123771879996639,
+  "llm": [
+    {
+      "seconds": 1.596,
+      "prompt_tokens": 614,
+      "new_tokens": 37
+    },
+    {
+      "seconds": 7.525,
+      "prompt_tokens": 952,
+      "new_tokens": 187
+    }
+  ]
+}

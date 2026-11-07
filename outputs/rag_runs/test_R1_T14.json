@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Kumburgaz İtfaiye GES, Büyükçekmece ilçedir.",
+  "retrieved": [
+    "GES-2023-008",
+    "GES-2025-022",
+    "GES-2024-010"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.0988598380354233,
+  "llm": [
+    {
+      "seconds": 1.097,
+      "prompt_tokens": 839,
+      "new_tokens": 21
+    }
+  ]
+}

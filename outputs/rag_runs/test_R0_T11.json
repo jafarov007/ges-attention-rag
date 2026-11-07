@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgilerim yok. Güvenlik nedeniyle doğrudan dosya bilgilerini kontrol etmem için gereken özel yazılım veya araçlar kullanmak zorunda kalabilirim. Bu konuda daha fazla bilgi edinebilirsiniz mi?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.5167024999973364,
+  "llm": [
+    {
+      "seconds": 2.516,
+      "prompt_tokens": 124,
+      "new_tokens": 66
+    }
+  ]
+}

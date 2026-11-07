@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Toplam gücü: 124 kWp",
+  "retrieved": [
+    "GES-2025-061",
+    "GES-2024-038",
+    "GES-2025-060"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 0.6667489699902944,
+  "llm": [
+    {
+      "seconds": 0.665,
+      "prompt_tokens": 770,
+      "new_tokens": 11
+    }
+  ]
+}

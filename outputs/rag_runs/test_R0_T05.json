@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Geçmiş dönemlerde bulunan dosyalardaki bilgiler genellikle doğrudan kullanılmaz ve güncel bilgilere başvurmanız önerilir. Bu konuda en doğru ve güncel bilgiyi almak için İstanbul Büyükşehir Belediyesinin resmi web sitesini veya belge yöneticilerine başvurmanızı tavsiye ederim.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.6425746449967846,
+  "llm": [
+    {
+      "seconds": 3.642,
+      "prompt_tokens": 133,
+      "new_tokens": 95
+    }
+  ]
+}

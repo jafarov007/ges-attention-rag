@@ -17,7 +17,7 @@ Dört ham Excel dosyasını **hiç değiştirmeden** okumak, her gerçek kaydı 
 | `2025-yl-kurulumu-...xlsx` | `2025 KURULUMU TAMAMLANAN GES` | 78 × 5 | `A1:A2`, `B1:B2`, `D1:D2` | `32ba496529aa6805` |
 
 - Tam sha256 değerleri `outputs/logs/raw_manifest.csv` ve `tests/test_data_pipeline.py::RAW_SHA` içinde. Test, ham dosyalardan biri değişirse **başarısız olur**.
-- Ham veri repoya eklenmez (`.gitignore`). Dosyalar `data/raw/` altına konur, doğruluk sha256 ile kontrol edilir.
+- Ham dosyalar `data/raw/` altında repoda; hiçbir betik bu dosyalara yazmaz. Doğruluk sha256 ile kontrol edilir.
 
 ## 3. Ne yapıldı, nasıl yapıldı?
 
@@ -102,4 +102,4 @@ Ayrıntılı ele alınışı [02 — Temizleme ve ön işleme](02_veri_temizleme
 cd src && python s01_ingest.py
 # records: 153  per year: {2022: 20, 2023: 11, 2024: 46, 2025: 76}
 ```
-Çıktı: `outputs/data/records_raw.csv` (repoya eklenmez; veri dosyası).
+Çıktı: `outputs/data/records_raw.csv` .

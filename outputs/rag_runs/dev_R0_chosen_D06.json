@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, belirli bir 2023 yılı için en yüksek güce sahip kayıt bilgilerini bulamıyorum. Bu tür bilgilere ulaşmak için doğrudan Güvenlik Kurumu'na başvurmanız önerilir.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.2294813320040703,
+  "llm": [
+    {
+      "seconds": 2.229,
+      "prompt_tokens": 115,
+      "new_tokens": 58
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. 2022 yılındaki GES dosyasındaki detaylı bilgiler için doğrudan belediye veya resmi web sitesini kontrol etmeniz gerekmektedir.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.204202112974599,
+  "llm": [
+    {
+      "seconds": 2.204,
+      "prompt_tokens": 121,
+      "new_tokens": 58
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "2025 dosyasında Kartal ilçesinde 3 tane kayıt vardır:\n\n1. Yakacık İtfaiye Bina Çatısı Güneş Enerji Santrali (29 kWp, Aktif)\n2. Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali (24 kWp, Aktif)\n3. Soğanlık Gasilhane Bina Çatısı Güneş Enerji Santrali (29 kWp, Aktif)\n\nBu kayıtların tümünün mekanları Kartal'dır ve güçlerinin toplamı 72 kWp'dir.",
+  "retrieved": [
+    "GES-2025-042",
+    "GES-2025-043",
+    "GES-2024-025"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 5.97847031702986,
+  "llm": [
+    {
+      "seconds": 5.977,
+      "prompt_tokens": 770,
+      "new_tokens": 150
+    }
+  ]
+}

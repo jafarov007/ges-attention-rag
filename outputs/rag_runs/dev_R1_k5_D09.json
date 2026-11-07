@@ -1,0 +1,21 @@
+{
+  "system": "R1",
+  "answer": "Marka bilgisi bulunmamaktadır. Silivri Kapı Buz Pisti GES'teki tüm panel markaları şöyledir:\n\n1. Silivri Mezarlığı Hizmet ve Gasilhane Binası GES: Panel markası belirtilmemiş.\n2. Kumburgaz İtfaiye Bina Çatısı Güneş Enerji Santrali (GES): Panel markası belirtilmemiş.\n3. Selimpaşa İtfaiye Bina Çatısı Güneş Enerji Santrali (GES): Panel markası belirtilmemiş.\n\nBu bilgileri kontrol etmek için daha ayrıntılı bir kaynaktan almanız önerilir.",
+  "retrieved": [
+    "GES-2022-017",
+    "GES-2025-035",
+    "GES-2022-006",
+    "GES-2023-008",
+    "GES-2023-006"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 6.697808913013432,
+  "llm": [
+    {
+      "seconds": 6.696,
+      "prompt_tokens": 1060,
+      "new_tokens": 163
+    }
+  ]
+}

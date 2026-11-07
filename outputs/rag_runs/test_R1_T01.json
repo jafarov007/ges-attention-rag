@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Tuzla Bahar Merkezi Güneş Enerji Santrali'nin güç gücü 458 kWp'dır. Bu bilgi, [GES-2024-046] dosyanızda bulunuyor.",
+  "retrieved": [
+    "GES-2024-046",
+    "GES-2025-075",
+    "GES-2022-013"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.3523578780004755,
+  "llm": [
+    {
+      "seconds": 2.35,
+      "prompt_tokens": 777,
+      "new_tokens": 55
+    }
+  ]
+}

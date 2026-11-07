@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. GES dosya adında belirtilen bir dosya yok veya belirttiğiniz tarih aralığı için bilgim yok. Bu konuda daha fazla bilgi almak için başka bir kaynak arama yapmanız gerekebilir.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.6583899470278993,
+  "llm": [
+    {
+      "seconds": 2.658,
+      "prompt_tokens": 121,
+      "new_tokens": 70
+    }
+  ]
+}

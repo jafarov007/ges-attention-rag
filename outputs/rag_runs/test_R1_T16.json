@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "2025 dosyasında 'Mezarlığı Hizmet ve Gasilhane Bina Çatısı Güneş Enerji Santrali' GES'in güç gücü 28 kWp'dur. Bu bilgiye ulaşılamadığınızda, verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2022-005",
+    "GES-2022-006",
+    "GES-2025-003"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.9686796460300684,
+  "llm": [
+    {
+      "seconds": 2.967,
+      "prompt_tokens": 786,
+      "new_tokens": 71
+    }
+  ]
+}

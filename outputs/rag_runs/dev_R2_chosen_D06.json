@@ -1,0 +1,55 @@
+{
+  "system": "R2",
+  "answer": "En yüksek güce sahip kayıt olan dosya, [GES-2023-004]'dır. Bu dosyanın mekanı Avcılar Sahil Tuvaleti Çatısı Güneş Enerji Santrali (GES) ve güç 8.5 kWp'tür.",
+  "retrieved": [
+    "GES-2023-004",
+    "GES-2023-005",
+    "GES-2023-008"
+  ],
+  "plan": "{\"intent\": \"max\", \"filters\": {\"file_year\": 2023}}",
+  "plan_error": null,
+  "tool": {
+    "intent": "max",
+    "filters": {
+      "file_year": 2023
+    },
+    "n_rows": 11,
+    "record_ids": [
+      "GES-2023-004",
+      "GES-2023-005",
+      "GES-2023-006",
+      "GES-2023-007",
+      "GES-2023-008",
+      "GES-2023-009",
+      "GES-2023-010",
+      "GES-2023-011",
+      "GES-2023-012",
+      "GES-2023-013",
+      "GES-2023-014"
+    ],
+    "result": {
+      "record_id": "GES-2023-013",
+      "dosya": "2023_kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+      "excel_satiri": 13,
+      "dosya_yili": 2023,
+      "ilce": "Güngören",
+      "mekan": "Davet ve Toplantı Salonu Güneş Enerji Santrali (GES)",
+      "guc_kwp": 305.0,
+      "durum_ham": "Aktif",
+      "uyarilar": []
+    }
+  },
+  "seconds": 4.080176407005638,
+  "llm": [
+    {
+      "seconds": 0.949,
+      "prompt_tokens": 614,
+      "new_tokens": 20
+    },
+    {
+      "seconds": 3.124,
+      "prompt_tokens": 1160,
+      "new_tokens": 70
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "system": "R2",
+  "answer": "2024 dosyasında 46 kayıt vardır.",
+  "retrieved": [
+    "GES-2024-042",
+    "GES-2024-039",
+    "GES-2024-047"
+  ],
+  "plan": "{\n  \"intent\": \"count\",\n  \"filters\": {\n    \"file_year\": 2024,\n    \"district\": \"\",\n    \"status\": \"\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "count",
+    "filters": {
+      "file_year": 2024
+    },
+    "n_rows": 46,
+    "record_ids": [
+      "GES-2024-002",
+      "GES-2024-003",
+      "GES-2024-004",
+      "GES-2024-005",
+      "GES-2024-006",
+      "GES-2024-007",
+      "GES-2024-008",
+      "GES-2024-009",
+      "GES-2024-010",
+      "GES-2024-011",
+      "GES-2024-012",
+      "GES-2024-013",
+      "GES-2024-014",
+      "GES-2024-015",
+      "GES-2024-016",
+      "GES-2024-017",
+      "GES-2024-018",
+      "GES-2024-019",
+      "GES-2024-020",
+      "GES-2024-021",
+      "GES-2024-022",
+      "GES-2024-023",
+      "GES-2024-024",
+      "GES-2024-025",
+      "GES-2024-026",
+      "GES-2024-027",
+      "GES-2024-028",
+      "GES-2024-029",
+      "GES-2024-030",
+      "GES-2024-031",
+      "GES-2024-032",
+      "GES-2024-033",
+      "GES-2024-034",
+      "GES-2024-035",
+      "GES-2024-036",
+      "GES-2024-037",
+      "GES-2024-038",
+      "GES-2024-039",
+      "GES-2024-040",
+      "GES-2024-041",
+      "GES-2024-042",
+      "GES-2024-043",
+      "GES-2024-044",
+      "GES-2024-045",
+      "GES-2024-046",
+      "GES-2024-047"
+    ],
+    "result": 46,
+    "distinct_districts": [
+      "Ataşehir",
+      "Bahçelievler",
+      "Bakırköy",
+      "Bağcılar",
+      "Beykoz",
+      "Büyükçekmece",
+      "Esenyurt",
+      "Eyüpsultan",
+      "Fatih",
+      "Gaziosmanpaşa",
+      "Kartal",
+      "Küçükçekmece",
+      "Maltepe",
+      "Sancaktepe",
+      "Sultanbeyli",
+      "Sultangazi",
+      "Tuzla",
+      "Çekmeköy",
+      "Üsküdar",
+      "Şile",
+      "Şişli"
+    ]
+  },
+  "seconds": 2.747474981006235,
+  "llm": [
+    {
+      "seconds": 1.634,
+      "prompt_tokens": 608,
+      "new_tokens": 38
+    },
+    {
+      "seconds": 1.109,
+      "prompt_tokens": 1535,
+      "new_tokens": 14
+    }
+  ]
+}

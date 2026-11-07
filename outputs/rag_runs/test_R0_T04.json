@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. 2023 yılındaki GES'yi belirli bir göstergede açıklarız yok. Bu konuda daha fazla bilgi edinebilirsiniz, ancak tam olarak hangi GES'yi biliyor musunuz?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.744866500957869,
+  "llm": [
+    {
+      "seconds": 2.744,
+      "prompt_tokens": 122,
+      "new_tokens": 72
+    }
+  ]
+}

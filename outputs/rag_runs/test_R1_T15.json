@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Başakşehir Engelliler Merkezi GES'in gücü 80 kWp'dir.\n\nKayıtlar:\n\n1. [GES-2022-013]: 80 kWp\n2. [GES-2022-012]: 99 kWp\n3. [GES-2023-010]: 80 kWp\n\nHer kaydın güç bilgisine göre, GES'nin gücü 80 kWp'dır.",
+  "retrieved": [
+    "GES-2022-013",
+    "GES-2022-012",
+    "GES-2023-010"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 4.508773020002991,
+  "llm": [
+    {
+      "seconds": 4.507,
+      "prompt_tokens": 802,
+      "new_tokens": 110
+    }
+  ]
+}

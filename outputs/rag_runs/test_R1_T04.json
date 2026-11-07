@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Avcılar Sahil Tuvaleti Güneş Enerji Santrali'nin güçü 8.5 kWp'dur.\n\nVerilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2023-004",
+    "GES-2025-007",
+    "GES-2023-011"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.9398754780413583,
+  "llm": [
+    {
+      "seconds": 1.938,
+      "prompt_tokens": 781,
+      "new_tokens": 44
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşmak için doğrudan internet üzerinden erişimim yok. Bunun yerine, GES'nin sunum yapma ve yönetim sistemini kullanarak bu bilgiye ulaşabilirsiniz. Bu sistem, GES'ün tüm kayıtları ve bilgileri içerecektir.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.8721054409979843,
+  "llm": [
+    {
+      "seconds": 2.872,
+      "prompt_tokens": 122,
+      "new_tokens": 75
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "system": "R1",
+  "answer": "Toplam gücü: 5 + 6 + 118 + 98 + 8 = 235 kWp",
+  "retrieved": [
+    "GES-2025-061",
+    "GES-2024-038",
+    "GES-2025-060",
+    "GES-2025-058",
+    "GES-2024-035",
+    "GES-2024-037",
+    "GES-2025-059",
+    "GES-2024-036",
+    "GES-2025-069",
+    "GES-2025-064"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.814819065039046,
+  "llm": [
+    {
+      "seconds": 1.812,
+      "prompt_tokens": 1731,
+      "new_tokens": 29
+    }
+  ]
+}

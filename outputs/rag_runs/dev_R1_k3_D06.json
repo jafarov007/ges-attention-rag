@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "En yüksek güç gücü sahip olan kaydın [GES-2023-008] olarak belirlenmiştir. Bu kaydın mekanı Kumburgaz İtfaiye Bina ve güç 100 kWp'dir.",
+  "retrieved": [
+    "GES-2023-004",
+    "GES-2023-005",
+    "GES-2023-008"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.3542173780151643,
+  "llm": [
+    {
+      "seconds": 2.353,
+      "prompt_tokens": 796,
+      "new_tokens": 55
+    }
+  ]
+}

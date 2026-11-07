@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Marka bilgisi dosyada bulunmamaktadır.",
+  "retrieved": [
+    "GES-2022-017",
+    "GES-2025-035",
+    "GES-2022-006"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 0.850779730011709,
+  "llm": [
+    {
+      "seconds": 0.849,
+      "prompt_tokens": 761,
+      "new_tokens": 16
+    }
+  ]
+}

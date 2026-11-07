@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamadım. Güvenlik nedeniyle belirli dosyalardaki detaylı bilgileri güncellemek için gereken teknik izinler var. Bu durumda en doğru yol, doğrudan Sen İstanbul Büyükşehir Belediyesi'ni veya GES yönetim merkezinin web sitesini kontrol etmeyi denemektir. Bu sistemdeki herhangi bir bilgiyi güncel olarak bulmak için en iyi yöntemdir.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 5.251943813986145,
+  "llm": [
+    {
+      "seconds": 5.241,
+      "prompt_tokens": 121,
+      "new_tokens": 113
+    }
+  ]
+}

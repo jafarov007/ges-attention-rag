@@ -1,0 +1,35 @@
+{
+  "system": "R2",
+  "answer": "2024 dosyasında Maltepe Orhangazi Şehir Parkı Su Deposu Üzeri (2) Güneş Enerji Santrali'nin güçü 78 kWp'dır. Bu bilgiye ulaşılamadığınızda, verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2024-031",
+    "GES-2025-052",
+    "GES-2024-030"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2024,\n        \"name_contains\": \"Maltepe Orhangazi Şehir Parkı Su Deposu Üzeri\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2024,
+      "name_contains": "Maltepe Orhangazi Şehir Parkı Su Deposu Üzeri"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": [],
+    "distinct_districts": []
+  },
+  "seconds": 5.274329931009561,
+  "llm": [
+    {
+      "seconds": 2.174,
+      "prompt_tokens": 632,
+      "new_tokens": 52
+    },
+    {
+      "seconds": 3.096,
+      "prompt_tokens": 939,
+      "new_tokens": 72
+    }
+  ]
+}

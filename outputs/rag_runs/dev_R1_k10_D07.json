@@ -1,0 +1,26 @@
+{
+  "system": "R1",
+  "answer": "[GES-2025-014] dosya: 2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx | sayfa: 2025 KURULUMU TAMAMLANAN GES | Excel satırı: 14 | dosya yılı (kaynak sürümü, kurulum yılı değil): 2025 | ilçe: Bakırköy | mekan: Florya Atatürk Kent Ormanı Güneş Enerji Santrali | güç: 7 kWp | durum (ham): Aktif",
+  "retrieved": [
+    "GES-2022-002",
+    "GES-2024-007",
+    "GES-2025-014",
+    "GES-2025-025",
+    "GES-2024-014",
+    "GES-2022-010",
+    "GES-2022-011",
+    "GES-2022-013",
+    "GES-2022-008",
+    "GES-2022-021"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 5.908013186999597,
+  "llm": [
+    {
+      "seconds": 5.905,
+      "prompt_tokens": 1758,
+      "new_tokens": 133
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, bu bilgiye ulaşamıyorum. GES dosyanızda belirli bir ilçe veya bölge için kayıtların sayısını bulmak için gereken özel bilgiler veya bilgilendirme fırsatları yok. Bu konuda daha fazla bilgi edinebilir miyim?",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 2.709027807984967,
+  "llm": [
+    {
+      "seconds": 2.708,
+      "prompt_tokens": 115,
+      "new_tokens": 71
+    }
+  ]
+}

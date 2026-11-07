@@ -1,0 +1,51 @@
+{
+  "system": "R2",
+  "answer": "2023 dosyasında Avcılar Sahil Tuvaleti Güneş Enerji Santrali (GES)'in gücü 8.5 kWp'dir.",
+  "retrieved": [
+    "GES-2023-004",
+    "GES-2025-007",
+    "GES-2023-011"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2023,\n        \"name_contains\": \"Avcılar Sahil Tuvaleti\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2023,
+      "name_contains": "Avcılar Sahil Tuvaleti"
+    },
+    "n_rows": 1,
+    "record_ids": [
+      "GES-2023-004"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2023-004",
+        "dosya": "2023_kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 4,
+        "dosya_yili": 2023,
+        "ilce": "Avcılar",
+        "mekan": "Avcılar Sahil Tuvaleti Çatısı Güneş Enerji Santrali (GES)",
+        "guc_kwp": 8.5,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      }
+    ],
+    "distinct_districts": [
+      "Avcılar"
+    ]
+  },
+  "seconds": 3.880964403040707,
+  "llm": [
+    {
+      "seconds": 1.905,
+      "prompt_tokens": 621,
+      "new_tokens": 45
+    },
+    {
+      "seconds": 1.972,
+      "prompt_tokens": 1052,
+      "new_tokens": 41
+    }
+  ]
+}

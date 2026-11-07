@@ -26,7 +26,7 @@
   1. LLM soruyu JSON **sorgu planına** çevirir (`lookup | count | sum | max | min | list | compare_years | unanswerable`; filtreler `file_year, district, status, name_contains, min_power`).
   2. `validate_plan` beyaz liste dışındaki intent/filtreleri reddeder. `run_tool` yalnız izinli pandas filtre/sayım/toplamlarını **tüm tablo** üzerinde çalıştırır (ilk-k üzerinden toplam yok). **LLM'in ürettiği kod hiçbir zaman çalıştırılmaz.**
   3. Hesap sonucu, eşleşen tüm `record_id`'ler ve BM25 kanıtı ile LLM yanıtı yazar.
-- Her sorgu için plan, getirilen `record_id`'ler, hesap sonucu, yanıt ve süre `outputs/rag_runs/*.json`'a kaydedilir (git dışı).
+- Her sorgu için plan, getirilen `record_id`'ler, hesap sonucu, yanıt ve süre `outputs/rag_runs/*.json`'a kaydedilir (repoda).
 
 ## 4. Puanlama
 - **Otomatik kurallar** (`eval_rag.py`, testten önce yazıldı): sayısal toleransla eşleşme, çelişki sorularında tüm değerlerin geçmesi, çekimserlik ifadeleri, atıf çıkarımı (`GES-YYYY-RRR`), sayısal iddiaların kanıtla desteklenmesi.

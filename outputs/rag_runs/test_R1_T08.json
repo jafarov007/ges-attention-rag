@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Toplam gücü: 20 kWp + 39 kWp + 60 kWp = 119 kWp",
+  "retrieved": [
+    "GES-2024-033",
+    "GES-2024-029",
+    "GES-2024-034"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.3638069560402073,
+  "llm": [
+    {
+      "seconds": 1.362,
+      "prompt_tokens": 792,
+      "new_tokens": 29
+    }
+  ]
+}

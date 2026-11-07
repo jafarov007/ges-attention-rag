@@ -1,0 +1,42 @@
+{
+  "system": "R2",
+  "answer": "Toplam gücü: 173 kWp",
+  "retrieved": [
+    "GES-2025-061",
+    "GES-2024-038",
+    "GES-2025-060"
+  ],
+  "plan": "{\n    \"intent\": \"sum\",\n    \"filters\": {\n        \"file_year\": 2025,\n        \"district\": \"Sancaktepe\"\n    },\n    \"years\": []\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "sum",
+    "filters": {
+      "file_year": 2025,
+      "district": "Sancaktepe"
+    },
+    "n_rows": 4,
+    "record_ids": [
+      "GES-2025-058",
+      "GES-2025-059",
+      "GES-2025-060",
+      "GES-2025-061"
+    ],
+    "result": 339.0,
+    "distinct_districts": [
+      "Sancaktepe"
+    ]
+  },
+  "seconds": 2.5818895059637725,
+  "llm": [
+    {
+      "seconds": 1.831,
+      "prompt_tokens": 621,
+      "new_tokens": 43
+    },
+    {
+      "seconds": 0.747,
+      "prompt_tokens": 946,
+      "new_tokens": 11
+    }
+  ]
+}

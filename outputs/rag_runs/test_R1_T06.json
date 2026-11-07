@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Pendik Yenişehir İtfaiye Eğitim Binası GES'in 2025 dosyasındaki durumu aktifdir.",
+  "retrieved": [
+    "GES-2025-057",
+    "GES-2022-005",
+    "GES-2022-006"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.4793099809903651,
+  "llm": [
+    {
+      "seconds": 1.478,
+      "prompt_tokens": 780,
+      "new_tokens": 32
+    }
+  ]
+}

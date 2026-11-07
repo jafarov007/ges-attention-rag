@@ -1,0 +1,26 @@
+{
+  "system": "R1",
+  "answer": "2024 dosyasında 10 kayıttan oluşmaktadır.",
+  "retrieved": [
+    "GES-2024-042",
+    "GES-2024-039",
+    "GES-2024-047",
+    "GES-2024-038",
+    "GES-2024-046",
+    "GES-2024-003",
+    "GES-2024-028",
+    "GES-2024-043",
+    "GES-2024-044",
+    "GES-2024-004"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.3561308580101468,
+  "llm": [
+    {
+      "seconds": 1.354,
+      "prompt_tokens": 1681,
+      "new_tokens": 18
+    }
+  ]
+}

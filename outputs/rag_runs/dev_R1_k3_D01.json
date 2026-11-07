@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Şişli Muhsin Ertuğrul Sahnesi Güneş Enerji Santralinin gücü 196 kWp'dır. Bu bilgiye sahip olduğumuz en son kaydımız olan [GES-2024-045] dosyanın 45. satırında yer almaktadır.",
+  "retrieved": [
+    "GES-2024-045",
+    "GES-2025-073",
+    "GES-2023-011"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 4.184460491989739,
+  "llm": [
+    {
+      "seconds": 4.175,
+      "prompt_tokens": 796,
+      "new_tokens": 79
+    }
+  ]
+}

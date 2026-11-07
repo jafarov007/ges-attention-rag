@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, belirli bir 2024 yılındaki GES dosyası bulunmuyor. Bu tür bilgiler genellikle sürekli olarak güncellenmektedir ve belirli bir yıl için güncel değildir.\n\nAncak, GES'nin genel özellikleri hakkında bilgi edinebilirim:\n\n1. Güvenlik: Tüm kayıtlar güvenli olarak saklanır.\n2. Kaynakları: Günlük kaynaklar, günlük tüketimler ve yıllık kaynakların toplamı.\n3. Süreç: Genellikle 10 yıl boyunca sürecektir.\n\nBu bilgileri tam olarak bulmak için GES'nin resmi web sitesini kontrol etmeniz gerekecektir. Eğer bu bilgileri arayabilirsiniz, belirli bir yıl için güncel olduğunu doğrulayabilirsiniz.\n\nBilgisayarınızda bulunan dosya bilgilerinin doğru olduğuna dair güvenilir bir şekilde kontrol etmenizi öneririm.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 8.667829146026634,
+  "llm": [
+    {
+      "seconds": 8.667,
+      "prompt_tokens": 121,
+      "new_tokens": 228
+    }
+  ]
+}

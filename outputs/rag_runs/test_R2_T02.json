@@ -1,0 +1,51 @@
+{
+  "system": "R2",
+  "answer": "2022 dosyasında Silivri Kapı Buz Pisti GES'in gücü 574.2 kWp'dir.",
+  "retrieved": [
+    "GES-2022-017",
+    "GES-2025-035",
+    "GES-2022-006"
+  ],
+  "plan": "{\n    \"intent\": \"lookup\",\n    \"filters\": {\n        \"file_year\": 2022,\n        \"name_contains\": \"Silivri Kapı Buz Pisti\"\n    }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "lookup",
+    "filters": {
+      "file_year": 2022,
+      "name_contains": "Silivri Kapı Buz Pisti"
+    },
+    "n_rows": 1,
+    "record_ids": [
+      "GES-2022-017"
+    ],
+    "result": [
+      {
+        "record_id": "GES-2022-017",
+        "dosya": "2022-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx",
+        "excel_satiri": 17,
+        "dosya_yili": 2022,
+        "ilce": "Fatih",
+        "mekan": "Silivri Kapı Buz Pisti",
+        "guc_kwp": 574.2,
+        "durum_ham": "Aktif",
+        "uyarilar": []
+      }
+    ],
+    "distinct_districts": [
+      "Fatih"
+    ]
+  },
+  "seconds": 3.4620165049564093,
+  "llm": [
+    {
+      "seconds": 1.855,
+      "prompt_tokens": 620,
+      "new_tokens": 44
+    },
+    {
+      "seconds": 1.602,
+      "prompt_tokens": 1020,
+      "new_tokens": 32
+    }
+  ]
+}

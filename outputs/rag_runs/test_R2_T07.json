@@ -1,0 +1,36 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2025-064",
+    "GES-2025-005",
+    "GES-2025-021"
+  ],
+  "plan": "{\n  \"intent\": \"count\",\n  \"filters\": {\n    \"file_year\": 2025,\n    \"district\": \"Durum\",\n    \"status\": \"pasif\"\n  }\n}",
+  "plan_error": null,
+  "tool": {
+    "intent": "count",
+    "filters": {
+      "file_year": 2025,
+      "district": "Durum",
+      "status": "pasif"
+    },
+    "n_rows": 0,
+    "record_ids": [],
+    "result": 0,
+    "distinct_districts": []
+  },
+  "seconds": 2.6360758779919706,
+  "llm": [
+    {
+      "seconds": 1.869,
+      "prompt_tokens": 619,
+      "new_tokens": 44
+    },
+    {
+      "seconds": 0.763,
+      "prompt_tokens": 890,
+      "new_tokens": 12
+    }
+  ]
+}

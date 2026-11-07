@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Tuzla Bahar Merkezi Güvenlik Enerjisi Sistemi (GES) 2019 yılında devreye girdi.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.3382478089770302,
+  "llm": [
+    {
+      "seconds": 1.338,
+      "prompt_tokens": 119,
+      "new_tokens": 35
+    }
+  ]
+}

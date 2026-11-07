@@ -53,7 +53,7 @@ Hesap aracı toplama sorularının 3'ünde doğru sonucu buldu, ama 1,5B'lik mod
 
 ## Klasör yapısı
 ```
-data/raw/              ham Excel (repoda YOK; aşağıya bakın)
+data/raw/              ham Excel (İBB açık verisi; sha256 ile doğrulanır)
 protocol/              dondurulmuş kararlar: düzeltmeler, eşleştirme kararları, bölme manifesti, altın sorular
 src/                   s01_ingest → s02_clean → s03_match → s04_eda → s05_splits → train → evaluate → error_analysis
                        (+ math_checks, posthoc_smearing, trace_record)
@@ -61,14 +61,16 @@ src/rag/               build_gold, kb (BM25 + araç), llm, systems (R0/R1/R2), e
 tests/                 veri hattı (12) + attention/model (23) testleri
 docs/                  belgeler ve figürler
 outputs/logs, tables/  denetim günlükleri ve sonuç tabloları (repoda)
-outputs/data, predictions, models, rag_runs/   üretilen veri, tahmin ve ağırlıklar (repoda YOK)
+outputs/data/          temizlenmiş tablolar (records_clean.csv ...)
+outputs/predictions/   tüm dış test tahminleri (her model, kat, tohum)
+outputs/models/        tohum 42 model ağırlıkları (.pt, D1-D3 + ablasyonlar, toplam ~2 MB)
+outputs/rag_runs/      her RAG sorgusunun plan, kanıt, araç sonucu ve yanıt kaydı
 ```
 
 ## Kurulum ve çalıştırma
 ```bash
 python3 -m venv .venv --system-site-packages && source .venv/bin/activate
 pip install -r requirements.txt
-# ham verileri data/raw/ altına koyun (sha256: outputs/logs/raw_manifest.csv)
 cd src
 python s01_ingest.py && python s02_clean.py && python s03_match.py && python s04_eda.py && python s05_splits.py
 python math_checks.py
@@ -89,4 +91,4 @@ cd src && python trace_record.py GES-2022-013
 Sırasıyla gösterir: ham Excel hücreleri → uygulanan temizleme kuralları → eşleştirme kararları ve grup üyeleri → dış kat ve “aynı tesis eğitimde yok” kontrolü → modelin gördüğü tokenlar (`[UNK]` işaretli) → B0–D3 tahminleri → D3 attention → RAG belgesi, BM25 sırası ve araç sonucu.
 
 ## Veri kaynağı
-İBB açık veri: “2022/2023/2024/2025 yılı kurulumu tamamlanan güneş enerji sistemleri” (4 xlsx). Dosyalar repoya eklenmedi; doğruluk sha256 ile kontrol edilir (`tests/test_data_pipeline.py::RAW_SHA`).
+İBB açık veri: “2022/2023/2024/2025 yılı kurulumu tamamlanan güneş enerji sistemleri” (4 xlsx). Dosyalar `data/raw/` altında repoda; doğruluk sha256 ile kontrol edilir (`tests/test_data_pipeline.py::RAW_SHA`).

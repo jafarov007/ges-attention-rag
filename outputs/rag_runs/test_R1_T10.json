@@ -1,0 +1,19 @@
+{
+  "system": "R1",
+  "answer": "Toplamda 452 + 550 + 574.2 = 1,576.2 kWp'dır.",
+  "retrieved": [
+    "GES-2022-018",
+    "GES-2022-016",
+    "GES-2022-017"
+  ],
+  "plan": null,
+  "tool": null,
+  "seconds": 1.5359783029998653,
+  "llm": [
+    {
+      "seconds": 1.535,
+      "prompt_tokens": 739,
+      "new_tokens": 34
+    }
+  ]
+}

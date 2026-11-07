@@ -1,0 +1,15 @@
+{
+  "system": "R0",
+  "answer": "Üzgünüm, benim bilgilerimde bu konuda bilgi yok. Ataşehir İBB İtfaiye GES'ün 2024 yılındaki durumu hakkında detaylı bilgiye erişimim yok. Bu konuda daha fazla bilgi edinebilirsiniz, bu konuda en uygun kişiyle iletişime geçebilirsiniz.",
+  "retrieved": [],
+  "plan": null,
+  "tool": null,
+  "seconds": 3.3854440600262024,
+  "llm": [
+    {
+      "seconds": 3.385,
+      "prompt_tokens": 120,
+      "new_tokens": 89
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "system": "R2",
+  "answer": "Verilen kayıtlarda bu bilgi yok.",
+  "retrieved": [
+    "GES-2025-019",
+    "GES-2022-019",
+    "GES-2025-053"
+  ],
+  "plan": "{\n  \"intent\": \"count\",\n  \"filters\": {\n    \"file_year\": 2025,\n    \"power_kwp\": { \"$gte\": 300 }\n  }\n}",
+  "plan_error": "ValueError: filters not allowed: {'power_kwp'}",
+  "tool": null,
+  "seconds": 2.5937219810439274,
+  "llm": [
+    {
+      "seconds": 1.829,
+      "prompt_tokens": 619,
+      "new_tokens": 43
+    },
+    {
+      "seconds": 0.762,
+      "prompt_tokens": 874,
+      "new_tokens": 12
+    }
+  ]
+}
