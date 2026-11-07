@@ -1,0 +1,31 @@
+qid,category,answerable,system,auto_correct,numeric_correct,abstained,n_citations,n_supported_citations,n_claims,n_supported_claims,recall_at_k,seconds,plan_error,answer
+D01,single,True,R0,False,False,False,0,0,0,0,,2.37,,"Üzgünüm, bu bilgiye ulaşamadım. Şişli Muhsin Ertuğrul Sahnesi için doğrudan bilgiye erişimim yok. Güvenlikle, bu konuda daha fazla araştırma yapmam gerekiyor."
+D01,single,True,R1,True,True,False,1,1,2,2,1.0,3.29,,Şişli Muhsin Ertuğrul Sahnesi Güneş Enerji Santralinin gücü 196 kWp'dır. Bu bilgiye sahip olduğumuz en son kaydımız olan [GES-2024-045] dosyanın 45. satırında yer almaktadır.
+D01,single,True,R2,True,True,False,0,0,1,1,1.0,4.55,,2024 dosyasında Şişli Muhsin Ertuğrul Sahnesi GES'in gücü 196 kWp'dır. Bu bilgiye sahip olduğumuz diğer kayıtlar da bu değerdir.
+D02,single,True,R0,False,False,False,0,0,0,0,,3.37,,"Üzgünüm, bu bilgiye ulaşamadım. Bunun yerine, 2022-2025 yılları arasında sunulan GES dosyalarındaki tüm açıklamalarda, Eyüpsultan Kemerburgaz İtfaiye'nin GES gücü belirsiz olarak gösterilmiştir. Bu nedenle, belirli bir gücü belirtmek mümkün değil."
+D02,single,True,R1,True,True,False,1,1,3,3,1.0,7.01,,"2025 dosyasında Eyüpsultan Kemerburgaz İtfaiye GES'in gücü 28 kWp'dir.  Kayıt numarası: [GES-2025-033]  Dosya adı: 2025-yl-kurulumu-tamamlanan-gune-enerji-sistemleri.xlsx | sayfa: 2025 KURULUMU TAMAMLANAN GES | Excel satırı: 33 | dosya yılı (kaynak sürümü, kurulum yılı değil): 2025 | ilçe: Eyüpsultan | mekan: Kemerburgaz İtfaiye Bina Güneş Enerji Santrali | güç: 28 kWp | durum (ham): Aktif"
+D02,single,True,R2,True,True,False,1,1,2,2,1.0,4.92,,"2025 dosyasında Eyüpsultan Kemerburgaz İtfaiye GES'in gücü 28 kWp'dir. Bu bilgi, [GES-2025-033] dosyanın Excel satırı 33'te bulunarak elde edilmiştir."
+D03,single,True,R0,True,,True,0,0,0,0,,4.2,,"Üzgünüm, bu konuda güncel bilgiler yok. 2023 yılına kadar kaydedilmiş bilgilere sahip değilim. Güngören Davet ve Toplantı Salonu için en doğru yol, en son olarak bulunan ve aktif olan GES'ye bakmanızdır. Eğer belki de bu salonun düzenlemeleri veya kullanımı hakkında daha fazla bilgi istiyorsanız, bu konuda en uygun kişiyle iletişime geçmenizi öneririm."
+D03,single,True,R1,True,,False,0,0,0,0,1.0,0.48,,Durum: Aktif
+D03,single,True,R2,True,,False,0,0,0,0,1.0,2.58,,Durum: Aktif
+D04,aggregate,True,R0,False,False,False,0,0,0,0,,3.01,,"Üzgünüm, belirli bir dosya numarası veya tarihi belirtmediniz. Sen İstanbul Büyükşehir Belediyesi güneş enerji sistemi (GES) envanter dosyalarını kontrol etmek için daha fazla bilgi gerekiyor. Eğer belirttiyseniz, size daha ayrıntılı bir yanıt verebilirim."
+D04,aggregate,True,R1,False,False,False,0,0,1,1,,0.74,,2024 dosyasında 3 kayıt vardır.
+D04,aggregate,True,R2,True,True,False,0,0,1,1,,2.75,,2024 dosyasında 46 kayıt vardır.
+D05,aggregate,True,R0,False,False,False,0,0,0,0,,2.87,,"Üzgünüm, bu bilgiye ulaşmak için doğrudan internet üzerinden erişimim yok. Bunun yerine, GES'nin sunum yapma ve yönetim sistemini kullanarak bu bilgiye ulaşabilirsiniz. Bu sistem, GES'ün tüm kayıtları ve bilgileri içerecektir."
+D05,aggregate,True,R1,False,False,False,0,0,1,0,,0.67,,Toplam gücü: 124 kWp
+D05,aggregate,True,R2,False,False,False,0,0,1,0,,2.58,,Toplam gücü: 173 kWp
+D06,aggregate,True,R0,False,False,False,0,0,0,0,,2.23,,"Üzgünüm, belirli bir 2023 yılı için en yüksek güce sahip kayıt bilgilerini bulamıyorum. Bu tür bilgilere ulaşmak için doğrudan Güvenlik Kurumu'na başvurmanız önerilir."
+D06,aggregate,True,R1,False,False,False,1,0,1,1,,2.37,,En yüksek güç gücü sahip olan kaydın [GES-2023-008] olarak belirlenmiştir. Bu kaydın mekanı Kumburgaz İtfaiye Bina ve güç 100 kWp'dir.
+D06,aggregate,True,R2,False,False,False,1,0,1,1,,4.08,,"En yüksek güce sahip kayıt olan dosya, [GES-2023-004]'dır. Bu dosyanın mekanı Avcılar Sahil Tuvaleti Çatısı Güneş Enerji Santrali (GES) ve güç 8.5 kWp'tür."
+D07,conflict,True,R0,False,,False,0,0,0,0,,2.86,,"Üzgünüm, bu konuda bilgiye erişimim yok. Bunun yerine, seninle iletişime geçmek isterseniz, gelecekteki GES planını kontrol edebilirsiniz. Ancak, belirttiğiniz tarihi için doğrudan bilgiye erişimim yok."
+D07,conflict,True,R1,False,,True,0,0,0,0,,0.75,,Verilen kayıtlarda bu bilgi yok.
+D07,conflict,True,R2,True,,False,0,0,0,0,,5.32,,"2025 dosyasında Florya Atatürk Kent Ormanı GES'in durumu ""Aktif - Pasif"" olduğu için, aktif olması durumunda ""Aktif"" olarak gösterildiği için Florya Atatürk Kent Ormanı GES'in 2025 yılında aktif olduğunu söyleyebilirim."
+D08,conflict,True,R0,False,,True,0,0,0,0,,3.39,,"Üzgünüm, benim bilgilerimde bu konuda bilgi yok. Ataşehir İBB İtfaiye GES'ün 2024 yılındaki durumu hakkında detaylı bilgiye erişimim yok. Bu konuda daha fazla bilgi edinebilirsiniz, bu konuda en uygun kişiyle iletişime geçebilirsiniz."
+D08,conflict,True,R1,False,,True,0,0,0,0,,0.75,,Verilen kayıtlarda bu bilgi yok.
+D08,conflict,True,R2,False,,True,0,0,0,0,,2.95,,Verilen kayıtlarda bu bilgi yok.
+D09,unanswerable,False,R0,False,,False,0,0,0,0,,3.72,,"Üzgünüm, bu konuda bilgiye erişimim yok. Bunun yerine, GES'lerde kullanılan panel markaları genellikle şirketlerin çeşitli modelleri içerir. Örneğin, Solaria, SunPower, LG, Sharp gibi birçok şirket panel üretmektedir. Ancak, belirli bir marka paneli kullanma durumunu belirtmek için daha fazla bilgi gerekiyor."
+D09,unanswerable,False,R1,True,,True,0,0,0,0,,0.86,,Marka bilgisi dosyada bulunmamaktadır.
+D09,unanswerable,False,R2,True,,True,0,0,0,0,,2.86,AttributeError: 'DataFrame' object has no attribute 'record_id',Verilen kayıtlarda bu bilgi yok.
+D10,unanswerable,False,R0,False,,False,0,0,0,0,,3.83,,"Üzgünüm, ancak belirli bir 2024 yılı için doğrudan bilgiye erişimim yok. Güvenlikle, GES'lerin tümüne ait bilgileri kontrol etmek için en uygun yer olan Sen İstanbul Büyükşehir Belediyesi web sitesini veya resmi kaynaklara başvurmanızı öneririm. Bu, güncel ve doğru bilgiye ulaşmak için en iyi yol olacaktır."
+D10,unanswerable,False,R1,True,,True,0,0,0,0,,0.7,,Verilen kayıtlarda bu bilgi yok.
+D10,unanswerable,False,R2,True,,True,0,0,0,0,,1.98,,Verilen kayıtlarda bu bilgi yok.

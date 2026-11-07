@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "dtype": "torch.float16",
+  "quantization": "none (fp16)",
+  "device": "NVIDIA GeForce RTX 2050",
+  "torch": "2.13.0+cu130",
+  "decoding": "greedy (do_sample=False)"
+}

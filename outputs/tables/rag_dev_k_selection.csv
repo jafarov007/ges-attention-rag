@@ -1,0 +1,4 @@
+k,accuracy,recall,citations,supported
+3,0.5,1.0,3,2
+5,0.4,1.0,8,2
+10,0.3,1.0,14,12

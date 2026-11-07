@@ -1,0 +1,4 @@
+{
+  "chosen_k": 3,
+  "rule": "max dev accuracy, then recall, then smaller k"
+}
