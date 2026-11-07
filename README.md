@@ -92,3 +92,8 @@ Sırasıyla gösterir: ham Excel hücreleri → uygulanan temizleme kuralları �
 
 ## Veri kaynağı
 İBB açık veri: “2022/2023/2024/2025 yılı kurulumu tamamlanan güneş enerji sistemleri” (4 xlsx). Dosyalar `data/raw/` altında repoda; doğruluk sha256 ile kontrol edilir (`tests/test_data_pipeline.py::RAW_SHA`).
+
+## Katkı ve inceleme süreci
+- `main` dalı korumalıdır: değişiklikler yalnız pull request ile ve en az **1 onaylı inceleme** sonrasında birleştirilir; force push ve dal silme kapalıdır.
+- Her PR, [`.github/pull_request_template.md`](.github/pull_request_template.md) şablonundaki kontrol listesiyle açılır (testler, ham veri, protokol sürümü, test sızıntısı, belge güncellemesi).
+- Dondurulmuş protokol (`protocol/`) değişiklikleri sürüm numarası ve gerekçeyle [`docs/05_protokol_ve_bolme.md`](docs/05_protokol_ve_bolme.md) içine yazılmadan birleştirilmez.
